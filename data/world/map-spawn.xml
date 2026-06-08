@@ -13452,7 +13452,7 @@
 		<monster name="Rhyhorn" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="537" centery="1094" centerz="7" radius="1">
-		<npc name="Simon the Guard" x="1" y="0" z="7" spawntime="60" direction="1" />
+		<npc name="Simon The Guard" x="1" y="0" z="7" spawntime="60" direction="1" />
 	</spawn>
 	<spawn centerx="565" centery="1094" centerz="7" radius="1">
 		<monster name="Fearow" x="0" y="0" z="7" spawntime="60" />
@@ -50738,7 +50738,7 @@
 	<spawn centerx="1310" centery="1033" centerz="9" radius="1">
 		<monster name="Tropius" x="1" y="-1" z="9" spawntime="60" />
 		<monster name="Gengar" x="0" y="0" z="9" spawntime="180" />
-		<monster name="Tortoise" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Squirtle" x="1" y="0" z="9" spawntime="60" />
 		<monster name="Gengar" x="0" y="1" z="9" spawntime="180" />
 		<monster name="Tropius" x="1" y="1" z="9" spawntime="60" />
 	</spawn>
