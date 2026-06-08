@@ -76267,4 +76267,8 @@
 	<spawn centerx="485" centery="626" centerz="15" radius="1">
 		<monster name="Banette" x="0" y="0" z="15" spawntime="60" />
 	</spawn>
+	<!-- PokeGypt Account Manager — Pallet Town (685,1197,7), 1 tile south of the temple -->
+	<spawn centerx="685" centery="1197" centerz="7" radius="1">
+		<npc name="Account Manager" x="0" y="0" z="7" spawntime="60" />
+	</spawn>
 </spawns>

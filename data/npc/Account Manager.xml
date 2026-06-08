@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Account Manager" script="accountmanager.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100" />
+	<look type="130" head="0" body="76" legs="57" feet="76" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Welcome, |PLAYERNAME|! I can help you {create account}, {create character}, {change password}, or {delete character}." />
+		<parameter key="message_farewell" value="Goodbye! Come back anytime." />
+		<parameter key="message_walkaway" value="Come back when you need help!" />
+		<parameter key="message_decline" value="Alright, let me know if you need anything." />
+	</parameters>
+</npc>

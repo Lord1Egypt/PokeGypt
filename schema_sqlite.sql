@@ -351,5 +351,9 @@ INSERT INTO `accounts` (`id`,`name`,`password`,`type`,`creation`) VALUES (1,'Lor
 INSERT INTO `players` (`name`,`group_id`,`account_id`,`town_id`,`looktype`,`cap`,`sex`,`conditions`) VALUES ('LordEgypt',3,1,42,136,400,1,X'');
 INSERT INTO `players` (`name`,`group_id`,`account_id`,`town_id`,`looktype`,`cap`,`sex`,`conditions`) VALUES ('Trainer',1,1,42,136,400,1,X'');
 
+-- In-game account manager (login: 1 / password: 1 -- sha1). Use to create/manage accounts in-game.
+INSERT INTO `accounts` (`id`,`name`,`password`,`type`,`premdays`,`creation`) VALUES (2,'1','356a192b7913b04c54574d18c28d46e6395428ab',1,65535,0);
+INSERT INTO `players` (`name`,`group_id`,`account_id`,`town_id`,`looktype`,`cap`,`sex`,`conditions`) VALUES ('Account Manager',1,2,42,130,400,1,X'');
+
 COMMIT;
 PRAGMA foreign_keys = ON;
