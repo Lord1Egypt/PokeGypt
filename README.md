@@ -5,6 +5,10 @@
 
 **Made with ❤️ by [Lord1Egypt](https://github.com/Lord1Egypt)**
 
+<p align="center">
+  <img src="assets/pokegypt-demo.gif" alt="PokeGypt — SQLite database auto-created and server booting" width="100%">
+</p>
+
 ---
 
 ## ✨ What makes PokeGypt different
@@ -98,12 +102,20 @@ CMake builds PokeGypt on Windows too. The easiest dependency manager is **vcpkg*
 
 PokeGypt does **not** need an external website to create accounts.
 
-### Bootstrap your first GOD account (run once)
+### Default GOD account (ready out of the box)
+A fresh database is seeded with a ready-to-use GOD account:
+
+| Account | Password | Characters |
+|---------|----------|------------|
+| `LordEgypt` | `123456` | **LordEgypt** (GOD) · **Trainer** (normal) |
+
+Just log in and play. **Change the password after your first login.**
+
+### Or bootstrap your own GOD account
 ```bash
 python3 tools/account.py create-account god 123456 --god
 python3 tools/account.py create-character god TheGod --god --town 1
 ```
-Then log in with account name `god`, password `123456`.
 
 ### In-game (GOD only)
 ```

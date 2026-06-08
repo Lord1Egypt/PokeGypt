@@ -344,5 +344,12 @@ CREATE INDEX `tile_store_house_id` ON `tile_store` (`house_id`);
 DELETE FROM `server_config`;
 INSERT INTO `server_config` (`config`,`value`) VALUES ('db_version','19'),('motd_hash',''),('motd_num','1'),('players_record','0');
 
+-- Default GOD account (login: LordEgypt / password: 123456 -- sha1). Change the password after first login!
+INSERT INTO `accounts` (`id`,`name`,`password`,`type`,`creation`) VALUES (1,'LordEgypt','7c4a8d09ca3762af61e59520943dc26494f8941b',5,0);
+-- GOD character "LordEgypt" (group_id 3) and a second normal character "Trainer" (group_id 1), both on account 1.
+-- posx/posy/posz = 0 => server places the character at the town temple on first login.
+INSERT INTO `players` (`name`,`group_id`,`account_id`,`town_id`,`looktype`,`cap`,`sex`,`conditions`) VALUES ('LordEgypt',3,1,1,136,400,1,X'');
+INSERT INTO `players` (`name`,`group_id`,`account_id`,`town_id`,`looktype`,`cap`,`sex`,`conditions`) VALUES ('Trainer',1,1,1,136,400,1,X'');
+
 COMMIT;
 PRAGMA foreign_keys = ON;

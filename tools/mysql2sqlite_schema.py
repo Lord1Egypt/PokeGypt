@@ -130,6 +130,15 @@ def main():
     out.append("INSERT INTO `server_config` (`config`,`value`) VALUES "
                "('db_version','19'),('motd_hash',''),('motd_num','1'),('players_record','0');")
     out.append("")
+    # default GOD account (LordEgypt / 123456 sha1) + a god char and a normal char
+    out.append("-- Default GOD account (login: LordEgypt / password: 123456 -- sha1). Change it after first login!")
+    out.append("INSERT INTO `accounts` (`id`,`name`,`password`,`type`,`creation`) "
+               "VALUES (1,'LordEgypt','7c4a8d09ca3762af61e59520943dc26494f8941b',5,0);")
+    out.append("INSERT INTO `players` (`name`,`group_id`,`account_id`,`town_id`,`looktype`,`cap`,`sex`,`conditions`) "
+               "VALUES ('LordEgypt',3,1,1,136,400,1,X'');")
+    out.append("INSERT INTO `players` (`name`,`group_id`,`account_id`,`town_id`,`looktype`,`cap`,`sex`,`conditions`) "
+               "VALUES ('Trainer',1,1,1,136,400,1,X'');")
+    out.append("")
     out.append("COMMIT;")
     out.append("PRAGMA foreign_keys = ON;")
     out.append("")
