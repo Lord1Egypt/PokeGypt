@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Tentacool" nameDescription="a tentacool" race="water" race2="poison" experience="34" speed="140" manacost="0">
+	<level min="10" max="20"/>
+	<health now="850" max="850" />
+	<look type="975" head="113" body="57" legs="95" feet="113" corpse="26933" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="72" />
+		<flag portraitid="27188" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="1319" />
+		<flag canteleport="0" />
+		<flag catchchance="21" />
+		<flag moveMagicAttackBase="50" />
+		<flag moveMagicDefenseBase="100" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="poison sting" interval="3000" isTarget="1"/>
+		<move name="confuse ray" interval="10000" isTarget="1"/>
+		<move name="acid" interval="3000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Tentacruel" level="30" chance="40" itemName="water stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-40" max="-40" />
+		<attack name="poison sting" interval="3000" chance="40" target="1"/>
+		<attack name="confuse ray" interval="10000" chance="40" target="1"/>
+		<attack name="acid" interval="3000" chance="40" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="35" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="TENTACOOL!" />
+	</voices>
+	<loot>
+		<item name="water stone" countmax="1" chance="75"/>
+		<item name="gold coin" countmax="30" chance="40000"/>
+		<item name="bottle of poison" countmax="2" chance="40000"/>
+		<item name="ruby" countmax="1" chance="5000"/>
+		<item name="water gem" countmax="2" chance="40000"/>
+		<item name="water pendant" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

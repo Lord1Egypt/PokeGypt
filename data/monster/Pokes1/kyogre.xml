@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Kyogre" nameDescription="a kyogre" race="water" race2="none" experience="3925" speed="540" manacost="0">
+	<level min="90" max="99"/>
+	<health now="51000" max="51000" />
+	<look type="1563" head="113" body="57" legs="95" feet="113" corpse="27954" />
+	<targetchange interval="5000" chance="30" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="382" />
+		<flag portraitid="28089" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="450" />
+		<flag moveMagicDefenseBase="420" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+		<event name="LegendariesDeath"/>
+	</script>
+	<moves>
+		<move name="body slam" interval="3500" isTarget="1" range="1"/>
+		<move name="rest" interval="30000"/>
+		<move name="water pulse" interval="8500"/>
+		<move name="ice beam" interval="4000"/>
+		<move name="muddy water" interval="7000"/>
+		<move name="hydro pump" interval="7000"/>
+		<move name="aurora beam" interval="8500"/>
+		<move name="surf" interval="10000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-300" max="-300" />
+		<attack name="body slam" interval="3500" chance="40" range="1" target="1"/>
+		<attack name="rest" interval="30000" chance="40"/>
+		<attack name="water pulse" interval="8500" chance="40"/>
+		<attack name="ice beam" interval="4000" chance="40"/>
+		<attack name="muddy water" interval="7000" chance="40"/>
+		<attack name="hydro pump" interval="7000" chance="40"/>
+		<attack name="aurora beam" interval="8500" chance="40"/>
+		<attack name="surf" interval="10000" chance="40"/>
+		<attack name="passive water" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="270" >
+		<defense name="passive water" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="KYOGRE!" />
+	</voices>
+	<loot>
+		<item name="water stone" countmax="1" chance="473"/>
+		<item name="gold coin" countmax="189" chance="40000"/>
+
+	</loot>
+</monster>

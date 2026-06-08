@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Jynx" nameDescription="a jynx" race="ice" race2="psychic" experience="47" speed="190" manacost="0">
+	<level min="30" max="50"/>
+	<health now="1377" max="1377" />
+	<look type="1027" head="113" body="57" legs="95" feet="113" corpse="26985" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="124" />
+		<flag portraitid="27240" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="14" />
+		<flag moveMagicAttackBase="115" />
+		<flag moveMagicDefenseBase="95" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="lick" interval="3000" isTarget="1"/>
+		<move name="pound" interval="3000" isTarget="1" range="1"/>
+		<move name="powder snow" interval="5000" isTarget="1"/>
+		<move name="double slap" interval="3000" isTarget="1" range="1"/>
+		<move name="ice punch" interval="7000" isTarget="1" range="1"/>
+		<move name="body slam" interval="7000" isTarget="1" range="1"/>
+		<move name="blizzard" interval="20000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-50" max="-50" />
+		<attack name="lick" interval="3000" chance="40" target="1"/>
+		<attack name="pound" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="powder snow" interval="5000" chance="40" target="1"/>
+		<attack name="double slap" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="ice punch" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="body slam" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="blizzard" interval="20000" chance="40"/>
+		<attack name="passive ice" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="35" >
+		<defense name="passive ice" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="JYNX!" />
+	</voices>
+	<loot>
+		<item name="ice stone" countmax="1" chance="200"/>
+		<item name="gold coin" countmax="80" chance="40000"/>
+		<item name="blue gem" countmax="2" chance="10000"/>
+		<item name="future orb" countmax="2" chance="30000"/>
+		<item name="ice block" countmax="1" chance="5000"/>
+		<item name="snowball" countmax="2" chance="40000"/>
+		<item name="ice bra" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

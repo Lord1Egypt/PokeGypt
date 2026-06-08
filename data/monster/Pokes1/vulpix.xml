@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Vulpix" nameDescription="a vulpix" race="fire" race2="none" experience="30" speed="130" manacost="0">
+	<level min="10" max="20"/>
+	<health now="816" max="816" />
+	<look type="940" head="113" body="57" legs="95" feet="113" corpse="26898" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="37" />
+		<flag portraitid="27153" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="23" />
+		<flag moveMagicAttackBase="50" />
+		<flag moveMagicDefenseBase="65" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="ember" interval="3000" isTarget="1"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="flamethrower" interval="11000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Ninetales" level="15" chance="60" itemName="fire stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-41" max="-41" />
+		<attack name="ember" interval="3000" chance="40" target="1"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="flamethrower" interval="11000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="40" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="VULPIX!" />
+	</voices>
+	<loot>
+		<item name="fire stone" countmax="1" chance="75"/>
+		<item name="gold coin" countmax="30" chance="40000"/>
+		<item name="comb" countmax="1" chance="5000"/>
+		<item name="essence of fire" countmax="2" chance="40000"/>
+		<item name="fur" countmax="1" chance="5000"/>
+		<item name="pot of lava" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

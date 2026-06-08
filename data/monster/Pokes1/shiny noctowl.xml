@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Noctowl" nameDescription="a shiny noctowl" race="flying" race2="normal" experience="71" speed="210" manacost="0">
+	<level min="25" max="35"/>
+	<health now="3196" max="3196" />
+	<look type="1637" head="113" body="57" legs="95" feet="113" corpse="28133" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2164" />
+		<flag portraitid="28227" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="1" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="129" />
+		<flag moveMagicDefenseBase="144" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="tackle" interval="3000" isTarget="1" range="1"/>
+		<move name="peck" interval="3000" isTarget="1" range="1"/>
+		<move name="confusion" interval="14000"/>
+		<move name="dream eater" interval="20000" isTarget="1"/>
+		<move name="hypnosis" interval="15000"/>
+		<move name="wing attack" interval="9000"/>
+		<move name="fly" interval="7000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-75" max="-75" />
+		<attack name="tackle" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="peck" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="confusion" interval="14000" chance="40"/>
+		<attack name="dream eater" interval="20000" chance="40" target="1"/>
+		<attack name="hypnosis" interval="15000" chance="40"/>
+		<attack name="wing attack" interval="9000" chance="40"/>
+		<attack name="fly" interval="7000" chance="40" target="1"/>
+		<attack name="passive flying" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="75" >
+		<defense name="passive flying" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY NOCTOWL!" />
+	</voices>
+	<loot>
+		<item name="heart stone" countmax="1" chance="150"/>
+		<item name="gold coin" countmax="60" chance="40000"/>
+		<item name="feather" countmax="1" chance="5000"/>
+		<item name="straw" countmax="2" chance="40000"/>
+		<item name="owl feather" countmax="2" chance="5000"/>
+
+	</loot>
+</monster>

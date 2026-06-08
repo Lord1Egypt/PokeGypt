@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Chinchou" nameDescription="a chinchou" race="water" race2="electric" experience="34" speed="134" manacost="0">
+	<level min="12" max="20"/>
+	<health now="1598" max="1598" />
+	<look type="1073" head="113" body="57" legs="95" feet="113" corpse="27031" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="170" />
+		<flag portraitid="27286" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="1" />
+		<flag canteleport="0" />
+		<flag catchchance="21" />
+		<flag moveMagicAttackBase="56" />
+		<flag moveMagicDefenseBase="56" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="bubble" interval="3000" isTarget="1"/>
+		<move name="thunder wave" interval="11000"/>
+		<move name="water gun" interval="8000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Lanturn" level="15" chance="60" itemName="water stone" count="1"/>
+		<evolution name="Lanturn" level="15" chance="60" itemName="thunder stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-38" max="-38" />
+		<attack name="bubble" interval="3000" chance="40" target="1"/>
+		<attack name="thunder wave" interval="11000" chance="40"/>
+		<attack name="water gun" interval="8000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="38" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="CHINCHOU!" />
+	</voices>
+	<loot>
+		<item name="water stone" countmax="1" chance="80"/>
+		<item name="gold coin" countmax="32" chance="40000"/>
+		<item name="electric box" countmax="1" chance="5000"/>
+		<item name="screw" countmax="2" chance="40000"/>
+		<item name="water gem" countmax="2" chance="40000"/>
+		<item name="water pendant" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

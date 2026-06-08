@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Brock" script="brock.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2593" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu sou o Brock! Eu sou Lider de Ginasio de Pewter! Eu acredito em defesas duras como pedra e determinacao! E por isso que meus Pokemons sao todos do tipo Pedra! Voce ainda quer me desafiar?" />
+		<parameter key="message_decline" value="Va embora, seu molenga!" />
+	</parameters>
+</npc>

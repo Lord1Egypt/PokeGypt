@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Ninetales" nameDescription="a shiny ninetales" race="fire" race2="none" experience="78" speed="300" manacost="0">
+	<level min="20" max="40"/>
+	<health now="2329" max="2329" />
+	<look type="1911" head="113" body="57" legs="95" feet="113" corpse="27536" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2038" />
+		<flag portraitid="27403" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="1377" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="122" />
+		<flag moveMagicDefenseBase="150" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="ember" interval="3000" isTarget="1"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="flamethrower" interval="11000"/>
+		<move name="fireball" interval="14000" isTarget="1"/>
+		<move name="inferno" interval="14000"/>
+		<move name="fire blast" interval="17000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Ancient Ninetales" level="none" chance="none" itemName="unique ancient stone" count="2"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-114" max="-114" />
+		<attack name="ember" interval="3000" chance="40" target="1"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="flamethrower" interval="11000" chance="40"/>
+		<attack name="fireball" interval="14000" chance="40" target="1"/>
+		<attack name="inferno" interval="14000" chance="40"/>
+		<attack name="fire blast" interval="17000" chance="40"/>
+		<attack name="passive fire" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="113" >
+		<defense name="passive fire" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY NINETALES!" />
+	</voices>
+	<loot>
+		<item name="fire stone" countmax="1" chance="150"/>
+		<item name="gold coin" countmax="60" chance="40000"/>
+		<item name="comb" countmax="1" chance="5000"/>
+		<item name="essence of fire" countmax="2" chance="40000"/>
+		<item name="fur" countmax="1" chance="5000"/>
+		<item name="pot of lava" countmax="1" chance="5000"/>
+		<item name="fox tail" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

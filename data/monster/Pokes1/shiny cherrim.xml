@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Cherrim" nameDescription="a shiny cherrim" race="grass" race2="none" experience="68" speed="256" manacost="0">
+	<level min="10" max="18"/>
+	<health now="1785" max="1785" />
+	<look type="3300" head="113" body="57" legs="95" feet="113" corpse="38823" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2421" />
+		<flag portraitid="0" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="5" />
+		<flag moveMagicAttackBase="131" />
+		<flag moveMagicDefenseBase="117" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="leech seed" interval="10000" isTarget="1"/>
+		<move name="razor leaf" interval="5000" isTarget="1"/>
+		<move name="solar beam" interval="17000"/>
+		<move name="leaf storm" interval="20000"/>
+		<move name="petal dance" interval="14000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-90" max="-90" />
+		<attack name="leech seed" interval="10000" chance="40" target="1"/>
+		<attack name="razor leaf" interval="5000" chance="40" target="1"/>
+		<attack name="solar beam" interval="17000" chance="40"/>
+		<attack name="leaf storm" interval="20000" chance="40"/>
+		<attack name="petal dance" interval="14000" chance="40"/>
+		<attack name="passive grass" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="105" >
+		<defense name="passive grass" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY CHERRIM!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="28" chance="40000"/>
+		<item name="seed" countmax="2" chance="50000"/>
+		<item name="leaves" countmax="2" chance="50000"/>
+
+	</loot>
+</monster>

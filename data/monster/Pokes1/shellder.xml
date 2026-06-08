@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shellder" nameDescription="a shellder" race="water" race2="none" experience="31" speed="80" manacost="0">
+	<level min="5" max="20"/>
+	<health now="646" max="646" />
+	<look type="993" head="113" body="57" legs="95" feet="113" corpse="26951" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="90" />
+		<flag portraitid="27206" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="23" />
+		<flag moveMagicAttackBase="45" />
+		<flag moveMagicDefenseBase="25" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="tackle" interval="3000" isTarget="1" range="1"/>
+		<move name="confuse ray" interval="10000" isTarget="1"/>
+		<move name="aurora beam" interval="17000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Cloyster" level="25" chance="60" itemName="water stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-65" max="-65" />
+		<attack name="tackle" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="confuse ray" interval="10000" chance="40" target="1"/>
+		<attack name="aurora beam" interval="17000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="100" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHELLDER!" />
+	</voices>
+	<loot>
+		<item name="water stone" countmax="1" chance="63"/>
+		<item name="gold coin" countmax="25" chance="40000"/>
+		<item name="ice block" countmax="1" chance="5000"/>
+		<item name="water gem" countmax="2" chance="40000"/>
+		<item name="water pendant" countmax="1" chance="5000"/>
+		<item name="locksmith of shell" countmax="1" chance="10000"/>
+
+	</loot>
+</monster>

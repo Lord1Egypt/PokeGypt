@@ -1,0 +1,36 @@
+# Build output
+/build/
+*.o
+*.obj
+*.gch
+*.pch
+
+# In-source CMake artifacts (legacy)
+src/CMakeCache.txt
+src/CMakeFiles/
+src/Makefile
+src/cmake_install.cmake
+src/cmake_install.cmake
+src/tfs
+src/tfs_CXX_cotire.cmake
+
+# Compiled server binary
+/pokegypt
+/tfs
+
+# SQLite database files (generated at runtime)
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# Legacy Windows / MySQL artifacts (not used by the SQLite + CMake build)
+/vc14/
+*.exe
+*.dll
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+*.swp
+.DS_Store

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Giovanni" script="giovanni.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2600" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Nos encontramos de novo, |PLAYERNAME|. Sou o lider do Ginasio de Viridian e este e meu esconderijo! Eu planejei ressuscitar a Equipe Rocket aqui, mas parece que voce veio estragar tudo novamente! Esta pronto para seu duelo mais dificil?." />
+		<parameter key="message_decline" value="Desapareca daqui de uma vez..." />
+	</parameters>
+</npc>

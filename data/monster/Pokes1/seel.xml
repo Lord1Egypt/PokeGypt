@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Seel" nameDescription="a seel" race="water" race2="none" experience="34" speed="90" manacost="0">
+	<level min="10" max="20"/>
+	<health now="1377" max="1377" />
+	<look type="989" head="113" body="57" legs="95" feet="113" corpse="26947" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="86" />
+		<flag portraitid="27202" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="21" />
+		<flag moveMagicAttackBase="45" />
+		<flag moveMagicDefenseBase="70" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="headbutt" interval="5000" isTarget="1" range="1"/>
+		<move name="icy wind" interval="11000"/>
+		<move name="aurora beam" interval="17000"/>
+		<move name="water pulse" interval="17000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Dewgong" level="25" chance="50" itemName="water stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-45" max="-45" />
+		<attack name="headbutt" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="icy wind" interval="11000" chance="40"/>
+		<attack name="aurora beam" interval="17000" chance="40"/>
+		<attack name="water pulse" interval="17000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="55" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SEEL!" />
+	</voices>
+	<loot>
+		<item name="water stone" countmax="1" chance="75"/>
+		<item name="gold coin" countmax="30" chance="40000"/>
+		<item name="ice block" countmax="1" chance="5000"/>
+		<item name="water gem" countmax="2" chance="40000"/>
+		<item name="water pendant" countmax="1" chance="5000"/>
+		<item name="seal tail" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

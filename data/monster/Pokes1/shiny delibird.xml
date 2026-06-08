@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Delibird" nameDescription="a shiny delibird" race="ice" race2="flying" experience="51" speed="226" manacost="0">
+	<level min="15" max="25"/>
+	<health now="1428" max="1428" />
+	<look type="1698" head="113" body="57" legs="95" feet="113" corpse="28194" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2225" />
+		<flag portraitid="28288" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="7" />
+		<flag moveMagicAttackBase="98" />
+		<flag moveMagicDefenseBase="68" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="drill peck" interval="5000" isTarget="1"/>
+		<move name="aurora beam" interval="17000"/>
+		<move name="fly" interval="7000" isTarget="1"/>
+		<move name="aerial ace" interval="11000"/>
+		<move name="ice beam" interval="8000"/>
+		<move name="icy wind" interval="11000"/>
+		<move name="blizzard" interval="20000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-83" max="-83" />
+		<attack name="drill peck" interval="5000" chance="40" target="1"/>
+		<attack name="aurora beam" interval="17000" chance="40"/>
+		<attack name="fly" interval="7000" chance="40" target="1"/>
+		<attack name="aerial ace" interval="11000" chance="40"/>
+		<attack name="ice beam" interval="8000" chance="40"/>
+		<attack name="icy wind" interval="11000" chance="40"/>
+		<attack name="blizzard" interval="20000" chance="40"/>
+		<attack name="passive ice" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="68" >
+		<defense name="passive ice" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY DELIBIRD!" />
+	</voices>
+	<loot>
+		<item name="ice stone" countmax="1" chance="100"/>
+		<item name="gold coin" countmax="40" chance="40000"/>
+		<item name="ice block" countmax="1" chance="5000"/>
+		<item name="snowball" countmax="2" chance="40000"/>
+		<item name="straw" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

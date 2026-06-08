@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Quilava" nameDescription="a shiny quilava" race="fire" race2="none" experience="62" speed="240" manacost="0">
+	<level min="20" max="30"/>
+	<health now="1853" max="1853" />
+	<look type="1629" head="113" body="57" legs="95" feet="113" corpse="28125" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2156" />
+		<flag portraitid="28219" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="6" />
+		<flag moveMagicAttackBase="120" />
+		<flag moveMagicDefenseBase="98" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="tackle" interval="3000" isTarget="1" range="1"/>
+		<move name="ember" interval="3000" isTarget="1"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="fire spin" interval="14000"/>
+		<move name="flame wheel" interval="17000"/>
+		<move name="flamethrower" interval="11000"/>
+		<move name="fire blast" interval="17000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Shiny Typhlosion" level="30" chance="30" itemName="fire stone" count="10"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-96" max="-96" />
+		<attack name="tackle" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="ember" interval="3000" chance="40" target="1"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="fire spin" interval="14000" chance="40"/>
+		<attack name="flame wheel" interval="17000" chance="40"/>
+		<attack name="flamethrower" interval="11000" chance="40"/>
+		<attack name="fire blast" interval="17000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="87" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY QUILAVA!" />
+	</voices>
+	<loot>
+		<item name="fire stone" countmax="1" chance="125"/>
+		<item name="gold coin" countmax="50" chance="40000"/>
+		<item name="essence of fire" countmax="2" chance="40000"/>
+		<item name="fur" countmax="1" chance="5000"/>
+		<item name="pot of lava" countmax="1" chance="5000"/>
+		<item name="hot fur" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

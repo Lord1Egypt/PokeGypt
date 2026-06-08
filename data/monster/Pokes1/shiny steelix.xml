@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Steelix" nameDescription="a shiny steelix" race="ground" race2="steel" experience="78" speed="90" manacost="0">
+	<level min="40" max="60"/>
+	<health now="2397" max="2397" />
+	<look type="3231" head="113" body="57" legs="95" feet="113" corpse="28177" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2208" />
+		<flag portraitid="28271" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="1728" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="3" />
+		<flag moveMagicAttackBase="83" />
+		<flag moveMagicDefenseBase="98" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="rock throw" interval="5000" isTarget="1"/>
+		<move name="heavy slam" interval="7000" isTarget="1" range="1"/>
+		<move name="harden" interval="10000"/>
+		<move name="crunch" interval="7000" isTarget="1" range="1"/>
+		<move name="iron head" interval="7000" isTarget="1"/>
+		<move name="gyro ball" interval="17000"/>
+		<move name="iron tail" interval="5000" isTarget="1" range="1"/>
+		<move name="dragon breath" interval="11000"/>
+		<move name="earthquake" interval="20000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Crystal Onix" level="none" chance="none" itemName="unique ancient stone" count="2"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-128" max="-128" />
+		<attack name="rock throw" interval="5000" chance="40" target="1"/>
+		<attack name="heavy slam" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="harden" interval="10000" chance="40"/>
+		<attack name="crunch" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="iron head" interval="7000" chance="40" target="1"/>
+		<attack name="gyro ball" interval="17000" chance="40"/>
+		<attack name="iron tail" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="dragon breath" interval="11000" chance="40"/>
+		<attack name="earthquake" interval="20000" chance="40"/>
+		<attack name="passive ground" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="300" >
+		<defense name="passive ground" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY STEELIX!" />
+	</voices>
+	<loot>
+		<item name="earth stone" countmax="1" chance="250"/>
+		<item name="gold coin" countmax="100" chance="40000"/>
+		<item name="sandbag" countmax="2" chance="40000"/>
+		<item name="piece of steel" countmax="2" chance="40000"/>
+		<item name="steelix tail" countmax="1" chance="5000"/>
+		<item name="metal coat" countmax="none" chance="100"/>
+
+	</loot>
+</monster>

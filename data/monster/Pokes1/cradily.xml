@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Cradily" nameDescription="a cradily" race="rock" race2="grass" experience="51" speed="86" manacost="0">
+	<level min="30" max="50"/>
+	<health now="1836" max="1836" />
+	<look type="1527" head="113" body="57" legs="95" feet="113" corpse="27918" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="346" />
+		<flag portraitid="28053" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="11" />
+		<flag moveMagicAttackBase="81" />
+		<flag moveMagicDefenseBase="107" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="acid" interval="3000" isTarget="1"/>
+		<move name="confuse ray" interval="10000" isTarget="1"/>
+		<move name="mega drain" interval="20000" isTarget="1"/>
+		<move name="stone edge" interval="5000" isTarget="1"/>
+		<move name="smack down" interval="7000" isTarget="1" range="1"/>
+		<move name="solar beam" interval="17000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-81" max="-81" />
+		<attack name="acid" interval="3000" chance="40" target="1"/>
+		<attack name="confuse ray" interval="10000" chance="40" target="1"/>
+		<attack name="mega drain" interval="20000" chance="40" target="1"/>
+		<attack name="stone edge" interval="5000" chance="40" target="1"/>
+		<attack name="smack down" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="solar beam" interval="17000" chance="40"/>
+		<attack name="passive rock" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="97" >
+		<defense name="passive rock" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="CRADILY!" />
+	</voices>
+	<loot>
+		<item name="leaf stone" countmax="1" chance="200"/>
+		<item name="gold coin" countmax="80" chance="40000"/>
+		<item name="small stone" countmax="2" chance="40000"/>
+		<item name="seed" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

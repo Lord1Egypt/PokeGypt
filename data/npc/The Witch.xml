@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="The Witch" script="thewitch.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="54" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Morte aos zumbis! Me traga seus cerebros que te dou {premierball} ou {bag} em troca." />
+		<parameter key="message_decline" value="Continue sua jornada!" />
+	</parameters>
+</npc>

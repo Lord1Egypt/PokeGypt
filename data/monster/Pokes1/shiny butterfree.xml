@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Butterfree" nameDescription="a shiny butterfree" race="bug" race2="flying" experience="62" speed="210" manacost="0">
+	<level min="20" max="30"/>
+	<health now="1921" max="1921" />
+	<look type="1183" head="113" body="57" legs="95" feet="113" corpse="27512" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2012" />
+		<flag portraitid="27379" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="6" />
+		<flag moveMagicAttackBase="135" />
+		<flag moveMagicDefenseBase="120" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="struggle bug" interval="7000" isTarget="1" range="1"/>
+		<move name="bug buzz" interval="20000"/>
+		<move name="bug bite" interval="5000" isTarget="1" range="1"/>
+		<move name="confusion" interval="14000"/>
+		<move name="sleep powder" interval="20000"/>
+		<move name="psybeam" interval="8000"/>
+		<move name="silver wind" interval="11000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-68" max="-68" />
+		<attack name="struggle bug" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="bug buzz" interval="20000" chance="40"/>
+		<attack name="bug bite" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="confusion" interval="14000" chance="40"/>
+		<attack name="sleep powder" interval="20000" chance="40"/>
+		<attack name="psybeam" interval="8000" chance="40"/>
+		<attack name="silver wind" interval="11000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="75" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY BUTTERFREE!" />
+	</voices>
+	<loot>
+		<item name="cocoon stone" countmax="1" chance="125"/>
+		<item name="gold coin" countmax="50" chance="40000"/>
+		<item name="bag of pollem" countmax="1" chance="5000"/>
+		<item name="pot of moss bug" countmax="2" chance="40000"/>
+		<item name="pot of moss bug" countmax="1" chance="5000"/>
+		<item name="straw" countmax="2" chance="40000"/>
+		<item name="butterfly wing" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Torterra" nameDescription="a shiny torterra" race="grass" race2="ground" experience="78" speed="168" manacost="0">
+	<level min="20" max="35"/>
+	<health now="2431" max="2431" />
+	<look type="3269" head="113" body="57" legs="95" feet="113" corpse="38791" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2389" />
+		<flag portraitid="0" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="1" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="113" />
+		<flag moveMagicDefenseBase="128" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="pound" interval="3000" isTarget="1" range="1"/>
+		<move name="leaf storm" interval="20000"/>
+		<move name="earthquake" interval="20000"/>
+		<move name="leaf blade" interval="9000"/>
+		<move name="solar beam" interval="17000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-164" max="-164" />
+		<attack name="pound" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="leaf storm" interval="20000" chance="40"/>
+		<attack name="earthquake" interval="20000" chance="40"/>
+		<attack name="leaf blade" interval="9000" chance="40"/>
+		<attack name="solar beam" interval="17000" chance="40"/>
+		<attack name="passive ground" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="158" >
+		<defense name="passive ground" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY TORTERRA!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="55" chance="40000"/>
+		<item name="bottle of poison" countmax="3" chance="30000"/>
+		<item name="seed" countmax="1" chance="5000"/>
+		<item name="bag of pollem" countmax="2" chance="5000"/>
+
+	</loot>
+</monster>

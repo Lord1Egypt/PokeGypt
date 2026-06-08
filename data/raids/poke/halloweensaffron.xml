@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Pokemons do Halloween estao a caminho de Saffron." />
+	<announce delay="60000" type="event" message="Invasao Halloween em Saffron! Ajude a livrar a cidade!" />
+	<areaspawn delay="68000" fromx="1025" fromy="1036" fromz="7" tox="1079" toy="1078" toz="7">
+		<monster name="Mummy Charmander" amount="3" />
+		<monster name="Ghost Pikachu" amount="3" />
+		<monster name="Pirate Raichu" amount="3" />
+		<monster name="Raven Fearow" amount="3" />
+		<monster name="Werewolf Nidoking" amount="3" />
+		<monster name="Frankstein Vileplume" amount="3" />
+		<monster name="Skull Golem" amount="3" />
+		<monster name="Hauting Haunter" amount="3" />
+		<monster name="Panic Hypno" amount="3" />
+		<monster name="Pumpkin Cubone" amount="3" />
+		<monster name="Executioner Marowak" amount="3" />
+		<monster name="Witch Vaporeon" amount="3" />
+		<monster name="Vampire Jolteon" amount="3" />
+		<monster name="Cultist Flareon" amount="3" />
+		<monster name="Undead Omanyte" amount="4" />
+		<monster name="Undead Omastar" amount="3" />
+		<monster name="Undead Kabuto" amount="4" />
+		<monster name="Undead Kabutops" amount="4" />
+		<monster name="Undead Aerodactyl" amount="4" />
+		<monster name="Devil Scizor" amount="4" />
+	</areaspawn>
+</raid>

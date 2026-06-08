@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Luxray" nameDescription="a shiny luxray" race="electric" race2="none" experience="78" speed="210" manacost="0">
+	<level min="20" max="40"/>
+	<health now="2040" max="2040" />
+	<look type="3284" head="113" body="57" legs="95" feet="113" corpse="38807" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2405" />
+		<flag portraitid="0" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="143" />
+		<flag moveMagicDefenseBase="119" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="shock wave" interval="17000"/>
+		<move name="spark" interval="10000"/>
+		<move name="thunder wave" interval="11000"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-180" max="-180" />
+		<attack name="shock wave" interval="17000" chance="40"/>
+		<attack name="spark" interval="10000" chance="40"/>
+		<attack name="thunder wave" interval="11000" chance="40"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="passive electric" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="119" >
+		<defense name="passive electric" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY LUXRAY!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="60" chance="40000"/>
+		<item name="screw" countmax="2" chance="40000"/>
+		<item name="electric box" countmax="2" chance="60000"/>
+		<item name="screw" countmax="1" chance="70000"/>
+
+	</loot>
+</monster>

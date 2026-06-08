@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Job Manager" script="vocation.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100" />
+	<look type="1990" />
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Esta decidido sobre qual destino seguir? Posso te ajudar a tornar-se um {hunter}, {catcher}, {healer}, {blocker} ou {explorer}!" />
+		<parameter key="message_decline" value="Talvez uma outra hora!" />
+		<parameter key="message_farewell" value="Talvez uma outra hora!" />
+		<parameter key="message_walkaway" value="Talvez uma outra hora!" />
+	</parameters>
+</npc>

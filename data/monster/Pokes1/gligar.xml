@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Gligar" nameDescription="a gligar" race="ground" race2="flying" experience="44" speed="170" manacost="0">
+	<level min="20" max="30"/>
+	<health now="1377" max="1377" />
+	<look type="1110" head="113" body="57" legs="95" feet="113" corpse="27068" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="207" />
+		<flag portraitid="27323" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="15" />
+		<flag moveMagicAttackBase="35" />
+		<flag moveMagicDefenseBase="65" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="poison sting" interval="3000" isTarget="1"/>
+		<move name="sand attack" interval="10000"/>
+		<move name="harden" interval="10000"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="feint attack" interval="5000" isTarget="1" range="1"/>
+		<move name="slash" interval="5000" isTarget="1" range="1"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Gliscor" level="45" chance="30" itemName="earth stone" count="10"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-75" max="-75" />
+		<attack name="poison sting" interval="3000" chance="40" target="1"/>
+		<attack name="sand attack" interval="10000" chance="40"/>
+		<attack name="harden" interval="10000" chance="40"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="feint attack" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="slash" interval="5000" chance="40" range="1" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="105" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="GLIGAR!" />
+	</voices>
+	<loot>
+		<item name="earth stone" countmax="1" chance="125"/>
+		<item name="gold coin" countmax="50" chance="40000"/>
+		<item name="sandbag" countmax="2" chance="40000"/>
+		<item name="sandbag" countmax="1" chance="5000"/>
+		<item name="straw" countmax="2" chance="40000"/>
+		<item name="gligar claw" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

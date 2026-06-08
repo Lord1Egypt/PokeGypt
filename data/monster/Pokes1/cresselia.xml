@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Cresselia" nameDescription="a cresselia" race="psychic" race2="none" experience="4875" speed="510" manacost="0">
+	<level min="95" max="100"/>
+	<health now="255000" max="255000" />
+	<look type="3096" head="113" body="57" legs="95" feet="113" corpse="38534" />
+	<targetchange interval="5000" chance="30" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="488" />
+		<flag portraitid="0" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="1500" />
+		<flag moveMagicDefenseBase="13000" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+		<event name="LegendariesDeath"/>
+	</script>
+	<moves>
+		<move name="confusion" interval="14000"/>
+		<move name="psychic" interval="20000"/>
+		<move name="hypnosis" interval="20000"/>
+		<move name="dream eater" interval="20000" isTarget="1"/>
+		<move name="future sight" interval="14000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-7000" max="-7000" />
+		<attack name="confusion" interval="14000" chance="40"/>
+		<attack name="psychic" interval="20000" chance="40"/>
+		<attack name="hypnosis" interval="20000" chance="40"/>
+		<attack name="dream eater" interval="20000" chance="40" target="1"/>
+		<attack name="future sight" interval="14000" chance="40" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="12000" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="CRESSELIA!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="195" chance="40000"/>
+
+	</loot>
+</monster>

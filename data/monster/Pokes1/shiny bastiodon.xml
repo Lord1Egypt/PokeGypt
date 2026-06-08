@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Bastiodon" nameDescription="a shiny bastiodon" race="rock" race2="steel" experience="74" speed="90" manacost="0">
+	<level min="20" max="35"/>
+	<health now="1530" max="1530" />
+	<look type="3290" head="113" body="57" legs="95" feet="113" corpse="38813" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2411" />
+		<flag portraitid="0" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="1" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="71" />
+		<flag moveMagicDefenseBase="207" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="rock throw" interval="5000" isTarget="1"/>
+		<move name="tackle" interval="3000" isTarget="1" range="1"/>
+		<move name="rock slide" interval="20000"/>
+		<move name="earthquake" interval="20000"/>
+		<move name="harden" interval="10000"/>
+		<move name="magnitude" interval="14000"/>
+		<move name="hyper beam" interval="17000"/>
+		<move name="stone edge" interval="5000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-78" max="-78" />
+		<attack name="rock throw" interval="5000" chance="40" target="1"/>
+		<attack name="tackle" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="rock slide" interval="20000" chance="40"/>
+		<attack name="earthquake" interval="20000" chance="40"/>
+		<attack name="harden" interval="10000" chance="40"/>
+		<attack name="magnitude" interval="14000" chance="40"/>
+		<attack name="hyper beam" interval="17000" chance="40"/>
+		<attack name="stone edge" interval="5000" chance="40" target="1"/>
+		<attack name="passive rock" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="252" >
+		<defense name="passive rock" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY BASTIODON!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="55" chance="40000"/>
+		<item name="small stone" countmax="2" chance="40000"/>
+		<item name="sandbag" countmax="1" chance="50000"/>
+		<item name="piece of steel" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

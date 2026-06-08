@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Dusclops" nameDescription="a shiny dusclops" race="ghost" race2="none" experience="69" speed="76" manacost="0">
+	<level min="25" max="40"/>
+	<health now="1275" max="1275" />
+	<look type="1844" head="113" body="57" legs="95" feet="113" corpse="28409" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2356" />
+		<flag portraitid="28537" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="5" />
+		<flag moveMagicAttackBase="90" />
+		<flag moveMagicDefenseBase="195" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="pursuit" interval="5000" isTarget="1"/>
+		<move name="confuse ray" interval="10000" isTarget="1"/>
+		<move name="curse" interval="10000" isTarget="1"/>
+		<move name="shadow ball" interval="5000" isTarget="1"/>
+		<move name="future sight" interval="14000" isTarget="1"/>
+		<move name="shadow punch" interval="7000" isTarget="1" range="1"/>
+		<move name="disable" interval="10000"/>
+		<move name="night shade" interval="20000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Shiny Dusknoir" level="45" chance="30" itemName="darkness stone" count="50"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-105" max="-105" />
+		<attack name="pursuit" interval="5000" chance="40" target="1"/>
+		<attack name="confuse ray" interval="10000" chance="40" target="1"/>
+		<attack name="curse" interval="10000" chance="40" target="1"/>
+		<attack name="shadow ball" interval="5000" chance="40" target="1"/>
+		<attack name="future sight" interval="14000" chance="40" target="1"/>
+		<attack name="shadow punch" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="disable" interval="10000" chance="40"/>
+		<attack name="night shade" interval="20000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="195" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY DUSCLOPS!" />
+	</voices>
+	<loot>
+		<item name="darkness stone" countmax="1" chance="163"/>
+		<item name="gold coin" countmax="65" chance="40000"/>
+		<item name="traces of ghost" countmax="2" chance="20000"/>
+
+	</loot>
+</monster>

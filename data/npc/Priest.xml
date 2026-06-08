@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Priest" script="priest.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="57" />
+	<parameters>
+		<parameter key="message_greet" value="Oi |PLAYERNAME|. Sou capaz de te {benzer} para perder bem menos experiencia ao morrer." />
+		<parameter key="message_decline" value="Talvez uma outra hora." />
+	</parameters>
+</npc>

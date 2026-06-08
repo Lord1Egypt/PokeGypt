@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Lucario" nameDescription="a lucario" race="fighting" race2="steel" experience="52" speed="180" manacost="0">
+	<level min="20" max="50"/>
+	<health now="1190" max="1190" />
+	<look type="3056" head="113" body="57" legs="95" feet="113" corpse="38494" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="448" />
+		<flag portraitid="0" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="11" />
+		<flag moveMagicAttackBase="115" />
+		<flag moveMagicDefenseBase="70" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="low kick" interval="5000" isTarget="1" range="1"/>
+		<move name="focus punch" interval="20000"/>
+		<move name="gyro ball" interval="17000"/>
+		<move name="dynamic punch" interval="11000"/>
+		<move name="brick break" interval="14000"/>
+		<move name="metal claw" interval="9000"/>
+		<move name="karate chop" interval="3000" isTarget="1" range="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-110" max="-110" />
+		<attack name="low kick" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="focus punch" interval="20000" chance="40"/>
+		<attack name="gyro ball" interval="17000" chance="40"/>
+		<attack name="dynamic punch" interval="11000" chance="40"/>
+		<attack name="brick break" interval="14000" chance="40"/>
+		<attack name="metal claw" interval="9000" chance="40"/>
+		<attack name="karate chop" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="passive fighting" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="70" >
+		<defense name="passive fighting" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="LUCARIO!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="70" chance="40000"/>
+		<item name="punch machine" countmax="1" chance="50000"/>
+
+	</loot>
+</monster>

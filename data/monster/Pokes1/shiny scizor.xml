@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Scizor" nameDescription="a shiny scizor" race="bug" race2="steel" experience="77" speed="196" manacost="0">
+	<level min="30" max="50"/>
+	<health now="2227" max="2227" />
+	<look type="1685" head="113" body="57" legs="95" feet="113" corpse="28181" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2212" />
+		<flag portraitid="28275" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="83" />
+		<flag moveMagicDefenseBase="120" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="pursuit" interval="5000" isTarget="1"/>
+		<move name="steel wing" interval="9000"/>
+		<move name="slash" interval="5000" isTarget="1" range="1"/>
+		<move name="silver wind" interval="11000"/>
+		<move name="fury cutter" interval="9000"/>
+		<move name="metal claw" interval="9000"/>
+		<move name="iron head" interval="7000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-195" max="-195" />
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="pursuit" interval="5000" chance="40" target="1"/>
+		<attack name="steel wing" interval="9000" chance="40"/>
+		<attack name="slash" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="silver wind" interval="11000" chance="40"/>
+		<attack name="fury cutter" interval="9000" chance="40"/>
+		<attack name="metal claw" interval="9000" chance="40"/>
+		<attack name="iron head" interval="7000" chance="40" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="150" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY SCIZOR!" />
+	</voices>
+	<loot>
+		<item name="cocoon stone" countmax="1" chance="200"/>
+		<item name="gold coin" countmax="80" chance="40000"/>
+		<item name="pot of moss bug" countmax="2" chance="40000"/>
+		<item name="piece of steel" countmax="2" chance="40000"/>
+		<item name="scizor claw" countmax="1" chance="5000"/>
+		<item name="metal coat" countmax="none" chance="100"/>
+
+	</loot>
+</monster>

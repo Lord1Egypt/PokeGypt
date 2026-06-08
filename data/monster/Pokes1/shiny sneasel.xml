@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Sneasel" nameDescription="a shiny sneasel" race="dark" race2="ice" experience="66" speed="346" manacost="0">
+	<level min="15" max="20"/>
+	<health now="1751" max="1751" />
+	<look type="1688" head="113" body="57" legs="95" feet="113" corpse="28184" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2215" />
+		<flag portraitid="28278" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="5" />
+		<flag moveMagicAttackBase="53" />
+		<flag moveMagicDefenseBase="113" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="scratch" interval="3000" isTarget="1" range="1"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="feint attack" interval="5000" isTarget="1" range="1"/>
+		<move name="icy wind" interval="11000"/>
+		<move name="thief" interval="5000" isTarget="1" range="1"/>
+		<move name="ice beam" interval="8000"/>
+		<move name="torment" interval="20000"/>
+		<move name="blizzard" interval="20000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Shiny Weavile" level="45" chance="30" itemName="darkness stone" count="50"/>
+		<evolution name="Shiny Weavile" level="45" chance="30" itemName="ice stone" count="50"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-143" max="-143" />
+		<attack name="scratch" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="feint attack" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="icy wind" interval="11000" chance="40"/>
+		<attack name="thief" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="ice beam" interval="8000" chance="40"/>
+		<attack name="torment" interval="20000" chance="40"/>
+		<attack name="blizzard" interval="20000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="83" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY SNEASEL!" />
+	</voices>
+	<loot>
+		<item name="darkness stone" countmax="1" chance="88"/>
+		<item name="gold coin" countmax="35" chance="40000"/>
+		<item name="red gem" countmax="2" chance="40000"/>
+		<item name="ice block" countmax="1" chance="5000"/>
+		<item name="snowball" countmax="2" chance="40000"/>
+		<item name="cat ear" countmax="1" chance="5000"/>
+		<item name="nail" countmax="2" chance="5000"/>
+		<item name="dark gem" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

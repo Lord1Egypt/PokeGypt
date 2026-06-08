@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Qwilfish" nameDescription="a shiny qwilfish" race="water" race2="poison" experience="68" speed="256" manacost="0">
+	<level min="20" max="30"/>
+	<health now="2074" max="2074" />
+	<look type="1684" head="113" body="57" legs="95" feet="113" corpse="28180" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2211" />
+		<flag portraitid="28274" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="1" />
+		<flag canteleport="0" />
+		<flag catchchance="5" />
+		<flag moveMagicAttackBase="83" />
+		<flag moveMagicDefenseBase="83" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="poison sting" interval="3000" isTarget="1"/>
+		<move name="water pulse" interval="17000"/>
+		<move name="water gun" interval="8000"/>
+		<move name="pin missile" interval="5000" isTarget="1"/>
+		<move name="hydro pump" interval="14000"/>
+		<move name="toxic" interval="14000"/>
+		<move name="sludge bomb" interval="14000" isTarget="1"/>
+		<move name="waterfall" interval="20000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-143" max="-143" />
+		<attack name="poison sting" interval="3000" chance="40" target="1"/>
+		<attack name="water pulse" interval="17000" chance="40"/>
+		<attack name="water gun" interval="8000" chance="40"/>
+		<attack name="pin missile" interval="5000" chance="40" target="1"/>
+		<attack name="hydro pump" interval="14000" chance="40"/>
+		<attack name="toxic" interval="14000" chance="40"/>
+		<attack name="sludge bomb" interval="14000" chance="40" target="1"/>
+		<attack name="waterfall" interval="20000" chance="40"/>
+		<attack name="passive water" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="128" >
+		<defense name="passive water" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY QWILFISH!" />
+	</voices>
+	<loot>
+		<item name="water stone" countmax="1" chance="125"/>
+		<item name="gold coin" countmax="50" chance="40000"/>
+		<item name="bottle of poison" countmax="2" chance="40000"/>
+		<item name="water gem" countmax="2" chance="40000"/>
+		<item name="water pendant" countmax="1" chance="5000"/>
+		<item name="small tail" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

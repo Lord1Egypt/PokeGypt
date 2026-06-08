@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bruno" script="bruno.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2641" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Eu sou o Bruno, da Elite Four! Atraves de treinamento rigoroso, pessoas e Pokemons podem se tornar mais fortes! Eu treinei duro com meus Pokemons! E isso nunca vai mudar, |PLAYERNAME|! Nos vamos te esmagar com o nosso poder superior! Hoo hah!. Voce esta pronto?" />
+		<parameter key="message_decline" value="Tome o tempo que precisar." />
+	</parameters>
+</npc>

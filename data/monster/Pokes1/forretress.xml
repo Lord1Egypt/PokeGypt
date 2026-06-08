@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Forretress" nameDescription="a forretress" race="bug" race2="steel" experience="48" speed="80" manacost="0">
+	<level min="25" max="40"/>
+	<health now="1598" max="1598" />
+	<look type="3190" head="113" body="57" legs="95" feet="113" corpse="27066" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="205" />
+		<flag portraitid="27321" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="13" />
+		<flag moveMagicAttackBase="60" />
+		<flag moveMagicDefenseBase="60" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="tackle" interval="3000" isTarget="1" range="1"/>
+		<move name="swift" interval="5000" isTarget="1"/>
+		<move name="pin missile" interval="5000" isTarget="1"/>
+		<move name="bug bite" interval="5000" isTarget="1" range="1"/>
+		<move name="heavy slam" interval="7000" isTarget="1" range="1"/>
+		<move name="zap cannon" interval="17000"/>
+		<move name="gyro ball" interval="17000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-90" max="-90" />
+		<attack name="tackle" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="swift" interval="5000" chance="40" target="1"/>
+		<attack name="pin missile" interval="5000" chance="40" target="1"/>
+		<attack name="bug bite" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="heavy slam" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="zap cannon" interval="17000" chance="40"/>
+		<attack name="gyro ball" interval="17000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="140" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="FORRETRESS!" />
+	</voices>
+	<loot>
+		<item name="cocoon stone" countmax="1" chance="163"/>
+		<item name="gold coin" countmax="65" chance="40000"/>
+		<item name="pot of moss bug" countmax="2" chance="40000"/>
+		<item name="piece of steel" countmax="2" chance="40000"/>
+		<item name="pot of moss bug" countmax="1" chance="5000"/>
+		<item name="piece of shell" countmax="3" chance="10000"/>
+
+	</loot>
+</monster>

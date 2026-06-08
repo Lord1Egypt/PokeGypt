@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Rhyperior" nameDescription="a rhyperior" race="ground" race2="rock" experience="53" speed="80" manacost="0">
+	<level min="25" max="60"/>
+	<health now="1955" max="1955" />
+	<look type="3072" head="113" body="57" legs="95" feet="113" corpse="38510" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="464" />
+		<flag portraitid="0" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="10" />
+		<flag moveMagicAttackBase="55" />
+		<flag moveMagicDefenseBase="55" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="rock throw" interval="5000" isTarget="1"/>
+		<move name="stone edge" interval="5000" isTarget="1"/>
+		<move name="rock blast" interval="17000"/>
+		<move name="earthquake" interval="20000"/>
+		<move name="earth power" interval="14000"/>
+		<move name="magnitude" interval="20000"/>
+		<move name="bulldoze" interval="17000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-140" max="-140" />
+		<attack name="rock throw" interval="5000" chance="40" target="1"/>
+		<attack name="stone edge" interval="5000" chance="40" target="1"/>
+		<attack name="rock blast" interval="17000" chance="40"/>
+		<attack name="earthquake" interval="20000" chance="40"/>
+		<attack name="earth power" interval="14000" chance="40"/>
+		<attack name="magnitude" interval="20000" chance="40"/>
+		<attack name="bulldoze" interval="17000" chance="40"/>
+		<attack name="passive ground" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="130" >
+		<defense name="passive ground" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="RHYPERIOR!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="85" chance="40000"/>
+		<item name="small stone" countmax="2" chance="50000"/>
+		<item name="sandbag" countmax="1" chance="50000"/>
+
+	</loot>
+</monster>

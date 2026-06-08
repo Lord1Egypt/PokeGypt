@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nate" script="nate.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2713" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Estou precisando de alguns itens que nao encontro em lugar nenhum. Pode me {ajudar}?" />
+		<parameter key="message_decline" value="Talvez uma outra hora." />
+	</parameters>
+</npc>

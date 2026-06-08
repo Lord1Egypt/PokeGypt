@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Mareep" nameDescription="a shiny mareep" race="electric" race2="none" experience="44" speed="106" manacost="0">
+	<level min="14" max="20"/>
+	<health now="1751" max="1751" />
+	<look type="1652" head="113" body="57" legs="95" feet="113" corpse="28148" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2179" />
+		<flag portraitid="28242" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="1726" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="8" />
+		<flag moveMagicAttackBase="98" />
+		<flag moveMagicDefenseBase="68" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="tackle" interval="3000" isTarget="1" range="1"/>
+		<move name="thunder shock" interval="14000"/>
+		<move name="thunder wave" interval="11000"/>
+		<move name="body slam" interval="7000" isTarget="1" range="1"/>
+		<move name="thunder bolt" interval="5000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Shiny Flaaffy" level="20" chance="60" itemName="thunder stone" count="5"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-60" max="-60" />
+		<attack name="tackle" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="thunder shock" interval="14000" chance="40"/>
+		<attack name="thunder wave" interval="11000" chance="40"/>
+		<attack name="body slam" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="thunder bolt" interval="5000" chance="40" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="60" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY MAREEP!" />
+	</voices>
+	<loot>
+		<item name="thunder stone" countmax="1" chance="85"/>
+		<item name="gold coin" countmax="34" chance="40000"/>
+		<item name="electric box" countmax="1" chance="5000"/>
+		<item name="screw" countmax="1" chance="40000"/>
+		<item name="sheep wool" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

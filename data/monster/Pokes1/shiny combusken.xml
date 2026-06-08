@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Combusken" nameDescription="a shiny combusken" race="fire" race2="fighting" experience="63" speed="166" manacost="0">
+	<level min="20" max="30"/>
+	<health now="1921" max="1921" />
+	<look type="1747" head="113" body="57" legs="95" feet="113" corpse="28313" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2256" />
+		<flag portraitid="28440" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="6" />
+		<flag moveMagicAttackBase="128" />
+		<flag moveMagicDefenseBase="90" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="slash" interval="5000" isTarget="1" range="1"/>
+		<move name="ember" interval="3000" isTarget="1"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="peck" interval="3000" isTarget="1" range="1"/>
+		<move name="double kick" interval="3000" isTarget="1"/>
+		<move name="fire spin" interval="14000"/>
+		<move name="brave bird" interval="17000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Shiny Blaziken" level="30" chance="30" itemName="fire stone" count="10"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-128" max="-128" />
+		<attack name="slash" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="ember" interval="3000" chance="40" target="1"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="peck" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="double kick" interval="3000" chance="40" target="1"/>
+		<attack name="fire spin" interval="14000" chance="40"/>
+		<attack name="brave bird" interval="17000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="90" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY COMBUSKEN!" />
+	</voices>
+	<loot>
+		<item name="fire stone" countmax="1" chance="125"/>
+		<item name="gold coin" countmax="50" chance="40000"/>
+		<item name="essence of fire" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

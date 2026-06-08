@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Manager" script="Manager.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="131" head="113" body="113" legs="113" feet="115" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Faco inscricao para o evento {bag} premiada, gold {arena}, {pvp} arena e {futebol}!" />
+		<parameter key="message_farewell" value="Ate mais!" />
+	</parameters>
+</npc>

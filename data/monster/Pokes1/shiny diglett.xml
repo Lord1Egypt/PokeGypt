@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Diglett" nameDescription="a shiny diglett" race="ground" race2="none" experience="39" speed="286" manacost="0">
+	<level min="5" max="15"/>
+	<health now="323" max="323" />
+	<look type="1217" head="113" body="57" legs="95" feet="113" corpse="27546" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2050" />
+		<flag portraitid="27413" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="8" />
+		<flag moveMagicAttackBase="53" />
+		<flag moveMagicDefenseBase="68" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="mud shot" interval="5000" isTarget="1"/>
+		<move name="slash" interval="5000" isTarget="1" range="1"/>
+		<move name="dig" interval="14000"/>
+		<move name="mud slap" interval="3000" isTarget="1" range="1"/>
+		<move name="earthquake" interval="20000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Shiny Dugtrio" level="25" chance="60" itemName="earth stone" count="5"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-83" max="-83" />
+		<attack name="mud shot" interval="5000" chance="40" target="1"/>
+		<attack name="slash" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="dig" interval="14000" chance="40"/>
+		<attack name="mud slap" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="earthquake" interval="20000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="38" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY DIGLETT!" />
+	</voices>
+	<loot>
+		<item name="earth stone" countmax="1" chance="50"/>
+		<item name="gold coin" countmax="20" chance="40000"/>
+		<item name="sandbag" countmax="2" chance="40000"/>
+		<item name="sandbag" countmax="1" chance="5000"/>
+		<item name="piece of diglett" countmax="1" chance="10000"/>
+
+	</loot>
+</monster>

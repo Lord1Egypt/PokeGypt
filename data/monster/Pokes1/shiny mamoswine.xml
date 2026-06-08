@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Mamoswine" nameDescription="a shiny mamoswine" race="ice" race2="ground" experience="80" speed="240" manacost="0">
+	<level min="25" max="70"/>
+	<health now="2805" max="2805" />
+	<look type="3351" head="113" body="57" legs="95" feet="113" corpse="38875" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2473" />
+		<flag portraitid="0" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="3" />
+		<flag moveMagicAttackBase="105" />
+		<flag moveMagicDefenseBase="90" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="sand attack" interval="3000"/>
+		<move name="mud slap" interval="3000" isTarget="1" range="1"/>
+		<move name="earth power" interval="14000"/>
+		<move name="earthquake" interval="20000"/>
+		<move name="aurora beam" interval="17000"/>
+		<move name="blizzard" interval="20000"/>
+		<move name="rest" interval="60000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-195" max="-195" />
+		<attack name="sand attack" interval="3000" chance="40"/>
+		<attack name="mud slap" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="earth power" interval="14000" chance="40"/>
+		<attack name="earthquake" interval="20000" chance="40"/>
+		<attack name="aurora beam" interval="17000" chance="40"/>
+		<attack name="blizzard" interval="20000" chance="40"/>
+		<attack name="rest" interval="60000" chance="40"/>
+		<attack name="passive ground" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="120" >
+		<defense name="passive ground" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY MAMOSWINE!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="95" chance="40000"/>
+		<item name="snowball" countmax="1" chance="50000"/>
+		<item name="sandbag" countmax="1" chance="50000"/>
+
+	</loot>
+</monster>

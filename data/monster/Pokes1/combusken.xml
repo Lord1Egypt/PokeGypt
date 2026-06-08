@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Combusken" nameDescription="a combusken" race="fire" race2="fighting" experience="42" speed="110" manacost="0">
+	<level min="20" max="30"/>
+	<health now="1275" max="1275" />
+	<look type="1437" head="113" body="57" legs="95" feet="113" corpse="27828" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="256" />
+		<flag portraitid="27963" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="17" />
+		<flag moveMagicAttackBase="85" />
+		<flag moveMagicDefenseBase="60" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="scratch" interval="3000" isTarget="1" range="1"/>
+		<move name="ember" interval="3000" isTarget="1"/>
+		<move name="sand attack" interval="10000"/>
+		<move name="peck" interval="3000" isTarget="1" range="1"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="fire spin" interval="14000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Blaziken" level="30" chance="30" itemName="fire stone" count="2"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-85" max="-85" />
+		<attack name="scratch" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="ember" interval="3000" chance="40" target="1"/>
+		<attack name="sand attack" interval="10000" chance="40"/>
+		<attack name="peck" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="fire spin" interval="14000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="60" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="COMBUSKEN!" />
+	</voices>
+	<loot>
+		<item name="fire stone" countmax="1" chance="125"/>
+		<item name="gold coin" countmax="50" chance="40000"/>
+		<item name="essence of fire" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

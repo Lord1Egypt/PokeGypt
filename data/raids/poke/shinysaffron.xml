@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Shinys avistados a caminho de Saffron." />
+	<announce delay="60000" type="event" message="Varios shinys avistados em Saffron. Corra capturar o seu!" />
+	<announce delay="110000" type="event" message="Mais shinys em Saffron!" />
+	<areaspawn delay="68000" fromx="1025" fromy="1036" fromz="7" tox="1079" toy="1078" toz="7">
+		<monster name="Shiny Rattata" amount="3" />
+		<monster name="Shiny Crobat" amount="3" />
+		<monster name="Shiny Magikarp" amount="3" />
+		<monster name="Shiny Alakazam" amount="1" />
+		<monster name="Shiny Politoed" amount="3" />
+		<monster name="Shiny Tangela" amount="3" />
+		<monster name="Shiny Feraligatr" amount="3" />
+		<monster name="Shiny Golbat" amount="3" />
+		<monster name="Shiny Venonat" amount="3" />
+		<monster name="Shiny Electrode" amount="3" />
+		<monster name="Shiny Muk" amount="2" />
+		<monster name="Shiny Stantler" amount="3" />
+		<monster name="Shiny Seadra" amount="3" />
+		<monster name="Shiny Typhlosion" amount="3" />
+		<monster name="Shiny Parasect" amount="4" />
+		<monster name="Shiny Pinsir" amount="3" />
+		<monster name="Shiny Dodrio" amount="4" />
+		<monster name="Shiny Pidgeot" amount="4" />
+	</areaspawn>
+	<areaspawn delay="118000" fromx="1025" fromy="1036" fromz="7" tox="1079" toy="1078" toz="7">
+		<monster name="Shiny Crobat" amount="4" />
+		<monster name="Shiny Magmar" amount="2" />
+		<monster name="Shiny Venusaur" amount="2" />
+		<monster name="Shiny Charizard" amount="2" />
+		<monster name="Shiny Blastoise" amount="2" />
+		<monster name="Shiny Alakazam" amount="1" />
+		<monster name="Shiny Pidgeot" amount="3" />
+		<monster name="Shiny Tentacruel" amount="3" />
+		<monster name="Shiny Beedrill" amount="4" />
+		<monster name="Shiny Electrode" amount="3" />
+		<monster name="Shiny Electabuzz" amount="2" />
+		<monster name="Shiny Rhydon" amount="3" />
+		<monster name="Shiny Scyther" amount="2" />
+		<monster name="Shiny Dragonair" amount="2" />
+		<monster name="Shiny Marowak" amount="3" />
+	</areaspawn>
+</raid>

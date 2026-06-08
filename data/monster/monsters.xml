@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+	<!-- Pokes1 -->
+	<monster name="Bulbasaur" file="Pokes1/bulbasaur.xml" />
+	<monster name="Ivysaur" file="Pokes1/ivysaur.xml" />
+	<monster name="Venusaur" file="Pokes1/venusaur.xml" />
+	<monster name="Charmander" file="Pokes1/charmander.xml" />
+	<monster name="Charmeleon" file="Pokes1/charmeleon.xml" />
+	<monster name="Charizard" file="Pokes1/charizard.xml" />
+	<monster name="Squirtle" file="Pokes1/squirtle.xml" />
+	<monster name="Wartortle" file="Pokes1/wartortle.xml" />
+	<monster name="Blastoise" file="Pokes1/blastoise.xml" />
+	<monster name="Caterpie" file="Pokes1/caterpie.xml" />
+	<monster name="Metapod" file="Pokes1/metapod.xml" />
+	<monster name="Butterfree" file="Pokes1/butterfree.xml" />
+	<monster name="Weedle" file="Pokes1/weedle.xml" />
+	<monster name="Kakuna" file="Pokes1/kakuna.xml" />
+	<monster name="Beedrill" file="Pokes1/beedrill.xml" />
+	<monster name="Pidgey" file="Pokes1/pidgey.xml" />
+	<monster name="Pidgeotto" file="Pokes1/pidgeotto.xml" />
+	<monster name="Pidgeot" file="Pokes1/pidgeot.xml" />
+	<monster name="Rattata" file="Pokes1/rattata.xml" />
+	<monster name="Raticate" file="Pokes1/raticate.xml" />
+	<monster name="Spearow" file="Pokes1/spearow.xml" />
+	<monster name="Fearow" file="Pokes1/fearow.xml" />
+	<monster name="Ekans" file="Pokes1/ekans.xml" />
+	<monster name="Arbok" file="Pokes1/arbok.xml" />
+	<monster name="Pikachu" file="Pokes1/pikachu.xml" />
+	<monster name="Raichu" file="Pokes1/raichu.xml" />
+	<monster name="Sandshrew" file="Pokes1/sandshrew.xml" />
+	<monster name="Sandslash" file="Pokes1/sandslash.xml" />
+	<monster name="Nidoran Female" file="Pokes1/nidoran female.xml" />
+	<monster name="Nidorina" file="Pokes1/nidorina.xml" />
+	<monster name="Nidoqueen" file="Pokes1/nidoqueen.xml" />
+	<monster name="Nidoran Male" file="Pokes1/nidoran male.xml" />
+	<monster name="Nidorino" file="Pokes1/nidorino.xml" />
+	<monster name="Nidoking" file="Pokes1/nidoking.xml" />
+	<monster name="Clefairy" file="Pokes1/clefairy.xml" />
+	<monster name="Clefable" file="Pokes1/clefable.xml" />
+	<monster name="Vulpix" file="Pokes1/vulpix.xml" />
+	<monster name="Ninetales" file="Pokes1/ninetales.xml" />
+	<monster name="Jigglypuff" file="Pokes1/jigglypuff.xml" />
+	<monster name="Wigglytuff" file="Pokes1/wigglytuff.xml" />
+	<monster name="Zubat" file="Pokes1/zubat.xml" />
+	<monster name="Golbat" file="Pokes1/golbat.xml" />
+	<monster name="Oddish" file="Pokes1/oddish.xml" />
+	<monster name="Gloom" file="Pokes1/gloom.xml" />
+	<monster name="Vileplume" file="Pokes1/vileplume.xml" />
+	<monster name="Paras" file="Pokes1/paras.xml" />
+	<monster name="Parasect" file="Pokes1/parasect.xml" />
+	<monster name="Venonat" file="Pokes1/venonat.xml" />
+	<monster name="Venomoth" file="Pokes1/venomoth.xml" />
+	<monster name="Diglett" file="Pokes1/diglett.xml" />
+	<monster name="Dugtrio" file="Pokes1/dugtrio.xml" />
+	<monster name="Meowth" file="Pokes1/meowth.xml" />
+	<monster name="Persian" file="Pokes1/persian.xml" />
+	<monster name="Psyduck" file="Pokes1/psyduck.xml" />
+	<monster name="Golduck" file="Pokes1/golduck.xml" />
+	<monster name="Mankey" file="Pokes1/mankey.xml" />
+	<monster name="Primeape" file="Pokes1/primeape.xml" />
+	<monster name="Growlithe" file="Pokes1/growlithe.xml" />
+	<monster name="Arcanine" file="Pokes1/arcanine.xml" />
+	<monster name="Poliwag" file="Pokes1/poliwag.xml" />
+	<monster name="Poliwhirl" file="Pokes1/poliwhirl.xml" />
+	<monster name="Poliwrath" file="Pokes1/poliwrath.xml" />
+	<monster name="Abra" file="Pokes1/abra.xml" />
+	<monster name="Kadabra" file="Pokes1/kadabra.xml" />
+	<monster name="Alakazam" file="Pokes1/alakazam.xml" />
+	<monster name="Machop" file="Pokes1/machop.xml" />
+	<monster name="Machoke" file="Pokes1/machoke.xml" />
+	<monster name="Machamp" file="Pokes1/machamp.xml" />
+	<monster name="Bellsprout" file="Pokes1/bellsprout.xml" />
+	<monster name="Weepinbell" file="Pokes1/weepinbell.xml" />
+	<monster name="Victreebel" file="Pokes1/victreebel.xml" />
+	<monster name="Tentacool" file="Pokes1/tentacool.xml" />
+	<monster name="Tentacruel" file="Pokes1/tentacruel.xml" />
+	<monster name="Geodude" file="Pokes1/geodude.xml" />
+	<monster name="Graveler" file="Pokes1/graveler.xml" />
+	<monster name="Golem" file="Pokes1/golem.xml" />
+	<monster name="Ponyta" file="Pokes1/ponyta.xml" />
+	<monster name="Rapidash" file="Pokes1/rapidash.xml" />
+	<monster name="Slowpoke" file="Pokes1/slowpoke.xml" />
+	<monster name="Slowbro" file="Pokes1/slowbro.xml" />
+	<monster name="Magnemite" file="Pokes1/magnemite.xml" />
+	<monster name="Magneton" file="Pokes1/magneton.xml" />
+	<monster name="Farfetch'D" file="Pokes1/farfetch'd.xml" />
+	<monster name="Doduo" file="Pokes1/doduo.xml" />
+	<monster name="Dodrio" file="Pokes1/dodrio.xml" />
+	<monster name="Seel" file="Pokes1/seel.xml" />
+	<monster name="Dewgong" file="Pokes1/dewgong.xml" />
+	<monster name="Grimer" file="Pokes1/grimer.xml" />
+	<monster name="Muk" file="Pokes1/muk.xml" />
+	<monster name="Shellder" file="Pokes1/shellder.xml" />
+	<monster name="Cloyster" file="Pokes1/cloyster.xml" />
+	<monster name="Gastly" file="Pokes1/gastly.xml" />
+	<monster name="Haunter" file="Pokes1/haunter.xml" />
+	<monster name="Gengar" file="Pokes1/gengar.xml" />
+	<monster name="Onix" file="Pokes1/onix.xml" />
+	<monster name="Drowzee" file="Pokes1/drowzee.xml" />
+	<monster name="Hypno" file="Pokes1/hypno.xml" />
+	<monster name="Krabby" file="Pokes1/krabby.xml" />
+	<monster name="Kingler" file="Pokes1/kingler.xml" />
+	<monster name="Voltorb" file="Pokes1/voltorb.xml" />
+	<monster name="Electrode" file="Pokes1/electrode.xml" />
+	<monster name="Exeggcute" file="Pokes1/exeggcute.xml" />
+	<monster name="Exeggutor" file="Pokes1/exeggutor.xml" />
+	<monster name="Cubone" file="Pokes1/cubone.xml" />
+	<monster name="Marowak" file="Pokes1/marowak.xml" />
+	<monster name="Hitmonlee" file="Pokes1/hitmonlee.xml" />
+	<monster name="Hitmonchan" file="Pokes1/hitmonchan.xml" />
+	<monster name="Lickitung" file="Pokes1/lickitung.xml" />
+	<monster name="Koffing" file="Pokes1/koffing.xml" />
+	<monster name="Weezing" file="Pokes1/weezing.xml" />
+	<monster name="Rhyhorn" file="Pokes1/rhyhorn.xml" />
+	<monster name="Rhydon" file="Pokes1/rhydon.xml" />
+	<monster name="Chansey" file="Pokes1/chansey.xml" />
+	<monster name="Tangela" file="Pokes1/tangela.xml" />
+	<monster name="Kangaskhan" file="Pokes1/kangaskhan.xml" />
+	<monster name="Horsea" file="Pokes1/horsea.xml" />
+	<monster name="Seadra" file="Pokes1/seadra.xml" />
+	<monster name="Goldeen" file="Pokes1/goldeen.xml" />
+	<monster name="Seaking" file="Pokes1/seaking.xml" />
+	<monster name="Staryu" file="Pokes1/staryu.xml" />
+	<monster name="Starmie" file="Pokes1/starmie.xml" />
+	<monster name="Mr. Mime" file="Pokes1/mr. mime.xml" />
+	<monster name="Scyther" file="Pokes1/scyther.xml" />
+	<monster name="Jynx" file="Pokes1/jynx.xml" />
+	<monster name="Electabuzz" file="Pokes1/electabuzz.xml" />
+	<monster name="Magmar" file="Pokes1/magmar.xml" />
+	<monster name="Pinsir" file="Pokes1/pinsir.xml" />
+	<monster name="Tauros" file="Pokes1/tauros.xml" />
+	<monster name="Magikarp" file="Pokes1/magikarp.xml" />
+	<monster name="Gyarados" file="Pokes1/gyarados.xml" />
+	<monster name="Lapras" file="Pokes1/lapras.xml" />
+	<monster name="Ditto" file="Pokes1/ditto.xml" />
+	<monster name="Eevee" file="Pokes1/eevee.xml" />
+	<monster name="Vaporeon" file="Pokes1/vaporeon.xml" />
+	<monster name="Jolteon" file="Pokes1/jolteon.xml" />
+	<monster name="Flareon" file="Pokes1/flareon.xml" />
+	<monster name="Porygon" file="Pokes1/porygon.xml" />
+	<monster name="Omanyte" file="Pokes1/omanyte.xml" />
+	<monster name="Omastar" file="Pokes1/omastar.xml" />
+	<monster name="Kabuto" file="Pokes1/kabuto.xml" />
+	<monster name="Kabutops" file="Pokes1/kabutops.xml" />
+	<monster name="Aerodactyl" file="Pokes1/aerodactyl.xml" />
+	<monster name="Snorlax" file="Pokes1/snorlax.xml" />
+	<monster name="Articuno" file="Pokes1/articuno.xml" />
+	<monster name="Zapdos" file="Pokes1/zapdos.xml" />
+	<monster name="Moltres" file="Pokes1/moltres.xml" />
+	<monster name="Dratini" file="Pokes1/dratini.xml" />
+	<monster name="Dragonair" file="Pokes1/dragonair.xml" />
+	<monster name="Dragonite" file="Pokes1/dragonite.xml" />
+	<monster name="Mewtwo" file="Pokes1/mewtwo.xml" />
+	<monster name="Mew" file="Pokes1/mew.xml" />
+	<monster name="Chikorita" file="Pokes1/chikorita.xml" />
+	<monster name="Bayleef" file="Pokes1/bayleef.xml" />
+	<monster name="Meganium" file="Pokes1/meganium.xml" />
+	<monster name="Cyndaquil" file="Pokes1/cyndaquil.xml" />
+	<monster name="Quilava" file="Pokes1/quilava.xml" />
+	<monster name="Typhlosion" file="Pokes1/typhlosion.xml" />
+	<monster name="Totodile" file="Pokes1/totodile.xml" />
+	<monster name="Croconaw" file="Pokes1/croconaw.xml" />
+	<monster name="Feraligatr" file="Pokes1/feraligatr.xml" />
+	<monster name="Sentret" file="Pokes1/sentret.xml" />
+	<monster name="Furret" file="Pokes1/furret.xml" />
+	<monster name="Hoothoot" file="Pokes1/hoothoot.xml" />
+	<monster name="Noctowl" file="Pokes1/noctowl.xml" />
+	<monster name="Ledyba" file="Pokes1/ledyba.xml" />
+	<monster name="Ledian" file="Pokes1/ledian.xml" />
+	<monster name="Spinarak" file="Pokes1/spinarak.xml" />
+	<monster name="Ariados" file="Pokes1/ariados.xml" />
+	<monster name="Crobat" file="Pokes1/crobat.xml" />
+	<monster name="Chinchou" file="Pokes1/chinchou.xml" />
+	<monster name="Lanturn" file="Pokes1/lanturn.xml" />
+	<monster name="Pichu" file="Pokes1/pichu.xml" />
+	<monster name="Cleffa" file="Pokes1/cleffa.xml" />
+	<monster name="Igglybuff" file="Pokes1/igglybuff.xml" />
+	<monster name="Togepi" file="Pokes1/togepi.xml" />
+	<monster name="Togetic" file="Pokes1/togetic.xml" />
+	<monster name="Natu" file="Pokes1/natu.xml" />
+	<monster name="Xatu" file="Pokes1/xatu.xml" />
+	<monster name="Mareep" file="Pokes1/mareep.xml" />
+	<monster name="Flaaffy" file="Pokes1/flaaffy.xml" />
+	<monster name="Ampharos" file="Pokes1/ampharos.xml" />
+	<monster name="Bellossom" file="Pokes1/bellossom.xml" />
+	<monster name="Marill" file="Pokes1/marill.xml" />
+	<monster name="Azumarill" file="Pokes1/azumarill.xml" />
+	<monster name="Sudowoodo" file="Pokes1/sudowoodo.xml" />
+	<monster name="Politoed" file="Pokes1/politoed.xml" />
+	<monster name="Hoppip" file="Pokes1/hoppip.xml" />
+	<monster name="Skiploom" file="Pokes1/skiploom.xml" />
+	<monster name="Jumpluff" file="Pokes1/jumpluff.xml" />
+	<monster name="Aipom" file="Pokes1/aipom.xml" />
+	<monster name="Sunkern" file="Pokes1/sunkern.xml" />
+	<monster name="Sunflora" file="Pokes1/sunflora.xml" />
+	<monster name="Yanma" file="Pokes1/yanma.xml" />
+	<monster name="Wooper" file="Pokes1/wooper.xml" />
+	<monster name="Quagsire" file="Pokes1/quagsire.xml" />
+	<monster name="Espeon" file="Pokes1/espeon.xml" />
+	<monster name="Umbreon" file="Pokes1/umbreon.xml" />
+	<monster name="Murkrow" file="Pokes1/murkrow.xml" />
+	<monster name="Slowking" file="Pokes1/slowking.xml" />
+	<monster name="Misdreavus" file="Pokes1/misdreavus.xml" />
+	<monster name="Unown" file="Pokes1/unown.xml" />
+	<monster name="Wobbuffet" file="Pokes1/wobbuffet.xml" />
+	<monster name="Girafarig" file="Pokes1/girafarig.xml" />
+	<monster name="Pineco" file="Pokes1/pineco.xml" />
+	<monster name="Forretress" file="Pokes1/forretress.xml" />
+	<monster name="Dunsparce" file="Pokes1/dunsparce.xml" />
+	<monster name="Gligar" file="Pokes1/gligar.xml" />
+	<monster name="Steelix" file="Pokes1/steelix.xml" />
+	<monster name="Snubbull" file="Pokes1/snubbull.xml" />
+	<monster name="Granbull" file="Pokes1/granbull.xml" />
+	<monster name="Qwilfish" file="Pokes1/qwilfish.xml" />
+	<monster name="Scizor" file="Pokes1/scizor.xml" />
+	<monster name="Shuckle" file="Pokes1/shuckle.xml" />
+	<monster name="Heracross" file="Pokes1/heracross.xml" />
+	<monster name="Sneasel" file="Pokes1/sneasel.xml" />
+	<monster name="Teddiursa" file="Pokes1/teddiursa.xml" />
+	<monster name="Ursaring" file="Pokes1/ursaring.xml" />
+	<monster name="Slugma" file="Pokes1/slugma.xml" />
+	<monster name="Magcargo" file="Pokes1/magcargo.xml" />
+	<monster name="Swinub" file="Pokes1/swinub.xml" />
+	<monster name="Piloswine" file="Pokes1/piloswine.xml" />
+	<monster name="Corsola" file="Pokes1/corsola.xml" />
+	<monster name="Remoraid" file="Pokes1/remoraid.xml" />
+	<monster name="Octillery" file="Pokes1/octillery.xml" />
+	<monster name="Delibird" file="Pokes1/delibird.xml" />
+	<monster name="Mantine" file="Pokes1/mantine.xml" />
+	<monster name="Skarmory" file="Pokes1/skarmory.xml" />
+	<monster name="Houndour" file="Pokes1/houndour.xml" />
+	<monster name="Houndoom" file="Pokes1/houndoom.xml" />
+	<monster name="Kingdra" file="Pokes1/kingdra.xml" />
+	<monster name="Phanpy" file="Pokes1/phanpy.xml" />
+	<monster name="Donphan" file="Pokes1/donphan.xml" />
+	<monster name="Porygon2" file="Pokes1/porygon2.xml" />
+	<monster name="Stantler" file="Pokes1/stantler.xml" />
+	<monster name="Smeargle" file="Pokes1/smeargle.xml" />
+	<monster name="Tyrogue" file="Pokes1/tyrogue.xml" />
+	<monster name="Hitmontop" file="Pokes1/hitmontop.xml" />
+	<monster name="Smoochum" file="Pokes1/smoochum.xml" />
+	<monster name="Elekid" file="Pokes1/elekid.xml" />
+	<monster name="Magby" file="Pokes1/magby.xml" />
+	<monster name="Miltank" file="Pokes1/miltank.xml" />
+	<monster name="Blissey" file="Pokes1/blissey.xml" />
+	<monster name="Raikou" file="Pokes1/raikou.xml" />
+	<monster name="Entei" file="Pokes1/entei.xml" />
+	<monster name="Suicune" file="Pokes1/suicune.xml" />
+	<monster name="Larvitar" file="Pokes1/larvitar.xml" />
+	<monster name="Pupitar" file="Pokes1/pupitar.xml" />
+	<monster name="Tyranitar" file="Pokes1/tyranitar.xml" />
+	<monster name="Lugia" file="Pokes1/lugia.xml" />
+	<monster name="Ho-Oh" file="Pokes1/ho-oh.xml" />
+	<monster name="Celebi" file="Pokes1/celebi.xml" />
+	<monster name="Treecko" file="Pokes1/treecko.xml" />
+	<monster name="Grovyle" file="Pokes1/grovyle.xml" />
+	<monster name="Sceptile" file="Pokes1/sceptile.xml" />
+	<monster name="Torchic" file="Pokes1/torchic.xml" />
+	<monster name="Combusken" file="Pokes1/combusken.xml" />
+	<monster name="Blaziken" file="Pokes1/blaziken.xml" />
+	<monster name="Mudkip" file="Pokes1/mudkip.xml" />
+	<monster name="Marshtomp" file="Pokes1/marshtomp.xml" />
+	<monster name="Swampert" file="Pokes1/swampert.xml" />
+	<monster name="Poochyena" file="Pokes1/poochyena.xml" />
+	<monster name="Mightyena" file="Pokes1/mightyena.xml" />
+	<monster name="Zigzagoon" file="Pokes1/zigzagoon.xml" />
+	<monster name="Linoone" file="Pokes1/linoone.xml" />
+	<monster name="Wurmple" file="Pokes1/wurmple.xml" />
+	<monster name="Silcoon" file="Pokes1/silcoon.xml" />
+	<monster name="Beautifly" file="Pokes1/beautifly.xml" />
+	<monster name="Cascoon" file="Pokes1/cascoon.xml" />
+	<monster name="Dustox" file="Pokes1/dustox.xml" />
+	<monster name="Lotad" file="Pokes1/lotad.xml" />
+	<monster name="Lombre" file="Pokes1/lombre.xml" />
+	<monster name="Ludicolo" file="Pokes1/ludicolo.xml" />
+	<monster name="Seedot" file="Pokes1/seedot.xml" />
+	<monster name="Nuzleaf" file="Pokes1/nuzleaf.xml" />
+	<monster name="Shiftry" file="Pokes1/shiftry.xml" />
+	<monster name="Taillow" file="Pokes1/taillow.xml" />
+	<monster name="Swellow" file="Pokes1/swellow.xml" />
+	<monster name="Wingull" file="Pokes1/wingull.xml" />
+	<monster name="Pelipper" file="Pokes1/pelipper.xml" />
+	<monster name="Ralts" file="Pokes1/ralts.xml" />
+	<monster name="Kirlia" file="Pokes1/kirlia.xml" />
+	<monster name="Gardevoir" file="Pokes1/gardevoir.xml" />
+	<monster name="Surskit" file="Pokes1/surskit.xml" />
+	<monster name="Masquerain" file="Pokes1/masquerain.xml" />
+	<monster name="Shroomish" file="Pokes1/shroomish.xml" />
+	<monster name="Breloom" file="Pokes1/breloom.xml" />
+	<monster name="Slakoth" file="Pokes1/slakoth.xml" />
+	<monster name="Vigoroth" file="Pokes1/vigoroth.xml" />
+	<monster name="Slaking" file="Pokes1/slaking.xml" />
+	<monster name="Nincada" file="Pokes1/nincada.xml" />
+	<monster name="Ninjask" file="Pokes1/ninjask.xml" />
+	<monster name="Shedinja" file="Pokes1/shedinja.xml" />
+	<monster name="Whismur" file="Pokes1/whismur.xml" />
+	<monster name="Loudred" file="Pokes1/loudred.xml" />
+	<monster name="Exploud" file="Pokes1/exploud.xml" />
+	<monster name="Makuhita" file="Pokes1/makuhita.xml" />
+	<monster name="Hariyama" file="Pokes1/hariyama.xml" />
+	<monster name="Azurill" file="Pokes1/azurill.xml" />
+	<monster name="Nosepass" file="Pokes1/nosepass.xml" />
+	<monster name="Skitty" file="Pokes1/skitty.xml" />
+	<monster name="Delcatty" file="Pokes1/delcatty.xml" />
+	<monster name="Sableye" file="Pokes1/sableye.xml" />
+	<monster name="Mawile" file="Pokes1/mawile.xml" />
+	<monster name="Aron" file="Pokes1/aron.xml" />
+	<monster name="Lairon" file="Pokes1/lairon.xml" />
+	<monster name="Aggron" file="Pokes1/aggron.xml" />
+	<monster name="Meditite" file="Pokes1/meditite.xml" />
+	<monster name="Medicham" file="Pokes1/medicham.xml" />
+	<monster name="Electrike" file="Pokes1/electrike.xml" />
+	<monster name="Manectric" file="Pokes1/manectric.xml" />
+	<monster name="Plusle" file="Pokes1/plusle.xml" />
+	<monster name="Minun" file="Pokes1/minun.xml" />
+	<monster name="Volbeat" file="Pokes1/volbeat.xml" />
+	<monster name="Illumise" file="Pokes1/illumise.xml" />
+	<monster name="Roselia" file="Pokes1/roselia.xml" />
+	<monster name="Gulpin" file="Pokes1/gulpin.xml" />
+	<monster name="Swalot" file="Pokes1/swalot.xml" />
+	<monster name="Carvanha" file="Pokes1/carvanha.xml" />
+	<monster name="Sharpedo" file="Pokes1/sharpedo.xml" />
+	<monster name="Wailmer" file="Pokes1/wailmer.xml" />
+	<monster name="Wailord" file="Pokes1/wailord.xml" />
+	<monster name="Numel" file="Pokes1/numel.xml" />
+	<monster name="Camerupt" file="Pokes1/camerupt.xml" />
+	<monster name="Torkoal" file="Pokes1/torkoal.xml" />
+	<monster name="Spoink" file="Pokes1/spoink.xml" />
+	<monster name="Grumpig" file="Pokes1/grumpig.xml" />
+	<monster name="Spinda" file="Pokes1/spinda.xml" />
+	<monster name="Trapinch" file="Pokes1/trapinch.xml" />
+	<monster name="Vibrava" file="Pokes1/vibrava.xml" />
+	<monster name="Flygon" file="Pokes1/flygon.xml" />
+	<monster name="Cacnea" file="Pokes1/cacnea.xml" />
+	<monster name="Cacturne" file="Pokes1/cacturne.xml" />
+	<monster name="Swablu" file="Pokes1/swablu.xml" />
+	<monster name="Altaria" file="Pokes1/altaria.xml" />
+	<monster name="Zangoose" file="Pokes1/zangoose.xml" />
+	<monster name="Seviper" file="Pokes1/seviper.xml" />
+	<monster name="Lunatone" file="Pokes1/lunatone.xml" />
+	<monster name="Solrock" file="Pokes1/solrock.xml" />
+	<monster name="Barboach" file="Pokes1/barboach.xml" />
+	<monster name="Whiscash" file="Pokes1/whiscash.xml" />
+	<monster name="Corphish" file="Pokes1/corphish.xml" />
+	<monster name="Crawdaunt" file="Pokes1/crawdaunt.xml" />
+	<monster name="Baltoy" file="Pokes1/baltoy.xml" />
+	<monster name="Claydol" file="Pokes1/claydol.xml" />
+	<monster name="Lileep" file="Pokes1/lileep.xml" />
+	<monster name="Cradily" file="Pokes1/cradily.xml" />
+	<monster name="Anorith" file="Pokes1/anorith.xml" />
+	<monster name="Armaldo" file="Pokes1/armaldo.xml" />
+	<monster name="Feebas" file="Pokes1/feebas.xml" />
+	<monster name="Milotic" file="Pokes1/milotic.xml" />
+	<monster name="Castform" file="Pokes1/castform.xml" />
+	<monster name="Kecleon" file="Pokes1/kecleon.xml" />
+	<monster name="Shuppet" file="Pokes1/shuppet.xml" />
+	<monster name="Banette" file="Pokes1/banette.xml" />
+	<monster name="Duskull" file="Pokes1/duskull.xml" />
+	<monster name="Dusclops" file="Pokes1/dusclops.xml" />
+	<monster name="Tropius" file="Pokes1/tropius.xml" />
+	<monster name="Chimecho" file="Pokes1/chimecho.xml" />
+	<monster name="Absol" file="Pokes1/absol.xml" />
+	<monster name="Wynaut" file="Pokes1/wynaut.xml" />
+	<monster name="Snorunt" file="Pokes1/snorunt.xml" />
+	<monster name="Glalie" file="Pokes1/glalie.xml" />
+	<monster name="Spheal" file="Pokes1/spheal.xml" />
+	<monster name="Sealeo" file="Pokes1/sealeo.xml" />
+	<monster name="Walrein" file="Pokes1/walrein.xml" />
+	<monster name="Clamperl" file="Pokes1/clamperl.xml" />
+	<monster name="Huntail" file="Pokes1/huntail.xml" />
+	<monster name="Gorebyss" file="Pokes1/gorebyss.xml" />
+	<monster name="Relicanth" file="Pokes1/relicanth.xml" />
+	<monster name="Luvdisc" file="Pokes1/luvdisc.xml" />
+	<monster name="Bagon" file="Pokes1/bagon.xml" />
+	<monster name="Shelgon" file="Pokes1/shelgon.xml" />
+	<monster name="Salamence" file="Pokes1/salamence.xml" />
+	<monster name="Beldum" file="Pokes1/beldum.xml" />
+	<monster name="Metang" file="Pokes1/metang.xml" />
+	<monster name="Metagross" file="Pokes1/metagross.xml" />
+	<monster name="Regirock" file="Pokes1/regirock.xml" />
+	<monster name="Regice" file="Pokes1/regice.xml" />
+	<monster name="Registeel" file="Pokes1/registeel.xml" />
+	<monster name="Latias" file="Pokes1/latias.xml" />
+	<monster name="Latios" file="Pokes1/latios.xml" />
+	<monster name="Kyogre" file="Pokes1/kyogre.xml" />
+	<monster name="Groudon" file="Pokes1/groudon.xml" />
+	<monster name="Rayquaza" file="Pokes1/rayquaza.xml" />
+	<monster name="Jirachi" file="Pokes1/jirachi.xml" />
+	<monster name="Deoxys" file="Pokes1/deoxys.xml" />
+	<monster name="Shiny Bulbasaur" file="Pokes1/shiny bulbasaur.xml" />
+	<monster name="Shiny Ivysaur" file="Pokes1/shiny ivysaur.xml" />
+	<monster name="Shiny Venusaur" file="Pokes1/shiny venusaur.xml" />
+	<monster name="Shiny Charmander" file="Pokes1/shiny charmander.xml" />
+	<monster name="Shiny Charmeleon" file="Pokes1/shiny charmeleon.xml" />
+	<monster name="Shiny Charizard" file="Pokes1/shiny charizard.xml" />
+	<monster name="Shiny Squirtle" file="Pokes1/shiny squirtle.xml" />
+	<monster name="Shiny Wartortle" file="Pokes1/shiny wartortle.xml" />
+	<monster name="Shiny Blastoise" file="Pokes1/shiny blastoise.xml" />
+	<monster name="Shiny Caterpie" file="Pokes1/shiny caterpie.xml" />
+	<monster name="Shiny Metapod" file="Pokes1/shiny metapod.xml" />
+	<monster name="Shiny Butterfree" file="Pokes1/shiny butterfree.xml" />
+	<monster name="Shiny Weedle" file="Pokes1/shiny weedle.xml" />
+	<monster name="Shiny Kakuna" file="Pokes1/shiny kakuna.xml" />
+	<monster name="Shiny Beedrill" file="Pokes1/shiny beedrill.xml" />
+	<monster name="Shiny Pidgey" file="Pokes1/shiny pidgey.xml" />
+	<monster name="Shiny Pidgeotto" file="Pokes1/shiny pidgeotto.xml" />
+	<monster name="Shiny Pidgeot" file="Pokes1/shiny pidgeot.xml" />
+	<monster name="Shiny Rattata" file="Pokes1/shiny rattata.xml" />
+	<monster name="Shiny Raticate" file="Pokes1/shiny raticate.xml" />
+	<monster name="Shiny Spearow" file="Pokes1/shiny spearow.xml" />
+	<monster name="Shiny Fearow" file="Pokes1/shiny fearow.xml" />
+	<monster name="Shiny Ekans" file="Pokes1/shiny ekans.xml" />
+	<monster name="Shiny Arbok" file="Pokes1/shiny arbok.xml" />
+	<monster name="Shiny Pikachu" file="Pokes1/shiny pikachu.xml" />
+	<monster name="Shiny Raichu" file="Pokes1/shiny raichu.xml" />
+	<monster name="Shiny Sandshrew" file="Pokes1/shiny sandshrew.xml" />
+	<monster name="Shiny Sandslash" file="Pokes1/shiny sandslash.xml" />
+	<monster name="Shiny Nidoran Female" file="Pokes1/shiny nidoran female.xml" />
+	<monster name="Shiny Nidorina" file="Pokes1/shiny nidorina.xml" />
+	<monster name="Shiny Nidoqueen" file="Pokes1/shiny nidoqueen.xml" />
+	<monster name="Shiny Nidoran Male" file="Pokes1/shiny nidoran male.xml" />
+	<monster name="Shiny Nidorino" file="Pokes1/shiny nidorino.xml" />
+	<monster name="Shiny Nidoking" file="Pokes1/shiny nidoking.xml" />
+	<monster name="Shiny Clefairy" file="Pokes1/shiny clefairy.xml" />
+	<monster name="Shiny Clefable" file="Pokes1/shiny clefable.xml" />
+	<monster name="Shiny Vulpix" file="Pokes1/shiny vulpix.xml" />
+	<monster name="Shiny Ninetales" file="Pokes1/shiny ninetales.xml" />
+	<monster name="Shiny Jigglypuff" file="Pokes1/shiny jigglypuff.xml" />
+	<monster name="Shiny Wigglytuff" file="Pokes1/shiny wigglytuff.xml" />
+	<monster name="Shiny Zubat" file="Pokes1/shiny zubat.xml" />
+	<monster name="Shiny Golbat" file="Pokes1/shiny golbat.xml" />
+	<monster name="Shiny Oddish" file="Pokes1/shiny oddish.xml" />
+	<monster name="Shiny Gloom" file="Pokes1/shiny gloom.xml" />
+	<monster name="Shiny Vileplume" file="Pokes1/shiny vileplume.xml" />
+	<monster name="Shiny Paras" file="Pokes1/shiny paras.xml" />
+	<monster name="Shiny Parasect" file="Pokes1/shiny parasect.xml" />
+	<monster name="Shiny Venonat" file="Pokes1/shiny venonat.xml" />
+	<monster name="Shiny Venomoth" file="Pokes1/shiny venomoth.xml" />
+	<monster name="Shiny Diglett" file="Pokes1/shiny diglett.xml" />
+	<monster name="Shiny Dugtrio" file="Pokes1/shiny dugtrio.xml" />
+	<monster name="Shiny Meowth" file="Pokes1/shiny meowth.xml" />
+	<monster name="Shiny Persian" file="Pokes1/shiny persian.xml" />
+	<monster name="Shiny Psyduck" file="Pokes1/shiny psyduck.xml" />
+	<monster name="Shiny Golduck" file="Pokes1/shiny golduck.xml" />
+	<monster name="Shiny Mankey" file="Pokes1/shiny mankey.xml" />
+	<monster name="Shiny Primeape" file="Pokes1/shiny primeape.xml" />
+	<monster name="Shiny Growlithe" file="Pokes1/shiny growlithe.xml" />
+	<monster name="Shiny Arcanine" file="Pokes1/shiny arcanine.xml" />
+	<monster name="Shiny Poliwag" file="Pokes1/shiny poliwag.xml" />
+	<monster name="Shiny Poliwhirl" file="Pokes1/shiny poliwhirl.xml" />
+	<monster name="Shiny Poliwrath" file="Pokes1/shiny poliwrath.xml" />
+	<monster name="Shiny Abra" file="Pokes1/shiny abra.xml" />
+	<monster name="Shiny Kadabra" file="Pokes1/shiny kadabra.xml" />
+	<monster name="Shiny Alakazam" file="Pokes1/shiny alakazam.xml" />
+	<monster name="Shiny Machop" file="Pokes1/shiny machop.xml" />
+	<monster name="Shiny Machoke" file="Pokes1/shiny machoke.xml" />
+	<monster name="Shiny Machamp" file="Pokes1/shiny machamp.xml" />
+	<monster name="Shiny Bellsprout" file="Pokes1/shiny bellsprout.xml" />
+	<monster name="Shiny Weepinbell" file="Pokes1/shiny weepinbell.xml" />
+	<monster name="Shiny Victreebel" file="Pokes1/shiny victreebel.xml" />
+	<monster name="Shiny Tentacool" file="Pokes1/shiny tentacool.xml" />
+	<monster name="Shiny Tentacruel" file="Pokes1/shiny tentacruel.xml" />
+	<monster name="Shiny Geodude" file="Pokes1/shiny geodude.xml" />
+	<monster name="Shiny Graveler" file="Pokes1/shiny graveler.xml" />
+	<monster name="Shiny Golem" file="Pokes1/shiny golem.xml" />
+	<monster name="Shiny Ponyta" file="Pokes1/shiny ponyta.xml" />
+	<monster name="Shiny Rapidash" file="Pokes1/shiny rapidash.xml" />
+	<monster name="Shiny Slowpoke" file="Pokes1/shiny slowpoke.xml" />
+	<monster name="Shiny Slowbro" file="Pokes1/shiny slowbro.xml" />
+	<monster name="Shiny Magnemite" file="Pokes1/shiny magnemite.xml" />
+	<monster name="Shiny Magneton" file="Pokes1/shiny magneton.xml" />
+	<monster name="Shiny Farfetch'D" file="Pokes1/shiny farfetch'd.xml" />
+	<monster name="Shiny Doduo" file="Pokes1/shiny doduo.xml" />
+	<monster name="Shiny Dodrio" file="Pokes1/shiny dodrio.xml" />
+	<monster name="Shiny Seel" file="Pokes1/shiny seel.xml" />
+	<monster name="Shiny Dewgong" file="Pokes1/shiny dewgong.xml" />
+	<monster name="Shiny Grimer" file="Pokes1/shiny grimer.xml" />
+	<monster name="Shiny Muk" file="Pokes1/shiny muk.xml" />
+	<monster name="Shiny Shellder" file="Pokes1/shiny shellder.xml" />
+	<monster name="Shiny Cloyster" file="Pokes1/shiny cloyster.xml" />
+	<monster name="Shiny Gastly" file="Pokes1/shiny gastly.xml" />
+	<monster name="Shiny Haunter" file="Pokes1/shiny haunter.xml" />
+	<monster name="Shiny Gengar" file="Pokes1/shiny gengar.xml" />
+	<monster name="Shiny Onix" file="Pokes1/shiny onix.xml" />
+	<monster name="Shiny Drowzee" file="Pokes1/shiny drowzee.xml" />
+	<monster name="Shiny Hypno" file="Pokes1/shiny hypno.xml" />
+	<monster name="Shiny Krabby" file="Pokes1/shiny krabby.xml" />
+	<monster name="Shiny Kingler" file="Pokes1/shiny kingler.xml" />
+	<monster name="Shiny Voltorb" file="Pokes1/shiny voltorb.xml" />
+	<monster name="Shiny Electrode" file="Pokes1/shiny electrode.xml" />
+	<monster name="Shiny Exeggcute" file="Pokes1/shiny exeggcute.xml" />
+	<monster name="Shiny Exeggutor" file="Pokes1/shiny exeggutor.xml" />
+	<monster name="Shiny Cubone" file="Pokes1/shiny cubone.xml" />
+	<monster name="Shiny Marowak" file="Pokes1/shiny marowak.xml" />
+	<monster name="Shiny Hitmonlee" file="Pokes1/shiny hitmonlee.xml" />
+	<monster name="Shiny Hitmonchan" file="Pokes1/shiny hitmonchan.xml" />
+	<monster name="Shiny Lickitung" file="Pokes1/shiny lickitung.xml" />
+	<monster name="Shiny Koffing" file="Pokes1/shiny koffing.xml" />
+	<monster name="Shiny Weezing" file="Pokes1/shiny weezing.xml" />
+	<monster name="Shiny Rhyhorn" file="Pokes1/shiny rhyhorn.xml" />
+	<monster name="Shiny Rhydon" file="Pokes1/shiny rhydon.xml" />
+	<monster name="Shiny Chansey" file="Pokes1/shiny chansey.xml" />
+	<monster name="Shiny Tangela" file="Pokes1/shiny tangela.xml" />
+	<monster name="Shiny Kangaskhan" file="Pokes1/shiny kangaskhan.xml" />
+	<monster name="Shiny Horsea" file="Pokes1/shiny horsea.xml" />
+	<monster name="Shiny Seadra" file="Pokes1/shiny seadra.xml" />
+	<monster name="Shiny Goldeen" file="Pokes1/shiny goldeen.xml" />
+	<monster name="Shiny Seaking" file="Pokes1/shiny seaking.xml" />
+	<monster name="Shiny Staryu" file="Pokes1/shiny staryu.xml" />
+	<monster name="Shiny Starmie" file="Pokes1/shiny starmie.xml" />
+	<monster name="Shiny Mr. Mime" file="Pokes1/shiny mr. mime.xml" />
+	<monster name="Shiny Scyther" file="Pokes1/shiny scyther.xml" />
+	<monster name="Shiny Jynx" file="Pokes1/shiny jynx.xml" />
+	<monster name="Shiny Electabuzz" file="Pokes1/shiny electabuzz.xml" />
+	<monster name="Shiny Magmar" file="Pokes1/shiny magmar.xml" />
+	<monster name="Shiny Pinsir" file="Pokes1/shiny pinsir.xml" />
+	<monster name="Shiny Tauros" file="Pokes1/shiny tauros.xml" />
+	<monster name="Shiny Magikarp" file="Pokes1/shiny magikarp.xml" />
+	<monster name="Shiny Gyarados" file="Pokes1/shiny gyarados.xml" />
+	<monster name="Shiny Lapras" file="Pokes1/shiny lapras.xml" />
+	<monster name="Shiny Ditto" file="Pokes1/shiny ditto.xml" />
+	<monster name="Shiny Eevee" file="Pokes1/shiny eevee.xml" />
+	<monster name="Shiny Vaporeon" file="Pokes1/shiny vaporeon.xml" />
+	<monster name="Shiny Jolteon" file="Pokes1/shiny jolteon.xml" />
+	<monster name="Shiny Flareon" file="Pokes1/shiny flareon.xml" />
+	<monster name="Shiny Porygon" file="Pokes1/shiny porygon.xml" />
+	<monster name="Shiny Omanyte" file="Pokes1/shiny omanyte.xml" />
+	<monster name="Shiny Omastar" file="Pokes1/shiny omastar.xml" />
+	<monster name="Shiny Kabuto" file="Pokes1/shiny kabuto.xml" />
+	<monster name="Shiny Kabutops" file="Pokes1/shiny kabutops.xml" />
+	<monster name="Shiny Aerodactyl" file="Pokes1/shiny aerodactyl.xml" />
+	<monster name="Shiny Snorlax" file="Pokes1/shiny snorlax.xml" />
+	<monster name="Shiny Articuno" file="Pokes1/shiny articuno.xml" />
+	<monster name="Shiny Zapdos" file="Pokes1/shiny zapdos.xml" />
+	<monster name="Shiny Moltres" file="Pokes1/shiny moltres.xml" />
+	<monster name="Shiny Dratini" file="Pokes1/shiny dratini.xml" />
+	<monster name="Shiny Dragonair" file="Pokes1/shiny dragonair.xml" />
+	<monster name="Shiny Dragonite" file="Pokes1/shiny dragonite.xml" />
+	<monster name="Shiny Mewtwo" file="Pokes1/shiny mewtwo.xml" />
+	<monster name="Shiny Mew" file="Pokes1/shiny mew.xml" />
+	<monster name="Shiny Chikorita" file="Pokes1/shiny chikorita.xml" />
+	<monster name="Shiny Bayleef" file="Pokes1/shiny bayleef.xml" />
+	<monster name="Shiny Meganium" file="Pokes1/shiny meganium.xml" />
+	<monster name="Shiny Cyndaquil" file="Pokes1/shiny cyndaquil.xml" />
+	<monster name="Shiny Quilava" file="Pokes1/shiny quilava.xml" />
+	<monster name="Shiny Typhlosion" file="Pokes1/shiny typhlosion.xml" />
+	<monster name="Shiny Totodile" file="Pokes1/shiny totodile.xml" />
+	<monster name="Shiny Croconaw" file="Pokes1/shiny croconaw.xml" />
+	<monster name="Shiny Feraligatr" file="Pokes1/shiny feraligatr.xml" />
+	<monster name="Shiny Sentret" file="Pokes1/shiny sentret.xml" />
+	<monster name="Shiny Furret" file="Pokes1/shiny furret.xml" />
+	<monster name="Shiny Hoothoot" file="Pokes1/shiny hoothoot.xml" />
+	<monster name="Shiny Noctowl" file="Pokes1/shiny noctowl.xml" />
+	<monster name="Shiny Ledyba" file="Pokes1/shiny ledyba.xml" />
+	<monster name="Shiny Ledian" file="Pokes1/shiny ledian.xml" />
+	<monster name="Shiny Spinarak" file="Pokes1/shiny spinarak.xml" />
+	<monster name="Shiny Ariados" file="Pokes1/shiny ariados.xml" />
+	<monster name="Shiny Crobat" file="Pokes1/shiny crobat.xml" />
+	<monster name="Shiny Chinchou" file="Pokes1/shiny chinchou.xml" />
+	<monster name="Shiny Lanturn" file="Pokes1/shiny lanturn.xml" />
+	<monster name="Shiny Pichu" file="Pokes1/shiny pichu.xml" />
+	<monster name="Shiny Cleffa" file="Pokes1/shiny cleffa.xml" />
+	<monster name="Shiny Igglybuff" file="Pokes1/shiny igglybuff.xml" />
+	<monster name="Shiny Togepi" file="Pokes1/shiny togepi.xml" />
+	<monster name="Shiny Togetic" file="Pokes1/shiny togetic.xml" />
+	<monster name="Shiny Natu" file="Pokes1/shiny natu.xml" />
+	<monster name="Shiny Xatu" file="Pokes1/shiny xatu.xml" />
+	<monster name="Shiny Mareep" file="Pokes1/shiny mareep.xml" />
+	<monster name="Shiny Flaaffy" file="Pokes1/shiny flaaffy.xml" />
+	<monster name="Shiny Ampharos" file="Pokes1/shiny ampharos.xml" />
+	<monster name="Shiny Bellossom" file="Pokes1/shiny bellossom.xml" />
+	<monster name="Shiny Marill" file="Pokes1/shiny marill.xml" />
+	<monster name="Shiny Azumarill" file="Pokes1/shiny azumarill.xml" />
+	<monster name="Shiny Sudowoodo" file="Pokes1/shiny sudowoodo.xml" />
+	<monster name="Shiny Politoed" file="Pokes1/shiny politoed.xml" />
+	<monster name="Shiny Hoppip" file="Pokes1/shiny hoppip.xml" />
+	<monster name="Shiny Skiploom" file="Pokes1/shiny skiploom.xml" />
+	<monster name="Shiny Jumpluff" file="Pokes1/shiny jumpluff.xml" />
+	<monster name="Shiny Aipom" file="Pokes1/shiny aipom.xml" />
+	<monster name="Shiny Sunkern" file="Pokes1/shiny sunkern.xml" />
+	<monster name="Shiny Sunflora" file="Pokes1/shiny sunflora.xml" />
+	<monster name="Shiny Yanma" file="Pokes1/shiny yanma.xml" />
+	<monster name="Shiny Wooper" file="Pokes1/shiny wooper.xml" />
+	<monster name="Shiny Quagsire" file="Pokes1/shiny quagsire.xml" />
+	<monster name="Shiny Espeon" file="Pokes1/shiny espeon.xml" />
+	<monster name="Shiny Umbreon" file="Pokes1/shiny umbreon.xml" />
+	<monster name="Shiny Murkrow" file="Pokes1/shiny murkrow.xml" />
+	<monster name="Shiny Slowking" file="Pokes1/shiny slowking.xml" />
+	<monster name="Shiny Misdreavus" file="Pokes1/shiny misdreavus.xml" />
+	<monster name="Shiny Unown" file="Pokes1/shiny unown.xml" />
+	<monster name="Shiny Wobbuffet" file="Pokes1/shiny wobbuffet.xml" />
+	<monster name="Shiny Girafarig" file="Pokes1/shiny girafarig.xml" />
+	<monster name="Shiny Pineco" file="Pokes1/shiny pineco.xml" />
+	<monster name="Shiny Forretress" file="Pokes1/shiny forretress.xml" />
+	<monster name="Shiny Dunsparce" file="Pokes1/shiny dunsparce.xml" />
+	<monster name="Shiny Gligar" file="Pokes1/shiny gligar.xml" />
+	<monster name="Shiny Steelix" file="Pokes1/shiny steelix.xml" />
+	<monster name="Shiny Snubbull" file="Pokes1/shiny snubbull.xml" />
+	<monster name="Shiny Granbull" file="Pokes1/shiny granbull.xml" />
+	<monster name="Shiny Qwilfish" file="Pokes1/shiny qwilfish.xml" />
+	<monster name="Shiny Scizor" file="Pokes1/shiny scizor.xml" />
+	<monster name="Shiny Shuckle" file="Pokes1/shiny shuckle.xml" />
+	<monster name="Shiny Heracross" file="Pokes1/shiny heracross.xml" />
+	<monster name="Shiny Sneasel" file="Pokes1/shiny sneasel.xml" />
+	<monster name="Shiny Teddiursa" file="Pokes1/shiny teddiursa.xml" />
+	<monster name="Shiny Ursaring" file="Pokes1/shiny ursaring.xml" />
+	<monster name="Shiny Slugma" file="Pokes1/shiny slugma.xml" />
+	<monster name="Shiny Magcargo" file="Pokes1/shiny magcargo.xml" />
+	<monster name="Shiny Swinub" file="Pokes1/shiny swinub.xml" />
+	<monster name="Shiny Piloswine" file="Pokes1/shiny piloswine.xml" />
+	<monster name="Shiny Corsola" file="Pokes1/shiny corsola.xml" />
+	<monster name="Shiny Remoraid" file="Pokes1/shiny remoraid.xml" />
+	<monster name="Shiny Octillery" file="Pokes1/shiny octillery.xml" />
+	<monster name="Shiny Delibird" file="Pokes1/shiny delibird.xml" />
+	<monster name="Shiny Mantine" file="Pokes1/shiny mantine.xml" />
+	<monster name="Shiny Skarmory" file="Pokes1/shiny skarmory.xml" />
+	<monster name="Shiny Houndour" file="Pokes1/shiny houndour.xml" />
+	<monster name="Shiny Houndoom" file="Pokes1/shiny houndoom.xml" />
+	<monster name="Shiny Kingdra" file="Pokes1/shiny kingdra.xml" />
+	<monster name="Shiny Phanpy" file="Pokes1/shiny phanpy.xml" />
+	<monster name="Shiny Donphan" file="Pokes1/shiny donphan.xml" />
+	<monster name="Shiny Porygon2" file="Pokes1/shiny porygon2.xml" />
+	<monster name="Shiny Stantler" file="Pokes1/shiny stantler.xml" />
+	<monster name="Shiny Smeargle" file="Pokes1/shiny smeargle.xml" />
+	<monster name="Shiny Tyrogue" file="Pokes1/shiny tyrogue.xml" />
+	<monster name="Shiny Hitmontop" file="Pokes1/shiny hitmontop.xml" />
+	<monster name="Shiny Smoochum" file="Pokes1/shiny smoochum.xml" />
+	<monster name="Shiny Elekid" file="Pokes1/shiny elekid.xml" />
+	<monster name="Shiny Magby" file="Pokes1/shiny magby.xml" />
+	<monster name="Shiny Miltank" file="Pokes1/shiny miltank.xml" />
+	<monster name="Shiny Blissey" file="Pokes1/shiny blissey.xml" />
+	<monster name="Shiny Raikou" file="Pokes1/shiny raikou.xml" />
+	<monster name="Shiny Entei" file="Pokes1/shiny entei.xml" />
+	<monster name="Shiny Suicune" file="Pokes1/shiny suicune.xml" />
+	<monster name="Shiny Larvitar" file="Pokes1/shiny larvitar.xml" />
+	<monster name="Shiny Pupitar" file="Pokes1/shiny pupitar.xml" />
+	<monster name="Shiny Tyranitar" file="Pokes1/shiny tyranitar.xml" />
+	<monster name="Shiny Lugia" file="Pokes1/shiny lugia.xml" />
+	<monster name="Shiny Ho-Oh" file="Pokes1/shiny ho-oh.xml" />
+	<monster name="Shiny Celebi" file="Pokes1/shiny celebi.xml" />
+	<monster name="Shiny Treecko" file="Pokes1/shiny treecko.xml" />
+	<monster name="Shiny Grovyle" file="Pokes1/shiny grovyle.xml" />
+	<monster name="Shiny Sceptile" file="Pokes1/shiny sceptile.xml" />
+	<monster name="Shiny Torchic" file="Pokes1/shiny torchic.xml" />
+	<monster name="Shiny Combusken" file="Pokes1/shiny combusken.xml" />
+	<monster name="Shiny Blaziken" file="Pokes1/shiny blaziken.xml" />
+	<monster name="Shiny Mudkip" file="Pokes1/shiny mudkip.xml" />
+	<monster name="Shiny Marshtomp" file="Pokes1/shiny marshtomp.xml" />
+	<monster name="Shiny Swampert" file="Pokes1/shiny swampert.xml" />
+	<monster name="Shiny Poochyena" file="Pokes1/shiny poochyena.xml" />
+	<monster name="Shiny Mightyena" file="Pokes1/shiny mightyena.xml" />
+	<monster name="Shiny Zigzagoon" file="Pokes1/shiny zigzagoon.xml" />
+	<monster name="Shiny Linoone" file="Pokes1/shiny linoone.xml" />
+	<monster name="Shiny Wurmple" file="Pokes1/shiny wurmple.xml" />
+	<monster name="Shiny Silcoon" file="Pokes1/shiny silcoon.xml" />
+	<monster name="Shiny Beautifly" file="Pokes1/shiny beautifly.xml" />
+	<monster name="Shiny Cascoon" file="Pokes1/shiny cascoon.xml" />
+	<monster name="Shiny Dustox" file="Pokes1/shiny dustox.xml" />
+	<monster name="Shiny Lotad" file="Pokes1/shiny lotad.xml" />
+	<monster name="Shiny Lombre" file="Pokes1/shiny lombre.xml" />
+	<monster name="Shiny Ludicolo" file="Pokes1/shiny ludicolo.xml" />
+	<monster name="Shiny Seedot" file="Pokes1/shiny seedot.xml" />
+	<monster name="Shiny Nuzleaf" file="Pokes1/shiny nuzleaf.xml" />
+	<monster name="Shiny Shiftry" file="Pokes1/shiny shiftry.xml" />
+	<monster name="Shiny Taillow" file="Pokes1/shiny taillow.xml" />
+	<monster name="Shiny Swellow" file="Pokes1/shiny swellow.xml" />
+	<monster name="Shiny Wingull" file="Pokes1/shiny wingull.xml" />
+	<monster name="Shiny Pelipper" file="Pokes1/shiny pelipper.xml" />
+	<monster name="Shiny Ralts" file="Pokes1/shiny ralts.xml" />
+	<monster name="Shiny Kirlia" file="Pokes1/shiny kirlia.xml" />
+	<monster name="Shiny Gardevoir" file="Pokes1/shiny gardevoir.xml" />
+	<monster name="Shiny Surskit" file="Pokes1/shiny surskit.xml" />
+	<monster name="Shiny Masquerain" file="Pokes1/shiny masquerain.xml" />
+	<monster name="Shiny Shroomish" file="Pokes1/shiny shroomish.xml" />
+	<monster name="Shiny Breloom" file="Pokes1/shiny breloom.xml" />
+	<monster name="Shiny Slakoth" file="Pokes1/shiny slakoth.xml" />
+	<monster name="Shiny Vigoroth" file="Pokes1/shiny vigoroth.xml" />
+	<monster name="Shiny Slaking" file="Pokes1/shiny slaking.xml" />
+	<monster name="Shiny Nincada" file="Pokes1/shiny nincada.xml" />
+	<monster name="Shiny Ninjask" file="Pokes1/shiny ninjask.xml" />
+	<monster name="Shiny Shedinja" file="Pokes1/shiny shedinja.xml" />
+	<monster name="Shiny Whismur" file="Pokes1/shiny whismur.xml" />
+	<monster name="Shiny Loudred" file="Pokes1/shiny loudred.xml" />
+	<monster name="Shiny Exploud" file="Pokes1/shiny exploud.xml" />
+	<monster name="Shiny Makuhita" file="Pokes1/shiny makuhita.xml" />
+	<monster name="Shiny Hariyama" file="Pokes1/shiny hariyama.xml" />
+	<monster name="Shiny Azurill" file="Pokes1/shiny azurill.xml" />
+	<monster name="Shiny Nosepass" file="Pokes1/shiny nosepass.xml" />
+	<monster name="Shiny Skitty" file="Pokes1/shiny skitty.xml" />
+	<monster name="Shiny Delcatty" file="Pokes1/shiny delcatty.xml" />
+	<monster name="Shiny Sableye" file="Pokes1/shiny sableye.xml" />
+	<monster name="Shiny Mawile" file="Pokes1/shiny mawile.xml" />
+	<monster name="Shiny Aron" file="Pokes1/shiny aron.xml" />
+	<monster name="Shiny Lairon" file="Pokes1/shiny lairon.xml" />
+	<monster name="Shiny Aggron" file="Pokes1/shiny aggron.xml" />
+	<monster name="Shiny Meditite" file="Pokes1/shiny meditite.xml" />
+	<monster name="Shiny Medicham" file="Pokes1/shiny medicham.xml" />
+	<monster name="Shiny Electrike" file="Pokes1/shiny electrike.xml" />
+	<monster name="Shiny Manectric" file="Pokes1/shiny manectric.xml" />
+	<monster name="Shiny Plusle" file="Pokes1/shiny plusle.xml" />
+	<monster name="Shiny Minun" file="Pokes1/shiny minun.xml" />
+	<monster name="Shiny Volbeat" file="Pokes1/shiny volbeat.xml" />
+	<monster name="Shiny Illumise" file="Pokes1/shiny illumise.xml" />
+	<monster name="Shiny Roselia" file="Pokes1/shiny roselia.xml" />
+	<monster name="Shiny Gulpin" file="Pokes1/shiny gulpin.xml" />
+	<monster name="Shiny Swalot" file="Pokes1/shiny swalot.xml" />
+	<monster name="Shiny Carvanha" file="Pokes1/shiny carvanha.xml" />
+	<monster name="Shiny Sharpedo" file="Pokes1/shiny sharpedo.xml" />
+	<monster name="Shiny Wailmer" file="Pokes1/shiny wailmer.xml" />
+	<monster name="Shiny Wailord" file="Pokes1/shiny wailord.xml" />
+	<monster name="Shiny Numel" file="Pokes1/shiny numel.xml" />
+	<monster name="Shiny Camerupt" file="Pokes1/shiny camerupt.xml" />
+	<monster name="Shiny Torkoal" file="Pokes1/shiny torkoal.xml" />
+	<monster name="Shiny Spoink" file="Pokes1/shiny spoink.xml" />
+	<monster name="Shiny Grumpig" file="Pokes1/shiny grumpig.xml" />
+	<monster name="Shiny Spinda" file="Pokes1/shiny spinda.xml" />
+	<monster name="Shiny Trapinch" file="Pokes1/shiny trapinch.xml" />
+	<monster name="Shiny Vibrava" file="Pokes1/shiny vibrava.xml" />
+	<monster name="Shiny Flygon" file="Pokes1/shiny flygon.xml" />
+	<monster name="Shiny Cacnea" file="Pokes1/shiny cacnea.xml" />
+	<monster name="Shiny Cacturne" file="Pokes1/shiny cacturne.xml" />
+	<monster name="Shiny Swablu" file="Pokes1/shiny swablu.xml" />
+	<monster name="Shiny Altaria" file="Pokes1/shiny altaria.xml" />
+	<monster name="Shiny Zangoose" file="Pokes1/shiny zangoose.xml" />
+	<monster name="Shiny Seviper" file="Pokes1/shiny seviper.xml" />
+	<monster name="Shiny Lunatone" file="Pokes1/shiny lunatone.xml" />
+	<monster name="Shiny Solrock" file="Pokes1/shiny solrock.xml" />
+	<monster name="Shiny Barboach" file="Pokes1/shiny barboach.xml" />
+	<monster name="Shiny Whiscash" file="Pokes1/shiny whiscash.xml" />
+	<monster name="Shiny Corphish" file="Pokes1/shiny corphish.xml" />
+	<monster name="Shiny Crawdaunt" file="Pokes1/shiny crawdaunt.xml" />
+	<monster name="Shiny Baltoy" file="Pokes1/shiny baltoy.xml" />
+	<monster name="Shiny Claydol" file="Pokes1/shiny claydol.xml" />
+	<monster name="Shiny Lileep" file="Pokes1/shiny lileep.xml" />
+	<monster name="Shiny Cradily" file="Pokes1/shiny cradily.xml" />
+	<monster name="Shiny Anorith" file="Pokes1/shiny anorith.xml" />
+	<monster name="Shiny Armaldo" file="Pokes1/shiny armaldo.xml" />
+	<monster name="Shiny Feebas" file="Pokes1/shiny feebas.xml" />
+	<monster name="Shiny Milotic" file="Pokes1/shiny milotic.xml" />
+	<monster name="Shiny Castform" file="Pokes1/shiny castform.xml" />
+	<monster name="Shiny Kecleon" file="Pokes1/shiny kecleon.xml" />
+	<monster name="Shiny Shuppet" file="Pokes1/shiny shuppet.xml" />
+	<monster name="Shiny Banette" file="Pokes1/shiny banette.xml" />
+	<monster name="Shiny Duskull" file="Pokes1/shiny duskull.xml" />
+	<monster name="Shiny Dusclops" file="Pokes1/shiny dusclops.xml" />
+	<monster name="Shiny Tropius" file="Pokes1/shiny tropius.xml" />
+	<monster name="Shiny Chimecho" file="Pokes1/shiny chimecho.xml" />
+	<monster name="Shiny Absol" file="Pokes1/shiny absol.xml" />
+	<monster name="Shiny Wynaut" file="Pokes1/shiny wynaut.xml" />
+	<monster name="Shiny Snorunt" file="Pokes1/shiny snorunt.xml" />
+	<monster name="Shiny Glalie" file="Pokes1/shiny glalie.xml" />
+	<monster name="Shiny Spheal" file="Pokes1/shiny spheal.xml" />
+	<monster name="Shiny Sealeo" file="Pokes1/shiny sealeo.xml" />
+	<monster name="Shiny Walrein" file="Pokes1/shiny walrein.xml" />
+	<monster name="Shiny Clamperl" file="Pokes1/shiny clamperl.xml" />
+	<monster name="Shiny Huntail" file="Pokes1/shiny huntail.xml" />
+	<monster name="Shiny Gorebyss" file="Pokes1/shiny gorebyss.xml" />
+	<monster name="Shiny Relicanth" file="Pokes1/shiny relicanth.xml" />
+	<monster name="Shiny Luvdisc" file="Pokes1/shiny luvdisc.xml" />
+	<monster name="Shiny Bagon" file="Pokes1/shiny bagon.xml" />
+	<monster name="Shiny Shelgon" file="Pokes1/shiny shelgon.xml" />
+	<monster name="Shiny Salamence" file="Pokes1/shiny salamence.xml" />
+	<monster name="Shiny Beldum" file="Pokes1/shiny beldum.xml" />
+	<monster name="Shiny Metang" file="Pokes1/shiny metang.xml" />
+	<monster name="Shiny Metagross" file="Pokes1/shiny metagross.xml" />
+	<monster name="Shiny Regirock" file="Pokes1/shiny regirock.xml" />
+	<monster name="Shiny Regice" file="Pokes1/shiny regice.xml" />
+	<monster name="Shiny Registeel" file="Pokes1/shiny registeel.xml" />
+	<monster name="Shiny Latias" file="Pokes1/shiny latias.xml" />
+	<monster name="Shiny Latios" file="Pokes1/shiny latios.xml" />
+	<monster name="Shiny Kyogre" file="Pokes1/shiny kyogre.xml" />
+	<monster name="Shiny Groudon" file="Pokes1/shiny groudon.xml" />
+	<monster name="Shiny Rayquaza" file="Pokes1/shiny rayquaza.xml" />
+	<monster name="Shiny Jirachi" file="Pokes1/shiny jirachi.xml" />
+	<monster name="Shiny Deoxys" file="Pokes1/shiny deoxys.xml" />
+	<monster name="Ancient Venusaur" file="Pokes1/ancient venusaur.xml" />
+	<monster name="Elder Charizard" file="Pokes1/elder charizard.xml" />
+	<monster name="Ancient Blastoise" file="Pokes1/ancient blastoise.xml" />
+	<monster name="Super Raichu" file="Pokes1/super raichu.xml" />
+	<monster name="Ancient Ninetales" file="Pokes1/ancient ninetales.xml" />
+	<monster name="Ancient Vileplume" file="Pokes1/ancient vileplume.xml" />
+	<monster name="Ancient Arcanine" file="Pokes1/ancient arcanine.xml" />
+	<monster name="Dark Abra" file="Pokes1/dark abra.xml" />
+	<monster name="Ancient Muk" file="Pokes1/ancient muk.xml" />
+	<monster name="Crystal Onix" file="Pokes1/crystal onix.xml" />
+	<monster name="Elite Hitmonlee" file="Pokes1/elite hitmonlee.xml" />
+	<monster name="Elite Hitmonchan" file="Pokes1/elite hitmonchan.xml" />
+	<monster name="Ancient Mr. Mime" file="Pokes1/ancient mr. mime.xml" />
+	<monster name="Ancient Lapras" file="Pokes1/ancient lapras.xml" />
+	<monster name="Ancient Aerodactyl" file="Pokes1/ancient aerodactyl.xml" />
+	<monster name="Ancient Dragonite" file="Pokes1/ancient dragonite.xml" />
+	<monster name="Ancient Slowking" file="Pokes1/ancient slowking.xml" />
+	<monster name="Mega Venusaur" file="Pokes1/mega venusaur.xml" />
+	<monster name="Mega Charizard X" file="Pokes1/mega charizard x.xml" />
+	<monster name="Mummy Charmander" file="Pokes1/mummy charmander.xml" />
+	<monster name="Ghost Pikachu" file="Pokes1/ghost pikachu.xml" />
+	<monster name="Pirate Raichu" file="Pokes1/pirate raichu.xml" />
+	<monster name="Raven Fearow" file="Pokes1/raven fearow.xml" />
+	<monster name="Werewolf Nidoking" file="Pokes1/werewolf nidoking.xml" />
+	<monster name="Frankstein Vileplume" file="Pokes1/frankstein vileplume.xml" />
+	<monster name="Skull Golem" file="Pokes1/skull golem.xml" />
+	<monster name="Hauting Haunter" file="Pokes1/hauting haunter.xml" />
+	<monster name="Panic Hypno" file="Pokes1/panic hypno.xml" />
+	<monster name="Pumpkin Cubone" file="Pokes1/pumpkin cubone.xml" />
+	<monster name="Pumpkin Marowak" file="Pokes1/pumpkin marowak.xml" />
+	<monster name="Executioner Marowak" file="Pokes1/executioner marowak.xml" />
+	<monster name="Corsair Weezing" file="Pokes1/corsair weezing.xml" />
+	<monster name="Witch Chansey" file="Pokes1/witch chansey.xml" />
+	<monster name="Hag Jynx" file="Pokes1/hag jynx.xml" />
+	<monster name="Wicked Vaporeon" file="Pokes1/wicked vaporeon.xml" />
+	<monster name="Vampire Jolteon" file="Pokes1/vampire jolteon.xml" />
+	<monster name="Cultist Flareon" file="Pokes1/cultist flareon.xml" />
+	<monster name="Undead Omanyte" file="Pokes1/undead omanyte.xml" />
+	<monster name="Undead Omastar" file="Pokes1/undead omastar.xml" />
+	<monster name="Undead Kabuto" file="Pokes1/undead kabuto.xml" />
+	<monster name="Undead Kabutops" file="Pokes1/undead kabutops.xml" />
+	<monster name="Undead Aerodactyl" file="Pokes1/undead aerodactyl.xml" />
+	<monster name="Devil Scizor" file="Pokes1/devil scizor.xml" />
+	<monster name="Santa Snorlax" file="Pokes1/santa snorlax.xml" />
+	<monster name="Xmas Diglett" file="Pokes1/xmas diglett.xml" />
+	<monster name="Xmas Caterpie" file="Pokes1/xmas caterpie.xml" />
+	<monster name="Xmas Psyduck" file="Pokes1/xmas psyduck.xml" />
+	<monster name="Xmas Seel" file="Pokes1/xmas seel.xml" />
+	<monster name="Xmas Pikachu" file="Pokes1/xmas pikachu.xml" />
+	<monster name="Xmas Jynx" file="Pokes1/xmas jynx.xml" />
+	<monster name="Xmas Bulbasaur" file="Pokes1/xmas bulbasaur.xml" />
+	<monster name="Xmas Ditto" file="Pokes1/xmas ditto.xml" />
+	<monster name="Xmas Elekid" file="Pokes1/xmas elekid.xml" />
+	<monster name="Xmas Eevee" file="Pokes1/xmas eevee.xml" />
+	<monster name="Xmas Charmander" file="Pokes1/xmas charmander.xml" />
+	<monster name="Xmas Squirtle" file="Pokes1/xmas squirtle.xml" />
+	<monster name="Xmas Rattata" file="Pokes1/xmas rattata.xml" />
+	<monster name="Xmas Golbat" file="Pokes1/xmas golbat.xml" />
+	<monster name="Xmas Aipom" file="Pokes1/xmas aipom.xml" />
+	<monster name="Xmas Ledyba" file="Pokes1/xmas ledyba.xml" />
+	<monster name="Xmas Totodile" file="Pokes1/xmas totodile.xml" />
+	<monster name="Xmas Abra" file="Pokes1/xmas abra.xml" />
+	<monster name="Xmas Chikorita" file="Pokes1/xmas chikorita.xml" />
+	<monster name="Xmas Meowth" file="Pokes1/xmas meowth.xml" />
+	<monster name="Xmas Gastly" file="Pokes1/xmas gastly.xml" />
+	<monster name="Xmas Jigglypuff" file="Pokes1/xmas jigglypuff.xml" />
+	<monster name="Xmas Clefairy" file="Pokes1/xmas clefairy.xml" />
+	<monster name="Xmas Wooper" file="Pokes1/xmas wooper.xml" />
+	<monster name="Xmas Togepi" file="Pokes1/xmas togepi.xml" />
+	<monster name="Xmas Teddiursa" file="Pokes1/xmas teddiursa.xml" />
+	<monster name="Xmas Machop" file="Pokes1/xmas machop.xml" />
+	<monster name="Xmas Cubone" file="Pokes1/xmas cubone.xml" />
+	<monster name="Xmas Hitmontop" file="Pokes1/xmas hitmontop.xml" />
+	<monster name="Xmas Mantine" file="Pokes1/xmas mantine.xml" />
+	<monster name="Santa Blissey" file="Pokes1/santa blissey.xml" />
+	<monster name="Reindeer Miltank" file="Pokes1/reindeer miltank.xml" />
+	<monster name="Grinch Armaldo" file="Pokes1/grinch armaldo.xml" />
+	<monster name="Snowman Aggron" file="Pokes1/snowman aggron.xml" />
+	<monster name="Decorated Sudowoodo" file="Pokes1/decorated sudowoodo.xml" />
+	<monster name="Grinch Banette" file="Pokes1/grinch banette.xml" />
+	<monster name="Turtwig" file="Pokes1/turtwig.xml" />
+	<monster name="Grotle" file="Pokes1/grotle.xml" />
+	<monster name="Torterra" file="Pokes1/torterra.xml" />
+	<monster name="Chimchar" file="Pokes1/chimchar.xml" />
+	<monster name="Monferno" file="Pokes1/monferno.xml" />
+	<monster name="Infernape" file="Pokes1/infernape.xml" />
+	<monster name="Piplup" file="Pokes1/piplup.xml" />
+	<monster name="Prinplup" file="Pokes1/prinplup.xml" />
+	<monster name="Empoleon" file="Pokes1/empoleon.xml" />
+	<monster name="Starly" file="Pokes1/starly.xml" />
+	<monster name="Staravia" file="Pokes1/staravia.xml" />
+	<monster name="Staraptor" file="Pokes1/staraptor.xml" />
+	<monster name="Bidoof" file="Pokes1/bidoof.xml" />
+	<monster name="Bibarel" file="Pokes1/bibarel.xml" />
+	<monster name="Kricketot" file="Pokes1/kricketot.xml" />
+	<monster name="Kricketune" file="Pokes1/kricketune.xml" />
+	<monster name="Shinx" file="Pokes1/shinx.xml" />
+	<monster name="Luxio" file="Pokes1/luxio.xml" />
+	<monster name="Luxray" file="Pokes1/luxray.xml" />
+	<monster name="Budew" file="Pokes1/budew.xml" />
+	<monster name="Roserade" file="Pokes1/roserade.xml" />
+	<monster name="Cranidos" file="Pokes1/cranidos.xml" />
+	<monster name="Rampardos" file="Pokes1/rampardos.xml" />
+	<monster name="Shieldon" file="Pokes1/shieldon.xml" />
+	<monster name="Bastiodon" file="Pokes1/bastiodon.xml" />
+	<monster name="Burmy" file="Pokes1/burmy.xml" />
+	<monster name="Wormadam" file="Pokes1/wormadam.xml" />
+	<monster name="Mothim" file="Pokes1/mothim.xml" />
+	<monster name="Combee" file="Pokes1/combee.xml" />
+	<monster name="Vespiquen" file="Pokes1/vespiquen.xml" />
+	<monster name="Pachirisu" file="Pokes1/pachirisu.xml" />
+	<monster name="Buizel" file="Pokes1/buizel.xml" />
+	<monster name="Floatzel" file="Pokes1/floatzel.xml" />
+	<monster name="Cherubi" file="Pokes1/cherubi.xml" />
+	<monster name="Cherrim" file="Pokes1/cherrim.xml" />
+	<monster name="Shellos" file="Pokes1/shellos.xml" />
+	<monster name="Gastrodon" file="Pokes1/gastrodon.xml" />
+	<monster name="Ambipom" file="Pokes1/ambipom.xml" />
+	<monster name="Drifloon" file="Pokes1/drifloon.xml" />
+	<monster name="Drifblim" file="Pokes1/drifblim.xml" />
+	<monster name="Buneary" file="Pokes1/buneary.xml" />
+	<monster name="Lopunny" file="Pokes1/lopunny.xml" />
+	<monster name="Mismagius" file="Pokes1/mismagius.xml" />
+	<monster name="Honchkrow" file="Pokes1/honchkrow.xml" />
+	<monster name="Glameow" file="Pokes1/glameow.xml" />
+	<monster name="Purugly" file="Pokes1/purugly.xml" />
+	<monster name="Chingling" file="Pokes1/chingling.xml" />
+	<monster name="Stunky" file="Pokes1/stunky.xml" />
+	<monster name="Skuntank" file="Pokes1/skuntank.xml" />
+	<monster name="Bronzor" file="Pokes1/bronzor.xml" />
+	<monster name="Bronzong" file="Pokes1/bronzong.xml" />
+	<monster name="Bonsly" file="Pokes1/bonsly.xml" />
+	<monster name="Mime Jr" file="Pokes1/mime jr.xml" />
+	<monster name="Happiny" file="Pokes1/happiny.xml" />
+	<monster name="Chatot" file="Pokes1/chatot.xml" />
+	<monster name="Spiritomb" file="Pokes1/spiritomb.xml" />
+	<monster name="Gible" file="Pokes1/gible.xml" />
+	<monster name="Gabite" file="Pokes1/gabite.xml" />
+	<monster name="Garchomp" file="Pokes1/garchomp.xml" />
+	<monster name="Munchlax" file="Pokes1/munchlax.xml" />
+	<monster name="Riolu" file="Pokes1/riolu.xml" />
+	<monster name="Lucario" file="Pokes1/lucario.xml" />
+	<monster name="Hippopotas" file="Pokes1/hippopotas.xml" />
+	<monster name="Hippowdon" file="Pokes1/hippowdon.xml" />
+	<monster name="Skorupi" file="Pokes1/skorupi.xml" />
+	<monster name="Drapion" file="Pokes1/drapion.xml" />
+	<monster name="Croagunk" file="Pokes1/croagunk.xml" />
+	<monster name="Toxicroak" file="Pokes1/toxicroak.xml" />
+	<monster name="Carnivine" file="Pokes1/carnivine.xml" />
+	<monster name="Finneon" file="Pokes1/finneon.xml" />
+	<monster name="Lumineon" file="Pokes1/lumineon.xml" />
+	<monster name="Mantyke" file="Pokes1/mantyke.xml" />
+	<monster name="Snover" file="Pokes1/snover.xml" />
+	<monster name="Abomasnow" file="Pokes1/abomasnow.xml" />
+	<monster name="Weavile" file="Pokes1/weavile.xml" />
+	<monster name="Magnezone" file="Pokes1/magnezone.xml" />
+	<monster name="Lickilicky" file="Pokes1/lickilicky.xml" />
+	<monster name="Rhyperior" file="Pokes1/rhyperior.xml" />
+	<monster name="Tangrowth" file="Pokes1/tangrowth.xml" />
+	<monster name="Electivire" file="Pokes1/electivire.xml" />
+	<monster name="Magmortar" file="Pokes1/magmortar.xml" />
+	<monster name="Togekiss" file="Pokes1/togekiss.xml" />
+	<monster name="Yanmega" file="Pokes1/yanmega.xml" />
+	<monster name="Leafeon" file="Pokes1/leafeon.xml" />
+	<monster name="Glaceon" file="Pokes1/glaceon.xml" />
+	<monster name="Gliscor" file="Pokes1/gliscor.xml" />
+	<monster name="Mamoswine" file="Pokes1/mamoswine.xml" />
+	<monster name="Porygon-Z" file="Pokes1/porygon-z.xml" />
+	<monster name="Gallade" file="Pokes1/gallade.xml" />
+	<monster name="Probopass" file="Pokes1/probopass.xml" />
+	<monster name="Dusknoir" file="Pokes1/dusknoir.xml" />
+	<monster name="Froslass" file="Pokes1/froslass.xml" />
+	<monster name="Rotom" file="Pokes1/rotom.xml" />
+	<monster name="Uxie" file="Pokes1/uxie.xml" />
+	<monster name="Mesprit" file="Pokes1/mesprit.xml" />
+	<monster name="Azelf" file="Pokes1/azelf.xml" />
+	<monster name="Dialga" file="Pokes1/dialga.xml" />
+	<monster name="Palkia" file="Pokes1/palkia.xml" />
+	<monster name="Heatran" file="Pokes1/heatran.xml" />
+	<monster name="Regigigas" file="Pokes1/regigigas.xml" />
+	<monster name="Giratina" file="Pokes1/giratina.xml" />
+	<monster name="Cresselia" file="Pokes1/cresselia.xml" />
+	<monster name="Phione" file="Pokes1/phione.xml" />
+	<monster name="Manaphy" file="Pokes1/manaphy.xml" />
+	<monster name="Darkrai" file="Pokes1/darkrai.xml" />
+	<monster name="Shaymin" file="Pokes1/shaymin.xml" />
+	<monster name="Arceus" file="Pokes1/arceus.xml" />
+	<monster name="Shiny Turtwig" file="Pokes1/shiny turtwig.xml" />
+	<monster name="Shiny Grotle" file="Pokes1/shiny grotle.xml" />
+	<monster name="Shiny Torterra" file="Pokes1/shiny torterra.xml" />
+	<monster name="Shiny Chimchar" file="Pokes1/shiny chimchar.xml" />
+	<monster name="Shiny Monferno" file="Pokes1/shiny monferno.xml" />
+	<monster name="Shiny Infernape" file="Pokes1/shiny infernape.xml" />
+	<monster name="Shiny Piplup" file="Pokes1/shiny piplup.xml" />
+	<monster name="Shiny Prinplup" file="Pokes1/shiny prinplup.xml" />
+	<monster name="Shiny Empoleon" file="Pokes1/shiny empoleon.xml" />
+	<monster name="Shiny Starly" file="Pokes1/shiny starly.xml" />
+	<monster name="Shiny Staravia" file="Pokes1/shiny staravia.xml" />
+	<monster name="Shiny Staraptor" file="Pokes1/shiny staraptor.xml" />
+	<monster name="Shiny Bidoof" file="Pokes1/shiny bidoof.xml" />
+	<monster name="Shiny Bibarel" file="Pokes1/shiny bibarel.xml" />
+	<monster name="Shiny Kricketot" file="Pokes1/shiny kricketot.xml" />
+	<monster name="Shiny Kricketune" file="Pokes1/shiny kricketune.xml" />
+	<monster name="Shiny Shinx" file="Pokes1/shiny shinx.xml" />
+	<monster name="Shiny Luxio" file="Pokes1/shiny luxio.xml" />
+	<monster name="Shiny Luxray" file="Pokes1/shiny luxray.xml" />
+	<monster name="Shiny Budew" file="Pokes1/shiny budew.xml" />
+	<monster name="Shiny Roserade" file="Pokes1/shiny roserade.xml" />
+	<monster name="Shiny Cranidos" file="Pokes1/shiny cranidos.xml" />
+	<monster name="Shiny Rampardos" file="Pokes1/shiny rampardos.xml" />
+	<monster name="Shiny Shieldon" file="Pokes1/shiny shieldon.xml" />
+	<monster name="Shiny Bastiodon" file="Pokes1/shiny bastiodon.xml" />
+	<monster name="Shiny Burmy" file="Pokes1/shiny burmy.xml" />
+	<monster name="Shiny Wormadam" file="Pokes1/shiny wormadam.xml" />
+	<monster name="Shiny Mothim" file="Pokes1/shiny mothim.xml" />
+	<monster name="Shiny Combee" file="Pokes1/shiny combee.xml" />
+	<monster name="Shiny Vespiquen" file="Pokes1/shiny vespiquen.xml" />
+	<monster name="Shiny Pachirisu" file="Pokes1/shiny pachirisu.xml" />
+	<monster name="Shiny Buizel" file="Pokes1/shiny buizel.xml" />
+	<monster name="Shiny Floatzel" file="Pokes1/shiny floatzel.xml" />
+	<monster name="Shiny Cherubi" file="Pokes1/shiny cherubi.xml" />
+	<monster name="Shiny Cherrim" file="Pokes1/shiny cherrim.xml" />
+	<monster name="Shiny Shellos" file="Pokes1/shiny shellos.xml" />
+	<monster name="Shiny Gastrodon" file="Pokes1/shiny gastrodon.xml" />
+	<monster name="Shiny Ambipom" file="Pokes1/shiny ambipom.xml" />
+	<monster name="Shiny Drifloon" file="Pokes1/shiny drifloon.xml" />
+	<monster name="Shiny Drifblim" file="Pokes1/shiny drifblim.xml" />
+	<monster name="Shiny Buneary" file="Pokes1/shiny buneary.xml" />
+	<monster name="Shiny Lopunny" file="Pokes1/shiny lopunny.xml" />
+	<monster name="Shiny Mismagius" file="Pokes1/shiny mismagius.xml" />
+	<monster name="Shiny Honchkrow" file="Pokes1/shiny honchkrow.xml" />
+	<monster name="Shiny Glameow" file="Pokes1/shiny glameow.xml" />
+	<monster name="Shiny Purugly" file="Pokes1/shiny purugly.xml" />
+	<monster name="Shiny Chingling" file="Pokes1/shiny chingling.xml" />
+	<monster name="Shiny Stunky" file="Pokes1/shiny stunky.xml" />
+	<monster name="Shiny Skuntank" file="Pokes1/shiny skuntank.xml" />
+	<monster name="Shiny Bronzor" file="Pokes1/shiny bronzor.xml" />
+	<monster name="Shiny Bronzong" file="Pokes1/shiny bronzong.xml" />
+	<monster name="Shiny Bonsly" file="Pokes1/shiny bonsly.xml" />
+	<monster name="Shiny Mime Jr" file="Pokes1/shiny mime jr.xml" />
+	<monster name="Shiny Happiny" file="Pokes1/shiny happiny.xml" />
+	<monster name="Shiny Chatot" file="Pokes1/shiny chatot.xml" />
+	<monster name="Shiny Spiritomb" file="Pokes1/shiny spiritomb.xml" />
+	<monster name="Shiny Gible" file="Pokes1/shiny gible.xml" />
+	<monster name="Shiny Gabite" file="Pokes1/shiny gabite.xml" />
+	<monster name="Shiny Garchomp" file="Pokes1/shiny garchomp.xml" />
+	<monster name="Shiny Munchlax" file="Pokes1/shiny munchlax.xml" />
+	<monster name="Shiny Riolu" file="Pokes1/shiny riolu.xml" />
+	<monster name="Shiny Lucario" file="Pokes1/shiny lucario.xml" />
+	<monster name="Shiny Hippopotas" file="Pokes1/shiny hippopotas.xml" />
+	<monster name="Shiny Hippowdon" file="Pokes1/shiny hippowdon.xml" />
+	<monster name="Shiny Skorupi" file="Pokes1/shiny skorupi.xml" />
+	<monster name="Shiny Drapion" file="Pokes1/shiny drapion.xml" />
+	<monster name="Shiny Croagunk" file="Pokes1/shiny croagunk.xml" />
+	<monster name="Shiny Toxicroak" file="Pokes1/shiny toxicroak.xml" />
+	<monster name="Shiny Carnivine" file="Pokes1/shiny carnivine.xml" />
+	<monster name="Shiny Finneon" file="Pokes1/shiny finneon.xml" />
+	<monster name="Shiny Lumineon" file="Pokes1/shiny lumineon.xml" />
+	<monster name="Shiny Mantyke" file="Pokes1/shiny mantyke.xml" />
+	<monster name="Shiny Snover" file="Pokes1/shiny snover.xml" />
+	<monster name="Shiny Abomasnow" file="Pokes1/shiny abomasnow.xml" />
+	<monster name="Shiny Weavile" file="Pokes1/shiny weavile.xml" />
+	<monster name="Shiny Magnezone" file="Pokes1/shiny magnezone.xml" />
+	<monster name="Shiny Lickilicky" file="Pokes1/shiny lickilicky.xml" />
+	<monster name="Shiny Rhyperior" file="Pokes1/shiny rhyperior.xml" />
+	<monster name="Shiny Tangrowth" file="Pokes1/shiny tangrowth.xml" />
+	<monster name="Shiny Electivire" file="Pokes1/shiny electivire.xml" />
+	<monster name="Shiny Magmortar" file="Pokes1/shiny magmortar.xml" />
+	<monster name="Shiny Togekiss" file="Pokes1/shiny togekiss.xml" />
+	<monster name="Shiny Yanmega" file="Pokes1/shiny yanmega.xml" />
+	<monster name="Shiny Leafeon" file="Pokes1/shiny leafeon.xml" />
+	<monster name="Shiny Glaceon" file="Pokes1/shiny glaceon.xml" />
+	<monster name="Shiny Gliscor" file="Pokes1/shiny gliscor.xml" />
+	<monster name="Shiny Mamoswine" file="Pokes1/shiny mamoswine.xml" />
+	<monster name="Shiny Porygon-Z" file="Pokes1/shiny porygon-z.xml" />
+	<monster name="Shiny Gallade" file="Pokes1/shiny gallade.xml" />
+	<monster name="Shiny Probopass" file="Pokes1/shiny probopass.xml" />
+	<monster name="Shiny Dusknoir" file="Pokes1/shiny dusknoir.xml" />
+	<monster name="Shiny Froslass" file="Pokes1/shiny froslass.xml" />
+	<monster name="Shiny Rotom" file="Pokes1/shiny rotom.xml" />
+	<monster name="Shiny Uxie" file="Pokes1/shiny uxie.xml" />
+	<monster name="Shiny Mesprit" file="Pokes1/shiny mesprit.xml" />
+	<monster name="Shiny Azelf" file="Pokes1/shiny azelf.xml" />
+	<monster name="Shiny Dialga" file="Pokes1/shiny dialga.xml" />
+	<monster name="Shiny Palkia" file="Pokes1/shiny palkia.xml" />
+	<monster name="Shiny Heatran" file="Pokes1/shiny heatran.xml" />
+	<monster name="Shiny Regigigas" file="Pokes1/shiny regigigas.xml" />
+	<monster name="Shiny Giratina" file="Pokes1/shiny giratina.xml" />
+	<monster name="Shiny Cresselia" file="Pokes1/shiny cresselia.xml" />
+	<monster name="Shiny Phione" file="Pokes1/shiny phione.xml" />
+	<monster name="Shiny Manaphy" file="Pokes1/shiny manaphy.xml" />
+	<monster name="Shiny Darkrai" file="Pokes1/shiny darkrai.xml" />
+	<monster name="Shiny Shaymin" file="Pokes1/shiny shaymin.xml" />
+	<monster name="Shiny Arceus" file="Pokes1/shiny arceus.xml" />
+</monsters>

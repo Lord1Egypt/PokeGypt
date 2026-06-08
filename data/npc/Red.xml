@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Red, the Pokemaster" script="red.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="1970" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="|PLAYERNAME|... Se me encontrou sabe quem sou e o que estou tentando fazer. Veio ate aqui me desafiar? Se for isso, vamos logo... tenho mais o que fazer..." />
+		<parameter key="message_decline" value="Nao atrapelhe minha jornada para pegar aquele pokemon lendario" />
+	</parameters>
+</npc>

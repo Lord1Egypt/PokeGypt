@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mark" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="130" head="39" body="122" legs="125" feet="57" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I {trade} essential stuff." />
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you? Get out of here!" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="empty pokeball,26662,2;empty greatball,26660,8;empty superball,26659,12;empty ultraball,26688,40;ultimate potion,27646,40;revive,27645,60;pkd backpack,26760,250;" />
+		<parameter key="shop_sellable" value="bag of pollem,27658,20;bird beak,27680,15;bitten apple,27681,4;bottle of poison,27672,1;comb,27687,50;dragon tooth,27667,305;electric box,27684,10;essence of fire,27669,1;feather,27706,20;fur,27689,6;future orb,27700,200;horn,27685,14;ice block,27707,16;leaves,27660,5;nail,27665,5;piece of steel,27651,1;pot of lava,27656,9;pot of moss bug,27679,20;ruby,27695,50;screw,27671,1;seed,27670,1;stone orb,27702,200;straw,27719,1;tooth,27683,4;water gem,27668,1;water pendant,27678,5;armadillo claw,27775,75;bat wing,27690,35;bear paw,27776,100;bee sting,27777,26;belt of champion,27701,500;blue ball,27721,70;blue vines,27673,60;bone,27714,60;branch of stone,27724,90;bug antenna,27691,45;bug venom,27692,180;bulb,27659,70;bull tail,27820,50;cat ear,27779,60;cow tail,27782,90;crab claw,27713,45;dark beak,27783,60;butterfly wing,27760,30;dodrio feather,27785,50;dog ears,27801,65;dome fossil,27657,800;dragon tail,27747,250;egg shell,27786,500;electric rat tail,27734,70;electric tail,27677,500;elephant foot,27787,90;farfetch'd stick,27705,150;female ear,27802,65;fire ear,27788,65;fire horse foot,27789,55;fire tail,27780,55;gem star,27790,38;giant bat wing,27761,90;giant piece of fur,27791,90;giant ruby,27778,100;gligar claw,27792,45;gosme,27708,35;great petals,27793,60;gyarados tail,27652,400;helix fossil,27661,800;horn drill,27794,80;hot fur,27795,65;insect claw,27796,90;kanga ear,27797,90;karate duck,27697,60;kick machine,27715,60;ladybug wing,27798,35;linearly guided hypnose,27712,200;locksmith of shell,27709,15;luck medallion,27693,500;magma foot,27806,500;magnet,27704,45;male ear,27803,70;microphone,27723,65;mimic clothes,27674,250;miss traces,27799,150;monkey paw,27755,45;old amber,27663,5000;onix tail,27711,180;owl feather,27804,70;piece of coral,27807,60;piece of diglett,27800,40;piece of shell,27808,60;pinsir horn,27650,50;plant foot,27805,60;plant tail,27809,50;psychic spoon,27699,90;psyduck mug,27696,60;punch machine,27698,60;rat tail,27682,26;red scale,27769,60;red wing,27811,55;reindeer horn,27726,60;scizor claw,27812,1000;scythe,27675,500;seahorse tail,27813,100;seal tail,27781,70;sheep wool,27814,60;slow tail,27703,110;stone shell,27731,35;small tail,27815,60;snake tail,27810,40;spider legs,27816,40;squirrel tail,27772,40;squirtle hull,27666,60;steel wings,27730,90;steelix tail,27725,1000;sticky hand,27817,60;strange bone,27664,90;strange feather,27774,80;strange flower,27752,55;strange rock,27818,60;strange spike,27819,55;strange tail,27756,90;tentacle,27735,80;tongue,27716,205;traces of ghost,27710,30;venom flute,27717,40;wool ball,27694,35;wooper horn,27821,70;yellow flower,27727,55;blue gem,2158,85;red gem,2156,85;fox tail,27688,85;ice bra,27676,85;worm,3976,1;horn,27686,100;fish fin,5895,100;snowball,2111,20;small stone,1294,1;dark gem,27784,1;lava shell, 27739,60;poisonous flower,27743,30;crystal onix tail,27750,200;mystic shell hat,27729,250;rock trunk,27748,150;magnetic tail,27754,120;head top,27741,25;moth wing,27773,25;old skull,27737,45;aerodactyl wing,27757,150;big bat wing,27766,50;brush tail,27728,120;long seal tail,27749,180;blue kick machine,27771,200;stone shell,27731,50;blue ball tail,27753,100;articuno feather,27653,10000;zapdos feather,27654,10000;moltres feather,27655,10000;pot of pure water,27720,1000;evil pendant,27722,1000;blue rat ear,27770,50;nature pendant,27742,1000;shiny gyarados tail,27732,300;ladybug shell,27740,60;strange electric tail,27733,60;great squirrel tail,27744,50;giant snake tail,27758,50;" />
+	</parameters>
+</npc>
+
+
+
+
+
+--	<item id="27738" article="a" name="fire box" />
+--	<item id="27759" article="a" name="bag of venom" />
+--	<item id="27762" article="a" name="giant red wing" />
+--	<item id="27763" article="a" name="giant yellow wing" />
+--	<item id="27746" article="a" name="giant green wing" />
+--	<item id="27751" article="a" name="giant blue wing" />
+--	<item id="27765" article="a" name="colorful tail" />
+--	<item id="27662" article="a" name="mollusk" />
+	<item id="27758" article="a" name="giant snake tail" />

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Sharpedo" nameDescription="a shiny sharpedo" race="water" race2="dark" experience="71" speed="286" manacost="0">
+	<level min="30" max="40"/>
+	<health now="2227" max="2227" />
+	<look type="1808" head="113" body="57" legs="95" feet="113" corpse="28374" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2319" />
+		<flag portraitid="28501" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="1891" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="143" />
+		<flag moveMagicDefenseBase="60" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="bite" interval="3000" isTarget="1" range="1"/>
+		<move name="thief" interval="5000" isTarget="1" range="1"/>
+		<move name="crunch" interval="7000" isTarget="1" range="1"/>
+		<move name="night slash" interval="9000"/>
+		<move name="skull bash" interval="9000"/>
+		<move name="surf" interval="20000"/>
+		<move name="torment" interval="20000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-180" max="-180" />
+		<attack name="bite" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="thief" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="crunch" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="night slash" interval="9000" chance="40"/>
+		<attack name="skull bash" interval="9000" chance="40"/>
+		<attack name="surf" interval="20000" chance="40"/>
+		<attack name="torment" interval="20000" chance="40"/>
+		<attack name="passive water" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="60" >
+		<defense name="passive water" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY SHARPEDO!" />
+	</voices>
+	<loot>
+		<item name="water stone" countmax="1" chance="175"/>
+		<item name="gold coin" countmax="70" chance="40000"/>
+		<item name="water gem" countmax="2" chance="40000"/>
+		<item name="dark gem" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

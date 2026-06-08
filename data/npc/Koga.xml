@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Koga" script="koga.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2595" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Fwahahaha! Voce, |PLAYERNAME|, uma mera crianca, se atreve a me desafiar?" />
+		<parameter key="message_decline" value="Continue sua jornada!" />
+	</parameters>
+</npc>

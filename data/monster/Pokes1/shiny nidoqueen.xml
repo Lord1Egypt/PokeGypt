@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Nidoqueen" nameDescription="a shiny nidoqueen" race="ground" race2="poison" experience="78" speed="228" manacost="0">
+	<level min="25" max="40"/>
+	<health now="2873" max="2873" />
+	<look type="1202" head="113" body="57" legs="95" feet="113" corpse="27531" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2031" />
+		<flag portraitid="27398" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="3" />
+		<flag moveMagicAttackBase="113" />
+		<flag moveMagicDefenseBase="128" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="scratch" interval="3000" isTarget="1" range="1"/>
+		<move name="double kick" interval="3000" isTarget="1"/>
+		<move name="poison sting" interval="3000" isTarget="1"/>
+		<move name="crunch" interval="7000" isTarget="1" range="1"/>
+		<move name="bite" interval="3000" isTarget="1" range="1"/>
+		<move name="strength" interval="5000" isTarget="1" range="1"/>
+		<move name="mega kick" interval="7000" isTarget="1" range="1"/>
+		<move name="body slam" interval="7000" isTarget="1" range="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-138" max="-138" />
+		<attack name="scratch" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="double kick" interval="3000" chance="40" target="1"/>
+		<attack name="poison sting" interval="3000" chance="40" target="1"/>
+		<attack name="crunch" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="bite" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="strength" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="mega kick" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="body slam" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="passive ground" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="131" >
+		<defense name="passive ground" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY NIDOQUEEN!" />
+	</voices>
+	<loot>
+		<item name="venom stone" countmax="1" chance="163"/>
+		<item name="gold coin" countmax="65" chance="40000"/>
+		<item name="bottle of poison" countmax="2" chance="40000"/>
+		<item name="sandbag" countmax="1" chance="5000"/>
+		<item name="female ear" countmax="2" chance="5000"/>
+
+	</loot>
+</monster>

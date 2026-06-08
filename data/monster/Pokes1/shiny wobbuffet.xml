@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Wobbuffet" nameDescription="a shiny wobbuffet" race="psychic" race2="none" experience="68" speed="100" manacost="0">
+	<level min="30" max="50"/>
+	<health now="6052" max="6052" />
+	<look type="1675" head="113" body="57" legs="95" feet="113" corpse="28171" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2202" />
+		<flag portraitid="28265" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="1" />
+		<flag catchchance="5" />
+		<flag moveMagicAttackBase="50" />
+		<flag moveMagicDefenseBase="87" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="rest" interval="60000"/>
+		<move name="zen headbutt" interval="7000" isTarget="1"/>
+		<move name="confusion" interval="14000"/>
+		<move name="psychic" interval="20000"/>
+		<move name="psystrike" interval="7000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-50" max="-50" />
+		<attack name="rest" interval="60000" chance="40"/>
+		<attack name="zen headbutt" interval="7000" chance="40" target="1"/>
+		<attack name="confusion" interval="14000" chance="40"/>
+		<attack name="psychic" interval="20000" chance="40"/>
+		<attack name="psystrike" interval="7000" chance="40" target="1"/>
+		<attack name="passive psychic" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="87" >
+		<defense name="passive psychic" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY WOBBUFFET!" />
+	</voices>
+	<loot>
+		<item name="enigma stone" countmax="1" chance="200"/>
+		<item name="gold coin" countmax="80" chance="40000"/>
+		<item name="blue gem" countmax="2" chance="10000"/>
+		<item name="future orb" countmax="2" chance="30000"/>
+
+	</loot>
+</monster>

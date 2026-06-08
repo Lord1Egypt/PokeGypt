@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Misty" script="misty.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2715" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|, voce e um cara novo na regiao! Treinadores que querem se tornar profissionais tem que ter uma postura sobre seus Pokemons ! Qual e a sua abordagem apos capturar seus Pokemons? Minha postura e partir para tudo ou nada na ofensiva com meus Pokemon tipo Agua! Ainda quer me desafiar?" />
+		<parameter key="message_decline" value="Continue sua jornada!" />
+	</parameters>
+</npc>

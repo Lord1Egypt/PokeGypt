@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Ancient Ninetales" nameDescription="an ancient ninetales" race="fire" race2="none" experience="130" speed="400" manacost="0">
+	<level min="80" max="100"/>
+	<health now="3111" max="3111" />
+	<look type="1207" head="113" body="57" legs="95" feet="113" corpse="38703" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="3005" />
+		<flag portraitid="38733" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="1377" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="162" />
+		<flag moveMagicDefenseBase="200" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="ember" interval="3000" isTarget="1"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="flamethrower" interval="11000"/>
+		<move name="fireball" interval="14000" isTarget="1"/>
+		<move name="inferno" interval="14000"/>
+		<move name="fire blast" interval="17000"/>
+		<move name="fire spin" interval="10000"/>
+		<move name="extreme speed" interval="7000" isTarget="1"/>
+		<move name="overheat" interval="20000"/>
+		<move name="ancient power" interval="20000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-152" max="-152" />
+		<attack name="ember" interval="3000" chance="40" target="1"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="flamethrower" interval="11000" chance="40"/>
+		<attack name="fireball" interval="14000" chance="40" target="1"/>
+		<attack name="inferno" interval="14000" chance="40"/>
+		<attack name="fire blast" interval="17000" chance="40"/>
+		<attack name="fire spin" interval="10000" chance="40"/>
+		<attack name="extreme speed" interval="7000" chance="40" target="1"/>
+		<attack name="overheat" interval="20000" chance="40"/>
+		<attack name="ancient power" interval="20000" chance="40"/>
+		<attack name="passive fire" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="150" >
+		<defense name="passive fire" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="ANCIENT NINETALES!" />
+	</voices>
+	<loot>
+		<item name="fire stone" countmax="2" chance="450"/>
+		<item name="platinum coin" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

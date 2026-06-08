@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Os lagos de Cerulean estao com um nivel muito elevado." />
+	<announce delay="60000" type="event" message="Muitos pokemons maritimos escaparam dos lagos! Ajude a captura-los!" />
+	<announce delay="110000" type="event" message="Shinys avistados em frente ao CP de Cerulean!" />
+	<areaspawn delay="68000" fromx="1038" fromy="941" fromz="7" tox="1099" toy="885" toz="7">
+		<monster name="Magikarp" amount="150" />
+		<monster name="Horsea" amount="10" />
+		<monster name="Goldeen" amount="10" />
+		<monster name="Krabby" amount="10" />
+		<monster name="Tentacool" amount="10" />
+		<monster name="Poliwag" amount="10" />
+		<monster name="Staryu" amount="10" />
+	</areaspawn>
+	<areaspawn delay="118000" fromx="1040" fromy="911" fromz="7" tox="1063" toy="915" toz="7">
+		<monster name="Shiny Magikarp" amount="1" />
+		<monster name="Shiny Horsea" amount="2" />
+		<monster name="Shiny Goldeen" amount="2" />
+		<monster name="Shiny Krabby" amount="2" />
+		<monster name="Shiny Tentacool" amount="1" />
+		<monster name="Shiny Poliwag" amount="2" />
+		<monster name="Shiny Staryu" amount="2" />
+	</areaspawn>
+</raid>

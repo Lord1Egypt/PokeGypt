@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Lopunny" nameDescription="a shiny lopunny" race="normal" race2="none" experience="72" speed="316" manacost="0">
+	<level min="12" max="20"/>
+	<health now="1666" max="1666" />
+	<look type="3307" head="113" body="57" legs="95" feet="113" corpse="38830" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2428" />
+		<flag portraitid="0" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="81" />
+		<flag moveMagicDefenseBase="144" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="tackle" interval="3000" isTarget="1" range="1"/>
+		<move name="body slam" interval="9000" isTarget="1" range="1"/>
+		<move name="hyper beam" interval="17000"/>
+		<move name="recover" interval="20000"/>
+		<move name="extreme speed" interval="10000" isTarget="1"/>
+		<move name="brick break" interval="14000"/>
+		<move name="low kick" interval="5000" isTarget="1" range="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-114" max="-114" />
+		<attack name="tackle" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="body slam" interval="9000" chance="40" range="1" target="1"/>
+		<attack name="hyper beam" interval="17000" chance="40"/>
+		<attack name="recover" interval="20000" chance="40"/>
+		<attack name="extreme speed" interval="10000" chance="40" target="1"/>
+		<attack name="brick break" interval="14000" chance="40"/>
+		<attack name="low kick" interval="5000" chance="40" range="1" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="126" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY LOPUNNY!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="32" chance="40000"/>
+		<item name="comb" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

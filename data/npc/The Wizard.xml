@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="The Wizard" script="thewizard.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="229" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Os zumbis estao por toda parte! Preciso de pedacos dos seus cerebros para minha nova pocao. Posso te oferecer {outfits} em troca" />
+		<parameter key="message_decline" value="Continue sua jornada!" />
+	</parameters>
+</npc>

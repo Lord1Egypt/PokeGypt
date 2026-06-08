@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Mew" nameDescription="a shiny mew" race="psychic" race2="none" experience="5625" speed="900" manacost="0">
+	<level min="90" max="100"/>
+	<health now="76500" max="76500" />
+	<look type="1302" head="113" body="57" legs="95" feet="113" corpse="27631" />
+	<targetchange interval="5000" chance="30" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2151" />
+		<flag portraitid="27498" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="1353" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="1" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="450" />
+		<flag moveMagicDefenseBase="450" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+		<event name="LegendariesDeath"/>
+	</script>
+	<moves>
+		<move name="focus punch" interval="5000"/>
+		<move name="hyper beam" interval="4250"/>
+		<move name="psychic" interval="5000"/>
+		<move name="rock slide" interval="5000"/>
+		<move name="hurricane" interval="5000"/>
+		<move name="surf" interval="5000"/>
+		<move name="recover" interval="15000"/>
+		<move name="overheat" interval="5000"/>
+		<move name="earthquake" interval="5000"/>
+		<move name="thunder" interval="5000"/>
+		<move name="leaf storm" interval="5000"/>
+		<move name="blizzard" interval="5000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-450" max="-450" />
+		<attack name="focus punch" interval="5000" chance="40"/>
+		<attack name="hyper beam" interval="4250" chance="40"/>
+		<attack name="psychic" interval="5000" chance="40"/>
+		<attack name="rock slide" interval="5000" chance="40"/>
+		<attack name="hurricane" interval="5000" chance="40"/>
+		<attack name="surf" interval="5000" chance="40"/>
+		<attack name="recover" interval="15000" chance="40"/>
+		<attack name="overheat" interval="5000" chance="40"/>
+		<attack name="earthquake" interval="5000" chance="40"/>
+		<attack name="thunder" interval="5000" chance="40"/>
+		<attack name="leaf storm" interval="5000" chance="40"/>
+		<attack name="blizzard" interval="5000" chance="40"/>
+		<attack name="passive psychic" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="450" >
+		<defense name="passive psychic" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY MEW!" />
+	</voices>
+	<loot>
+		<item name="enigma stone" countmax="1" chance="475"/>
+		<item name="gold coin" countmax="190" chance="40000"/>
+
+	</loot>
+</monster>

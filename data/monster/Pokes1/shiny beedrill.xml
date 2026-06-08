@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Beedrill" nameDescription="a shiny beedrill" race="bug" race2="poison" experience="62" speed="226" manacost="0">
+	<level min="20" max="30"/>
+	<health now="2074" max="2074" />
+	<look type="1186" head="113" body="57" legs="95" feet="113" corpse="27515" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2015" />
+		<flag portraitid="27382" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="6" />
+		<flag moveMagicAttackBase="68" />
+		<flag moveMagicDefenseBase="120" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="poison sting" interval="3000" isTarget="1"/>
+		<move name="struggle bug" interval="7000" isTarget="1" range="1"/>
+		<move name="bug bite" interval="5000" isTarget="1" range="1"/>
+		<move name="fury attack" interval="3000" isTarget="1"/>
+		<move name="twineedle" interval="5000"/>
+		<move name="pursuit" interval="5000" isTarget="1"/>
+		<move name="pin missile" interval="5000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-135" max="-135" />
+		<attack name="poison sting" interval="3000" chance="40" target="1"/>
+		<attack name="struggle bug" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="bug bite" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="fury attack" interval="3000" chance="40" target="1"/>
+		<attack name="twineedle" interval="5000" chance="40"/>
+		<attack name="pursuit" interval="5000" chance="40" target="1"/>
+		<attack name="pin missile" interval="5000" chance="40" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="60" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY BEEDRILL!" />
+	</voices>
+	<loot>
+		<item name="cocoon stone" countmax="1" chance="125"/>
+		<item name="gold coin" countmax="50" chance="40000"/>
+		<item name="bottle of poison" countmax="2" chance="40000"/>
+		<item name="pot of moss bug" countmax="2" chance="40000"/>
+		<item name="pot of moss bug" countmax="1" chance="5000"/>
+		<item name="bee sting" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

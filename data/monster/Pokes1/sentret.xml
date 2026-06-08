@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Sentret" nameDescription="a sentret" race="normal" race2="none" experience="22" speed="40" manacost="0">
+	<level min="7" max="15"/>
+	<health now="748" max="748" />
+	<look type="1064" head="113" body="57" legs="95" feet="113" corpse="27022" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="161" />
+		<flag portraitid="27277" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="28" />
+		<flag moveMagicAttackBase="35" />
+		<flag moveMagicDefenseBase="45" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="scratch" interval="3000" isTarget="1" range="1"/>
+		<move name="quick attack" interval="3000" isTarget="1"/>
+		<move name="fury attack" interval="3000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Furret" level="20" chance="65" itemName="heart stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-46" max="-46" />
+		<attack name="scratch" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="quick attack" interval="3000" chance="40" target="1"/>
+		<attack name="fury attack" interval="3000" chance="40" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="34" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SENTRET!" />
+	</voices>
+	<loot>
+		<item name="heart stone" countmax="1" chance="55"/>
+		<item name="gold coin" countmax="22" chance="40000"/>
+		<item name="squirrel tail" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

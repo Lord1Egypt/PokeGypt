@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Jirachi" nameDescription="a jirachi" race="psychic" race2="steel" experience="3750" speed="600" manacost="0">
+	<level min="90" max="99"/>
+	<health now="51000" max="51000" />
+	<look type="1566" head="113" body="57" legs="95" feet="113" corpse="27957" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="385" />
+		<flag portraitid="28092" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="300" />
+		<flag moveMagicDefenseBase="300" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="confusion" interval="7000"/>
+		<move name="rest" interval="30000"/>
+		<move name="swift" interval="2500" isTarget="1"/>
+		<move name="zen headbutt" interval="3500" isTarget="1"/>
+		<move name="future sight" interval="7000" isTarget="1"/>
+		<move name="psyshock" interval="5500"/>
+		<move name="hyper beam" interval="8500"/>
+		<move name="psychic" interval="10000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-300" max="-300" />
+		<attack name="confusion" interval="7000" chance="40"/>
+		<attack name="rest" interval="30000" chance="40"/>
+		<attack name="swift" interval="2500" chance="40" target="1"/>
+		<attack name="zen headbutt" interval="3500" chance="40" target="1"/>
+		<attack name="future sight" interval="7000" chance="40" target="1"/>
+		<attack name="psyshock" interval="5500" chance="40"/>
+		<attack name="hyper beam" interval="8500" chance="40"/>
+		<attack name="psychic" interval="10000" chance="40"/>
+		<attack name="passive psychic" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="300" >
+		<defense name="passive psychic" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="JIRACHI!" />
+	</voices>
+	<loot>
+		<item name="enigma stone" countmax="1" chance="473"/>
+		<item name="gold coin" countmax="189" chance="40000"/>
+
+	</loot>
+</monster>

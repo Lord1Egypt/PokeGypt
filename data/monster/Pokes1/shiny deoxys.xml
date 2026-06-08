@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Deoxys" nameDescription="a shiny deoxys" race="psychic" race2="none" experience="3938" speed="1350" manacost="0">
+	<level min="90" max="99"/>
+	<health now="38250" max="38250" />
+	<look type="1567" head="113" body="57" legs="95" feet="113" corpse="38723" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2386" />
+		<flag portraitid="28093" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="675" />
+		<flag moveMagicDefenseBase="225" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="knock off" interval="1250" isTarget="1" range="1"/>
+		<move name="rest" interval="15000"/>
+		<move name="pursuit" interval="1250" isTarget="1"/>
+		<move name="zen headbutt" interval="1750" isTarget="1"/>
+		<move name="future sight" interval="3500" isTarget="1"/>
+		<move name="psyshock" interval="2750"/>
+		<move name="hyper beam" interval="4250"/>
+		<move name="psychic" interval="5000"/>
+		<move name="ancient power" interval="5000"/>
+		<move name="cosmic power" interval="20000"/>
+		<move name="night shade" interval="5000"/>
+		<move name="recover" interval="15000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-675" max="-675" />
+		<attack name="knock off" interval="1250" chance="40" range="1" target="1"/>
+		<attack name="rest" interval="15000" chance="40"/>
+		<attack name="pursuit" interval="1250" chance="40" target="1"/>
+		<attack name="zen headbutt" interval="1750" chance="40" target="1"/>
+		<attack name="future sight" interval="3500" chance="40" target="1"/>
+		<attack name="psyshock" interval="2750" chance="40"/>
+		<attack name="hyper beam" interval="4250" chance="40"/>
+		<attack name="psychic" interval="5000" chance="40"/>
+		<attack name="ancient power" interval="5000" chance="40"/>
+		<attack name="cosmic power" interval="20000" chance="40"/>
+		<attack name="night shade" interval="5000" chance="40"/>
+		<attack name="recover" interval="15000" chance="40"/>
+		<attack name="passive psychic" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="225" >
+		<defense name="passive psychic" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY DEOXYS!" />
+	</voices>
+	<loot>
+		<item name="enigma stone" countmax="1" chance="473"/>
+		<item name="gold coin" countmax="189" chance="40000"/>
+
+	</loot>
+</monster>

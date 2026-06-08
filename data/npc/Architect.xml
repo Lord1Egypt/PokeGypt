@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Architect" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="133" head="19" body="76" legs="60" feet="1" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ola |PLAYERNAME|. Eu faco {trade} com moveis para casa." />
+		<parameter key="message_decline" value="|TOTALCOST| e muito para voce? Saia ja daqui!" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="
+			amphora,2023,500,0;
+			armor rack kit,6114,9000;
+			barrel kit,3919,1200;
+			big table kit,3911,3000;
+			birdcage kit,3922,5000;
+			blue pillow,1686,2500;
+			blue tapestry,1872,2500;
+			bookcase kit,6373,7000;
+			box,1738,1000;
+			chest,1740,1000;
+			chimney kit,8692,20000;
+			coal basin kit,3932,2500;
+			crate,1739,1000;
+			cuckoo clock,1877,4000;
+			drawer kit,3915,1800;
+			dresser kit,3916,2500;
+			flower bowl,2102,600;
+			globe kit,3926,5000;
+			god flowers,2100,500;
+			goldfish bowl,5928,5000;
+			green cushioned chair kit,3902,4000;
+			green pillow,1688,2500;
+			green tapestry,1860,2500;
+			harp kit,3934,5000;
+			heart pillow,1685,3000;
+			honey flower,2103,500;
+			indoor plant kit,3937,800;
+			knight statue kit,3928,5000;
+			large amphora kit,3931,5000;
+			locker kit,3917,3000;
+			minotaur statue kit,3929,5000;
+			orange tapestry,1866,2500;
+			oven kit,6372,8000;
+			pendulum clock kit,3927,7500;
+			piano kit,3933,20000;
+			picture,1852,5000;
+			picture,1854,5000;
+			picture,1853,5000;
+			potted flower,2104,500;
+			purple tapestry,1857,2500;
+			red cushioned chair kit,3901,4000;
+			red pillow,1687,2500;
+			red tapestry,1869,2500;
+			rocking chair kit,3904,2500;
+			rocking horse kit,3926,3000;
+			round blue pillow,1690,2500;
+			round purple pillow,1692,2500;
+			round red pillow,1691,2500;
+			round table kit,14328,2500;
+			round turquoise pillow,1693,2500;
+			small blue pillow,1681,2000;
+			small green pillow,1679,2000;
+			small orange pillow,1682,2000;
+			small purple pillow,1678,2000;
+			small red pillow,1680,20;
+			small table kit,3908,20;
+			small turquoise pillow,1683,20;
+			small white pillow,1684,2000;
+			sofa chair kit,3905,5500;
+			square table kit,14329,2500;
+			table lamp kit,3924,3500;
+			telescope kit,3925,7000;
+			treasure chest,1746,100000;
+			trophy stand,7936,5000;
+			trough kit,3918,700;
+			trunk kit,3920,1000;
+			vase,2008,300,0;
+			cabinet kit,20254,9000;
+			drawer kit,20257,4000;
+			wardrobe kit,20255,5000;
+			wall mirror,1851,4000;
+			wall mirror,1848,4000;
+			wall mirror,1845,4000;
+			water pipe,2099,4000;
+			weapon rack kit,6115,9000;
+			white tapestry,1880,2500;
+			wooden chair kit,3903,1500;
+			yellow pillow,1689,2500;
+			yellow tapestry,1863,2500;" />
+	</parameters>
+</npc>
+

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Erika" script="erika.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2598" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ola, |PLAYERNAME| Tempo agradavel, nao e? Esta tao agradavel... Oh! Devo ter cochilado. Bem vindo. Meu nome e Erika. Eu sou a Lider do Ginasio de Celadon. Eu ensino a arte de arranjar flores. Meus Pokemons são do tipo Planta. Voce esta pronto para me desafiar?." />
+		<parameter key="message_decline" value="Continue sua jornada!" />
+	</parameters>
+</npc>

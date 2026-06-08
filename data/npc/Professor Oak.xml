@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Professor Oak" script="professor_oak.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100" />
+	<look type="1987" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ola, |PLAYERNAME|. Meu nome e Professor Oak e pesquiso os pokemons ha anos. Preciso de ajuda para {catalogar} os Pokemons e resolver um {problema}." />
+		<parameter key="message_decline" value="Ate mais tarde." />
+	</parameters>
+</npc>

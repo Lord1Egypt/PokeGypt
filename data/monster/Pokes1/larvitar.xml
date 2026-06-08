@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Larvitar" nameDescription="a larvitar" race="rock" race2="ground" experience="31" speed="82" manacost="0">
+	<level min="5" max="15"/>
+	<health now="1071" max="1071" />
+	<look type="1149" head="113" body="57" legs="95" feet="113" corpse="27107" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="246" />
+		<flag portraitid="27362" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="23" />
+		<flag moveMagicAttackBase="45" />
+		<flag moveMagicDefenseBase="50" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="bite" interval="3000" isTarget="1" range="1"/>
+		<move name="thrash" interval="7000" isTarget="1" range="1"/>
+		<move name="crunch" interval="7000" isTarget="1" range="1"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Pupitar" level="30" chance="30" itemName="rock stone" count="1"/>
+		<evolution name="Pupitar" level="30" chance="30" itemName="earth stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-64" max="-64" />
+		<attack name="bite" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="thrash" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="crunch" interval="7000" chance="40" range="1" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="50" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="LARVITAR!" />
+	</voices>
+	<loot>
+		<item name="rock stone" countmax="1" chance="50"/>
+		<item name="gold coin" countmax="20" chance="40000"/>
+		<item name="sandbag" countmax="2" chance="40000"/>
+		<item name="small stone" countmax="2" chance="40000"/>
+		<item name="stone orb" countmax="1" chance="5000"/>
+		<item name="sandbag" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

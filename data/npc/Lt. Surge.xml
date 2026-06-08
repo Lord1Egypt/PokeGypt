@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lt. Surge" script="lt_surge.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2602" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ei, |PLAYERNAME|! O que você acha que esta fazendo aqui? Voce nao vivera muito em combate! Meus Pokemons eletricos me salvaram durante a guerra! Eles chocavam meus inimigos em instantes! Farao o mesmo com voce! Voce esta pronto para me desafiar?." />
+		<parameter key="message_decline" value="Continue sua jornada!" />
+	</parameters>
+</npc>

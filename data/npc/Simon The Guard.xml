@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Simon, the Guard" script="simon_the_guard.lua" walkinterval="0" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2037" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Ola, |PLAYERNAME|. Esta e a Victory Road, que da acesso a liga Pokemon. So deixarei {passar} os treinadores mais aptos! Lembre-se que so pode tentar 1 vez por dia." />
+		<parameter key="message_decline" value="Tchau." />
+	</parameters>
+</npc>

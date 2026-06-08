@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+	<announce delay="1000" type="event" message="Pokemons de Natal estao a caminho de Saffron." />
+	<announce delay="60000" type="event" message="Invasao Natalina em Saffron!" />
+	<areaspawn delay="68000" fromx="1025" fromy="1036" fromz="7" tox="1079" toy="1078" toz="7">
+		<monster name="Santa Snorlax" amount="1" />
+		<monster name="Xmas Diglett" amount="3" />
+		<monster name="Xmas Caterpie" amount="3" />
+		<monster name="Xmas Psyduck" amount="3" />
+		<monster name="Xmas Seel" amount="3" />
+		<monster name="Xmas Pikachu" amount="3" />
+		<monster name="Xmas Jynx" amount="3" />
+		<monster name="Xmas Bulbasaur" amount="3" />
+		<monster name="Xmas Ditto" amount="3" />
+		<monster name="Xmas Elekid" amount="3" />
+		<monster name="Xmas Eevee" amount="3" />
+		<monster name="Xmas Charmander" amount="3" />
+		<monster name="Xmas Squirtle" amount="3" />
+		<monster name="Xmas Rattata" amount="3" />
+		<monster name="Xmas Golbat" amount="4" />
+		<monster name="Xmas Aipom" amount="3" />
+		<monster name="Xmas Ledyba" amount="2" />
+		<monster name="Xmas Totodile" amount="3" />
+		<monster name="Xmas Abra" amount="3" />
+		<monster name="Xmas Chikorita" amount="4" />
+		<monster name="Xmas Meowth" amount="4" />
+		<monster name="Xmas Gastly" amount="4" />
+		<monster name="Xmas Jigglypuff" amount="4" />
+		<monster name="Xmas Clefairy" amount="4" />
+		<monster name="Xmas Wooper" amount="4" />
+		<monster name="Xmas Togepi" amount="4" />
+		<monster name="Xmas Teddiursa" amount="4" />
+		<monster name="Xmas Machop" amount="4" />
+		<monster name="Xmas Cubone" amount="3" />
+		<monster name="Xmas Hitmontop" amount="3" />
+		<monster name="Xmas Mantine" amount="3" />
+		<monster name="Santa Blissey" amount="3" />
+		<monster name="Reindeer Miltank" amount="3" />
+		<monster name="Grinch Armaldo" amount="2" />
+		<monster name="Snowman Aggron" amount="2" />
+		<monster name="Decorated Sudowoodo" amount="2" />
+		<monster name="Grinch Banette" amount="2" />
+	</areaspawn>
+</raid>

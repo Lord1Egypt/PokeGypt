@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Registeel" nameDescription="a registeel" race="steel" race2="none" experience="3250" speed="300" manacost="0">
+	<level min="90" max="99"/>
+	<health now="40800" max="40800" />
+	<look type="1560" head="113" body="57" legs="95" feet="113" corpse="27951" />
+	<targetchange interval="5000" chance="30" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="379" />
+		<flag portraitid="28086" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="225" />
+		<flag moveMagicDefenseBase="450" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+		<event name="LegendariesDeath"/>
+	</script>
+	<moves>
+		<move name="metal claw" interval="4500"/>
+		<move name="curse" interval="5000" isTarget="1"/>
+		<move name="gyro ball" interval="8500"/>
+		<move name="iron head" interval="3500" isTarget="1"/>
+		<move name="hammer arm" interval="3500"/>
+		<move name="zap cannon" interval="8500"/>
+		<move name="hyper beam" interval="8500"/>
+		<move name="ancient power" interval="10000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-225" max="-225" />
+		<attack name="metal claw" interval="4500" chance="40"/>
+		<attack name="curse" interval="5000" chance="40" target="1"/>
+		<attack name="gyro ball" interval="8500" chance="40"/>
+		<attack name="iron head" interval="3500" chance="40" target="1"/>
+		<attack name="hammer arm" interval="3500" chance="40"/>
+		<attack name="zap cannon" interval="8500" chance="40"/>
+		<attack name="hyper beam" interval="8500" chance="40"/>
+		<attack name="ancient power" interval="10000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="450" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="REGISTEEL!" />
+	</voices>
+	<loot>
+		<item name="metal coat" countmax="1" chance="473"/>
+		<item name="gold coin" countmax="189" chance="40000"/>
+		<item name="piece of steel" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

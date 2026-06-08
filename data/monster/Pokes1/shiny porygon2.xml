@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Porygon2" nameDescription="a shiny porygon2" race="normal" race2="none" experience="80" speed="180" manacost="0">
+	<level min="30" max="40"/>
+	<health now="2703" max="2703" />
+	<look type="1706" head="113" body="57" legs="95" feet="113" corpse="28202" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2233" />
+		<flag portraitid="28296" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="1724" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="1" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="158" />
+		<flag moveMagicDefenseBase="143" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="shadow ball" interval="5000" isTarget="1"/>
+		<move name="psychic" interval="20000"/>
+		<move name="psyshock" interval="11000"/>
+		<move name="recover" interval="60000"/>
+		<move name="zap cannon" interval="17000"/>
+		<move name="blizzard" interval="20000"/>
+		<move name="thunder" interval="20000"/>
+		<move name="solar beam" interval="17000"/>
+		<move name="aerial ace" interval="11000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Shiny Porygon-Z" level="45" chance="30" itemName="heart stone" count="50"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-120" max="-120" />
+		<attack name="shadow ball" interval="5000" chance="40" target="1"/>
+		<attack name="psychic" interval="20000" chance="40"/>
+		<attack name="psyshock" interval="11000" chance="40"/>
+		<attack name="recover" interval="60000" chance="40"/>
+		<attack name="zap cannon" interval="17000" chance="40"/>
+		<attack name="blizzard" interval="20000" chance="40"/>
+		<attack name="thunder" interval="20000" chance="40"/>
+		<attack name="solar beam" interval="17000" chance="40"/>
+		<attack name="aerial ace" interval="11000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="135" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY PORYGON2!" />
+	</voices>
+	<loot>
+		<item name="heart stone" countmax="1" chance="175"/>
+		<item name="gold coin" countmax="70" chance="40000"/>
+
+	</loot>
+</monster>

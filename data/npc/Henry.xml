@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Henry" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="130" head="0" body="109" legs="128" feet="128" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I {trade} essential stuff." />
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you? Get out of here!" />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="leaf stone,26731,2000;water stone,26736,2000;venom stone,26735,2000;thunder stone,26734,2000;rock stone,26733,2000;punch stone,26732,2000;fire stone,26728,2000;ice stone,26730,2000;cocoon stone,26724,2000;crystal stone,26725,2000;crystal stone,26725,2000;darkness stone,26726,2000;earth stone,26742,2000;enigma stone,26727,2000;heart stone,26729,2000;metal coat,26747,2000;sun stones,26748,2000;feather stone,26743,2000;king's rock stone,26746,2000;dragon stone,26744,2000;" />
+		<parameter key="shop_buyable" value="leaf stone,26731,5000;water stone,26736,5000;venom stone,26735,5000;thunder stone,26734,5000;rock stone,26733,5000;punch stone,26732,5000;fire stone,26728,5000;ice stone,26730,5000;cocoon stone,26724,5000;crystal stone,26725,5000;crystal stone,26725,5000;darkness stone,26726,5000;earth stone,26742,5000;enigma stone,26727,5000;heart stone,26729,5000;metal coat,26747,5000;sun stones,26748,5000;feather stone,26743,5000;king's rock stone,26746,5000;dragon stone,26744,5000;" />
+	</parameters>
+</npc>
+

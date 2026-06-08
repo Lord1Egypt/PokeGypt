@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Chimchar" nameDescription="a chimchar" race="fire" race2="none" experience="30" speed="122" manacost="0">
+	<level min="5" max="12"/>
+	<health now="748" max="748" />
+	<look type="2998" head="113" body="57" legs="95" feet="113" corpse="38436" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="390" />
+		<flag portraitid="0" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="23" />
+		<flag moveMagicAttackBase="58" />
+		<flag moveMagicDefenseBase="44" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="flamethrower" interval="11000"/>
+		<move name="ember" interval="3000" isTarget="1"/>
+		<move name="smog" interval="14000"/>
+		<move name="fire spin" interval="14000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Monferno" level="20" chance="30" itemName="fire stone" count="5"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-58" max="-58" />
+		<attack name="flamethrower" interval="11000" chance="40"/>
+		<attack name="ember" interval="3000" chance="40" target="1"/>
+		<attack name="smog" interval="14000" chance="40"/>
+		<attack name="fire spin" interval="14000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="44" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="CHIMCHAR!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="17" chance="40000"/>
+		<item name="essence of fire" countmax="4" chance="40000"/>
+		<item name="pot of lava" countmax="1" chance="50000"/>
+
+	</loot>
+</monster>

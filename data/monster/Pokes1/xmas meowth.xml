@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Xmas Meowth" nameDescription="a xmas meowth" race="normal" race2="none" experience="45" speed="270" manacost="0">
+	<level min="1" max="10"/>
+	<health now="1275" max="1275" />
+	<look type="3152" head="113" body="57" legs="95" feet="113" corpse="38761" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="3064" />
+		<flag portraitid="27168" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="8" />
+		<flag moveMagicAttackBase="60" />
+		<flag moveMagicDefenseBase="60" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="scratch" interval="3000" isTarget="1" range="1"/>
+		<move name="bite" interval="3000" isTarget="1" range="1"/>
+		<move name="payday" interval="3000"/>
+		<move name="feint attack" interval="5000" isTarget="1" range="1"/>
+		<move name="slash" interval="5000" isTarget="1" range="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-68" max="-68" />
+		<attack name="scratch" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="bite" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="payday" interval="3000" chance="40"/>
+		<attack name="feint attack" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="slash" interval="5000" chance="40" range="1" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="53" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="XMAS MEOWTH!" />
+	</voices>
+	<loot>
+		<item name="heart stone" countmax="1" chance="50"/>
+		<item name="gold coin" countmax="20" chance="40000"/>
+		<item name="nail" countmax="1" chance="5000"/>
+		<item name="luck medallion" countmax="1" chance="5000"/>
+		<item name="wool ball" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

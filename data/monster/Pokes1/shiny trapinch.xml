@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Trapinch" nameDescription="a shiny trapinch" race="ground" race2="none" experience="45" speed="30" manacost="0">
+	<level min="8" max="20"/>
+	<health now="1428" max="1428" />
+	<look type="1817" head="113" body="57" legs="95" feet="113" corpse="28383" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2328" />
+		<flag portraitid="28510" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="8" />
+		<flag moveMagicAttackBase="68" />
+		<flag moveMagicDefenseBase="68" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="bite" interval="3000" isTarget="1" range="1"/>
+		<move name="sand attack" interval="10000"/>
+		<move name="feint attack" interval="5000" isTarget="1" range="1"/>
+		<move name="crunch" interval="7000" isTarget="1" range="1"/>
+		<move name="dig" interval="14000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Shiny Vibrava" level="20" chance="30" itemName="rock stone" count="5"/>
+		<evolution name="Shiny Vibrava" level="20" chance="30" itemName="crystal stone" count="5"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-150" max="-150" />
+		<attack name="bite" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="sand attack" interval="10000" chance="40"/>
+		<attack name="feint attack" interval="5000" chance="40" range="1" target="1"/>
+		<attack name="crunch" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="dig" interval="14000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="68" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY TRAPINCH!" />
+	</voices>
+	<loot>
+		<item name="rock stone" countmax="1" chance="70"/>
+		<item name="gold coin" countmax="28" chance="40000"/>
+		<item name="sandbag" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

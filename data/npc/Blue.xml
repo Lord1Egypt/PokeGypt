@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Blue, the Champion" script="blue.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2599" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Eu estava ansioso para ver voce, |PLAYERNAME|! Eu sou o campeao da Liga Pokemon! Voce sabe o que isso significa? Significa que eu sou o treinador mais poderoso do mundo!" />
+		<parameter key="message_decline" value="Ande logo! Vamos acabar com isso de uma vez!" />
+	</parameters>
+</npc>

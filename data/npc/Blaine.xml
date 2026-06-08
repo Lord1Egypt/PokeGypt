@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Blaine" script="blaine.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2591" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Hah! Eu sou o Blaine! Eu sou o Lider do Ginasio de Cinnabar! Meus Pokemons de Fogo vao incinerar qualquer adversario! Quer ser meu adversario? HAHAHA" />
+		<parameter key="message_decline" value="Continue sua jornada!" />
+	</parameters>
+</npc>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Snorunt" nameDescription="a snorunt" race="ice" race2="none" experience="31" speed="100" manacost="0">
+	<level min="10" max="20"/>
+	<health now="1071" max="1071" />
+	<look type="1542" head="113" body="57" legs="95" feet="113" corpse="27933" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="361" />
+		<flag portraitid="28068" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="23" />
+		<flag moveMagicAttackBase="50" />
+		<flag moveMagicDefenseBase="50" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="powder snow" interval="5000" isTarget="1"/>
+		<move name="bite" interval="3000" isTarget="1" range="1"/>
+		<move name="headbutt" interval="5000" isTarget="1" range="1"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Glalie" level="25" chance="45" itemName="ice stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-50" max="-50" />
+		<attack name="powder snow" interval="5000" chance="40" target="1"/>
+		<attack name="bite" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="headbutt" interval="5000" chance="40" range="1" target="1"/>
+
+	</attacks>
+	<defenses armor="0" defense="50" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SNORUNT!" />
+	</voices>
+	<loot>
+		<item name="ice stone" countmax="1" chance="75"/>
+		<item name="gold coin" countmax="30" chance="40000"/>
+		<item name="snowball" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Elder Man" script="elder_man.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="130" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Hmmmm, seu nome e |PLAYERNAME|, nao e mesmo? Tenho mais de 100 anos e em minha vida aprendi muito sobre os pokemons, inclusive seus ancestrais. Em que um velho anciao como eu poderia te ajudar?" />
+		<parameter key="message_decline" value="Va em paz, jovem!" />
+	</parameters>
+</npc>

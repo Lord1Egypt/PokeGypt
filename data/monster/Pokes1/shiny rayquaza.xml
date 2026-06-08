@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Rayquaza" nameDescription="a shiny rayquaza" race="flying" race2="dragon" experience="6093" speed="856" manacost="0">
+	<level min="90" max="99"/>
+	<health now="80325" max="80325" />
+	<look type="1869" head="113" body="57" legs="95" feet="113" corpse="28434" />
+	<targetchange interval="5000" chance="30" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2384" />
+		<flag portraitid="28562" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="675" />
+		<flag moveMagicDefenseBase="405" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+		<event name="LegendariesDeath"/>
+	</script>
+	<moves>
+		<move name="twister" interval="3500"/>
+		<move name="rest" interval="15000"/>
+		<move name="crunch" interval="1750" isTarget="1" range="1"/>
+		<move name="air slash" interval="2250"/>
+		<move name="extreme speed" interval="1750" isTarget="1"/>
+		<move name="fly" interval="1750" isTarget="1"/>
+		<move name="hyper beam" interval="4250"/>
+		<move name="outrage" interval="5000"/>
+		<move name="ancient power" interval="5000"/>
+		<move name="hyper Voice" interval="5000"/>
+		<move name="draco meteor" interval="5000"/>
+		<move name="recover" interval="15000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-675" max="-675" />
+		<attack name="twister" interval="3500" chance="40"/>
+		<attack name="rest" interval="15000" chance="40"/>
+		<attack name="crunch" interval="1750" chance="40" range="1" target="1"/>
+		<attack name="air slash" interval="2250" chance="40"/>
+		<attack name="extreme speed" interval="1750" chance="40" target="1"/>
+		<attack name="fly" interval="1750" chance="40" target="1"/>
+		<attack name="hyper beam" interval="4250" chance="40"/>
+		<attack name="outrage" interval="5000" chance="40"/>
+		<attack name="ancient power" interval="5000" chance="40"/>
+		<attack name="hyper Voice" interval="5000" chance="40"/>
+		<attack name="draco meteor" interval="5000" chance="40"/>
+		<attack name="recover" interval="15000" chance="40"/>
+		<attack name="passive flying" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="405" >
+		<defense name="passive flying" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY RAYQUAZA!" />
+	</voices>
+	<loot>
+		<item name="crystal stone" countmax="1" chance="473"/>
+		<item name="gold coin" countmax="189" chance="40000"/>
+
+	</loot>
+</monster>

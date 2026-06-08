@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Mantine" nameDescription="a shiny mantine" race="water" race2="flying" experience="75" speed="210" manacost="0">
+	<level min="25" max="40"/>
+	<health now="2703" max="2703" />
+	<look type="1699" head="113" body="57" legs="95" feet="113" corpse="28195" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2226" />
+		<flag portraitid="28289" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="1741" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="120" />
+		<flag moveMagicDefenseBase="210" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="bubble" interval="3000" isTarget="1"/>
+		<move name="tackle" interval="3000" isTarget="1" range="1"/>
+		<move name="confuse ray" interval="10000" isTarget="1"/>
+		<move name="wing attack" interval="9000"/>
+		<move name="water pulse" interval="17000"/>
+		<move name="hydro pump" interval="14000"/>
+		<move name="waterfall" interval="20000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-60" max="-60" />
+		<attack name="bubble" interval="3000" chance="40" target="1"/>
+		<attack name="tackle" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="confuse ray" interval="10000" chance="40" target="1"/>
+		<attack name="wing attack" interval="9000" chance="40"/>
+		<attack name="water pulse" interval="17000" chance="40"/>
+		<attack name="hydro pump" interval="14000" chance="40"/>
+		<attack name="waterfall" interval="20000" chance="40"/>
+		<attack name="passive water" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="105" >
+		<defense name="passive water" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY MANTINE!" />
+	</voices>
+	<loot>
+		<item name="water stone" countmax="1" chance="163"/>
+		<item name="gold coin" countmax="65" chance="40000"/>
+		<item name="straw" countmax="2" chance="40000"/>
+		<item name="water gem" countmax="2" chance="40000"/>
+		<item name="water pendant" countmax="1" chance="5000"/>
+		<item name="fish fin" countmax="1" chance="5000"/>
+
+	</loot>
+</monster>

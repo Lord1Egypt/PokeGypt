@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Wynaut" nameDescription="a wynaut" race="psychic" race2="none" experience="28" speed="46" manacost="0">
+	<level min="10" max="20"/>
+	<health now="2023" max="2023" />
+	<look type="1541" head="113" body="57" legs="95" feet="113" corpse="27932" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="360" />
+		<flag portraitid="28067" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="24" />
+		<flag moveMagicAttackBase="23" />
+		<flag moveMagicDefenseBase="48" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="rest" interval="60000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Wobbuffet" level="25" chance="40" itemName="enigma stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-23" max="-23" />
+		<attack name="rest" interval="60000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="48" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="WYNAUT!" />
+	</voices>
+	<loot>
+		<item name="enigma stone" countmax="1" chance="75"/>
+		<item name="gold coin" countmax="30" chance="40000"/>
+		<item name="future orb" countmax="2" chance="30000"/>
+
+	</loot>
+</monster>

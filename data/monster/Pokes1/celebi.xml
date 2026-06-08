@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Celebi" nameDescription="a celebi" race="psychic" race2="grass" experience="3750" speed="600" manacost="0">
+	<level min="90" max="100"/>
+	<health now="51000" max="51000" />
+	<look type="1154" head="113" body="57" legs="95" feet="113" corpse="27112" />
+	<targetchange interval="5000" chance="30" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="251" />
+		<flag portraitid="27367" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="300" />
+		<flag moveMagicDefenseBase="300" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+		<event name="LegendariesDeath"/>
+	</script>
+	<moves>
+		<move name="confusion" interval="7000"/>
+		<move name="recover" interval="30000"/>
+		<move name="magical leaf" interval="7000"/>
+		<move name="leech seed" interval="5000" isTarget="1"/>
+		<move name="hyper beam" interval="8500"/>
+		<move name="rest" interval="30000"/>
+		<move name="future sight" interval="7000" isTarget="1"/>
+		<move name="ancient power" interval="10000"/>
+		<move name="leaf storm" interval="10000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-300" max="-300" />
+		<attack name="confusion" interval="7000" chance="40"/>
+		<attack name="recover" interval="30000" chance="40"/>
+		<attack name="magical leaf" interval="7000" chance="40"/>
+		<attack name="leech seed" interval="5000" chance="40" target="1"/>
+		<attack name="hyper beam" interval="8500" chance="40"/>
+		<attack name="rest" interval="30000" chance="40"/>
+		<attack name="future sight" interval="7000" chance="40" target="1"/>
+		<attack name="ancient power" interval="10000" chance="40"/>
+		<attack name="leaf storm" interval="10000" chance="40"/>
+		<attack name="passive psychic" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="300" >
+		<defense name="passive psychic" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="CELEBI!" />
+	</voices>
+	<loot>
+		<item name="leaf stone" countmax="1" chance="475"/>
+		<item name="gold coin" countmax="190" chance="40000"/>
+
+	</loot>
+</monster>

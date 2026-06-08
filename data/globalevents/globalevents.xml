@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="Server Save" interval="3600000" script="serversave.lua" />
+	<globalevent name="Bag Event" time="17:00:00" script="bagevent.lua" />
+	<globalevent name="Bag Event 2" time="17:30:00" script="bagevent.lua" />
+	<globalevent name="Bag Event 3" time="18:00:00" script="bagevent.lua" />
+	<globalevent name="Bag Event 4" time="18:30:00" script="bagevent.lua" />
+	<globalevent name="Arena Event" time="17:00:00" script="arenaevent.lua" />
+	<globalevent name="Arena Event 2" time="17:30:00" script="arenaevent.lua" />
+	<globalevent name="Arena Event 3" time="18:00:00" script="arenaevent.lua" />
+	<globalevent name="Arena Event 4" time="18:30:00" script="arenaevent.lua" />
+	<globalevent name="Soccer Event" time="19:30:00" script="soccerevent.lua" />
+	<globalevent name="Arena Pvp Event" time="20:00:00" script="pvparenaevent.lua" />
+</globalevents>

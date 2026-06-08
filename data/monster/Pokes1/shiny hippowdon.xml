@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Hippowdon" nameDescription="a shiny hippowdon" race="ground" race2="none" experience="78" speed="142" manacost="0">
+	<level min="20" max="35"/>
+	<health now="2754" max="2754" />
+	<look type="3329" head="113" body="57" legs="95" feet="113" corpse="38852" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2450" />
+		<flag portraitid="0" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="1" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="4" />
+		<flag moveMagicAttackBase="102" />
+		<flag moveMagicDefenseBase="108" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="sand attack" interval="8000"/>
+		<move name="bulldoze" interval="17000"/>
+		<move name="dig" interval="14000"/>
+		<move name="earthquake" interval="17000"/>
+		<move name="magnitude" interval="17000"/>
+		<move name="earth power" interval="14000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-168" max="-168" />
+		<attack name="sand attack" interval="8000" chance="40"/>
+		<attack name="bulldoze" interval="17000" chance="40"/>
+		<attack name="dig" interval="14000" chance="40"/>
+		<attack name="earthquake" interval="17000" chance="40"/>
+		<attack name="magnitude" interval="17000" chance="40"/>
+		<attack name="earth power" interval="14000" chance="40"/>
+		<attack name="passive ground" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="177" >
+		<defense name="passive ground" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY HIPPOWDON!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="55" chance="40000"/>
+		<item name="sandbag" countmax="1" chance="50000"/>
+
+	</loot>
+</monster>

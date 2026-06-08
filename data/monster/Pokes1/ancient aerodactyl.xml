@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Ancient Aerodactyl" nameDescription="an ancient aerodactyl" race="rock" race2="flying" experience="133" speed="520" manacost="0">
+	<level min="80" max="100"/>
+	<health now="3400" max="3400" />
+	<look type="1902" head="113" body="57" legs="95" feet="113" corpse="38710" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="3015" />
+		<flag portraitid="38724" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="1903" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="120" />
+		<flag moveMagicDefenseBase="150" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="wing attack" interval="9000"/>
+		<move name="bite" interval="3000" isTarget="1" range="1"/>
+		<move name="aerial ace" interval="11000"/>
+		<move name="dragon claw" interval="9000"/>
+		<move name="crunch" interval="7000" isTarget="1" range="1"/>
+		<move name="hyper beam" interval="17000"/>
+		<move name="fly" interval="7000" isTarget="1"/>
+		<move name="outrage" interval="20000"/>
+		<move name="dragon breath" interval="11000"/>
+		<move name="hurricane" interval="20000"/>
+		<move name="ancient power" interval="20000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-210" max="-210" />
+		<attack name="wing attack" interval="9000" chance="40"/>
+		<attack name="bite" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="aerial ace" interval="11000" chance="40"/>
+		<attack name="dragon claw" interval="9000" chance="40"/>
+		<attack name="crunch" interval="7000" chance="40" range="1" target="1"/>
+		<attack name="hyper beam" interval="17000" chance="40"/>
+		<attack name="fly" interval="7000" chance="40" target="1"/>
+		<attack name="outrage" interval="20000" chance="40"/>
+		<attack name="dragon breath" interval="11000" chance="40"/>
+		<attack name="hurricane" interval="20000" chance="40"/>
+		<attack name="ancient power" interval="20000" chance="40"/>
+		<attack name="passive rock" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="130" >
+		<defense name="passive rock" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="ANCIENT AERODACTYL!" />
+	</voices>
+	<loot>
+		<item name="rock stone" countmax="2" chance="450"/>
+		<item name="platinum coin" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

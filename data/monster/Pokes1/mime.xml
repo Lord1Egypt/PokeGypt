@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Mime" nameDescription="a mime" race="jr" race2="psychic" experience="FAIRY" speed="180" manacost="0">
+	<level min="310" max="5"/>
+	<health now="465" max="465" />
+	<look type="0" head="113" body="57" legs="95" feet="113" corpse="0" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="439" />
+		<flag portraitid="0" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="999999" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="45" />
+		<flag moveMagicDefenseBase="14" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="10" interval="psybeam"/>
+		<move name="999999" interval="gyro_ball"/>
+		<move name="999999" interval="psyshock"/>
+		<move name="999999" interval="none"/>
+		<move name="999999" interval="none"/>
+		<move name="999999" interval="none"/>
+		<move name="999999" interval="none"/>
+		<move name="999999" interval="none"/>
+		<move name="999999" interval="none"/>
+		<move name="999999" interval="none"/>
+		<move name="999999" interval="none"/>
+		<move name="999999" interval="none"/>
+		<move name="0" interval="none"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="15" level="Mr._mime" chance="20" itemName="35" count="enigma_stone"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-25" max="-25" />
+		<attack name="10" interval="psybeam" chance="40"/>
+		<attack name="999999" interval="gyro_ball" chance="40"/>
+		<attack name="999999" interval="psyshock" chance="40"/>
+		<attack name="999999" interval="none" chance="40"/>
+		<attack name="999999" interval="none" chance="40"/>
+		<attack name="999999" interval="none" chance="40"/>
+		<attack name="999999" interval="none" chance="40"/>
+		<attack name="999999" interval="none" chance="40"/>
+		<attack name="999999" interval="none" chance="40"/>
+		<attack name="999999" interval="none" chance="40"/>
+		<attack name="999999" interval="none" chance="40"/>
+		<attack name="999999" interval="none" chance="40"/>
+		<attack name="0" interval="none" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="25" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="MIME!" />
+	</voices>
+	<loot>
+		<item name="3047" countmax="50" chance="none"/>
+		<item name="1" countmax="40000" chance="gold_coin"/>
+		<item name="20" countmax="50000" chance="future_orb"/>
+		<item name="1" countmax="none" chance="none"/>
+
+	</loot>
+</monster>

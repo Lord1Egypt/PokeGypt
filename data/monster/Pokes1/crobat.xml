@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Crobat" nameDescription="a crobat" race="poison" race2="flying" experience="55" speed="260" manacost="0">
+	<level min="35" max="42"/>
+	<health now="1802" max="1802" />
+	<look type="1072" head="113" body="57" legs="95" feet="113" corpse="27030" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="169" />
+		<flag portraitid="27285" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="1332" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="9" />
+		<flag moveMagicAttackBase="70" />
+		<flag moveMagicDefenseBase="80" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="leech life" interval="5000" isTarget="1"/>
+		<move name="confuse ray" interval="10000" isTarget="1"/>
+		<move name="bite" interval="3000" isTarget="1" range="1"/>
+		<move name="wing attack" interval="9000"/>
+		<move name="sludge bomb" interval="14000" isTarget="1"/>
+		<move name="air cutter" interval="11000"/>
+		<move name="poison fang" interval="5000" isTarget="1"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-90" max="-90" />
+		<attack name="leech life" interval="5000" chance="40" target="1"/>
+		<attack name="confuse ray" interval="10000" chance="40" target="1"/>
+		<attack name="bite" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="wing attack" interval="9000" chance="40"/>
+		<attack name="sludge bomb" interval="14000" chance="40" target="1"/>
+		<attack name="air cutter" interval="11000" chance="40"/>
+		<attack name="poison fang" interval="5000" chance="40" target="1"/>
+		<attack name="passive poison" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="80" >
+		<defense name="passive poison" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="CROBAT!" />
+	</voices>
+	<loot>
+		<item name="venom stone" countmax="1" chance="193"/>
+		<item name="gold coin" countmax="77" chance="40000"/>
+		<item name="bottle of poison" countmax="2" chance="40000"/>
+		<item name="straw" countmax="2" chance="40000"/>
+		<item name="bat wing" countmax="4" chance="5000"/>
+		<item name="giant bat wing" countmax="1" chance="5000"/>
+		<item name="big bat wing" countmax="2" chance="5000"/>
+
+	</loot>
+</monster>

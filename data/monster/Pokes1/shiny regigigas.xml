@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shiny Regigigas" nameDescription="a shiny regigigas" race="normal" race2="none" experience="5648" speed="900" manacost="0">
+	<level min="95" max="100"/>
+	<health now="350625" max="350625" />
+	<look type="3364" head="113" body="57" legs="95" feet="113" corpse="38888" />
+	<targetchange interval="5000" chance="30" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="2486" />
+		<flag portraitid="0" />
+		<flag hasshiny="0" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="0" />
+		<flag moveMagicAttackBase="2400" />
+		<flag moveMagicDefenseBase="16500" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+		<event name="LegendariesDeath"/>
+	</script>
+	<moves>
+		<move name="leaf storm" interval="20000"/>
+		<move name="razor leaf" interval="5000" isTarget="1"/>
+		<move name="toxic" interval="14000"/>
+		<move name="solar beam" interval="17000"/>
+		<move name="sleep powder" interval="20000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-0" max="-0" />
+		<attack name="leaf storm" interval="20000" chance="40"/>
+		<attack name="razor leaf" interval="5000" chance="40" target="1"/>
+		<attack name="toxic" interval="14000" chance="40"/>
+		<attack name="solar beam" interval="17000" chance="40"/>
+		<attack name="sleep powder" interval="20000" chance="40"/>
+		<attack name="passive ghost" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="16500" >
+		<defense name="passive ghost" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SHINY REGIGIGAS!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="195" chance="40000"/>
+
+	</loot>
+</monster>

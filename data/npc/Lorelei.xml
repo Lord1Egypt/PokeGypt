@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Lorelei" script="lorelei.lua" walkinterval="2000" floorchange="0">
+	<health now="100" max="100" />
+	<look type="2643" addons="0" />
+	<parameters>
+		<parameter key="message_greet" value="Bem-vindo a Liga Pokemon, |PLAYERNAME|! Meu nome e Lorelei da Elite Four! Sabe como e... ninguem e melhor que eu quando se trata de Pokemon de Gelo. Seus Pokemons estarao a minha merce quando estiverem congelados! Hahaha! Voce esta pronto?" />
+		<parameter key="message_decline" value="Tome o tempo que precisar." />
+	</parameters>
+</npc>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Mantyke" nameDescription="a mantyke" race="water" race2="flying" experience="34" speed="100" manacost="0">
+	<level min="10" max="20"/>
+	<health now="765" max="765" />
+	<look type="3066" head="113" body="57" legs="95" feet="113" corpse="38504" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="458" />
+		<flag portraitid="0" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="1" />
+		<flag canteleport="0" />
+		<flag catchchance="21" />
+		<flag moveMagicAttackBase="60" />
+		<flag moveMagicDefenseBase="120" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="water gun" interval="8000"/>
+		<move name="bubble" interval="3000" isTarget="1"/>
+		<move name="surf" interval="7000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Mantine" level="20" chance="35" itemName="water stone" count="10"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-20" max="-20" />
+		<attack name="water gun" interval="8000" chance="40"/>
+		<attack name="bubble" interval="3000" chance="40" target="1"/>
+		<attack name="surf" interval="7000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="50" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="MANTYKE!" />
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="30" chance="40000"/>
+		<item name="water gem" countmax="1" chance="40000"/>
+		<item name="water pendant" countmax="1" chance="40000"/>
+
+	</loot>
+</monster>

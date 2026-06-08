@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Spearow" nameDescription="a spearow" race="flying" race2="normal" experience="27" speed="140" manacost="0">
+	<level min="1" max="10"/>
+	<health now="850" max="850" />
+	<look type="924" head="113" body="57" legs="95" feet="113" corpse="26882" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="21" />
+		<flag portraitid="27137" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="0" />
+		<flag canteleport="0" />
+		<flag catchchance="25" />
+		<flag moveMagicAttackBase="31" />
+		<flag moveMagicDefenseBase="31" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="peck" interval="3000" isTarget="1" range="1"/>
+		<move name="fury attack" interval="3000" isTarget="1"/>
+		<move name="aerial ace" interval="11000"/>
+
+	</moves>
+	<evolutions>
+		<evolution name="Fearow" level="25" chance="40" itemName="heart stone" count="1"/>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-60" max="-60" />
+		<attack name="peck" interval="3000" chance="40" range="1" target="1"/>
+		<attack name="fury attack" interval="3000" chance="40" target="1"/>
+		<attack name="aerial ace" interval="11000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="30" >
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="SPEAROW!" />
+	</voices>
+	<loot>
+		<item name="heart stone" countmax="1" chance="28"/>
+		<item name="gold coin" countmax="11" chance="40000"/>
+		<item name="feather" countmax="1" chance="5000"/>
+		<item name="straw" countmax="2" chance="40000"/>
+
+	</loot>
+</monster>

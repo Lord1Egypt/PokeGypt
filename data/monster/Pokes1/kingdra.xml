@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Kingdra" nameDescription="a kingdra" race="water" race2="dragon" experience="55" speed="170" manacost="0">
+	<level min="25" max="40"/>
+	<health now="1598" max="1598" />
+	<look type="1133" head="113" body="57" legs="95" feet="113" corpse="27091" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="1" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag passive="0" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="97" />
+		<flag runonhealth="0" />
+		<flag dexentry="230" />
+		<flag portraitid="27346" />
+		<flag hasshiny="1" />
+		<flag hasmega="0" />
+		<flag flyable="0" />
+		<flag rideable="0" />
+		<flag surfable="1395" />
+		<flag canteleport="0" />
+		<flag catchchance="9" />
+		<flag moveMagicAttackBase="95" />
+		<flag moveMagicDefenseBase="95" />
+	</flags>
+	<script>
+        	<event name="MonsterHealthChange"/>
+        	<event name="CorpseLevel"/>
+        	<event name="CorpseLoot"/>
+
+	</script>
+	<moves>
+		<move name="bubble" interval="3000" isTarget="1"/>
+		<move name="water gun" interval="8000"/>
+		<move name="twister" interval="14000"/>
+		<move name="water pulse" interval="17000"/>
+		<move name="hydro pump" interval="14000"/>
+		<move name="surf" interval="20000"/>
+		<move name="dragon breath" interval="11000"/>
+
+	</moves>
+	<evolutions>
+
+	</evolutions>
+	<attacks>
+		<attack name="melee" interval="2000" min="-95" max="-95" />
+		<attack name="bubble" interval="3000" chance="40" target="1"/>
+		<attack name="water gun" interval="8000" chance="40"/>
+		<attack name="twister" interval="14000" chance="40"/>
+		<attack name="water pulse" interval="17000" chance="40"/>
+		<attack name="hydro pump" interval="14000" chance="40"/>
+		<attack name="surf" interval="20000" chance="40"/>
+		<attack name="dragon breath" interval="11000" chance="40"/>
+		<attack name="passive water" interval="40000" chance="40"/>
+
+	</attacks>
+	<defenses armor="0" defense="95" >
+		<defense name="passive water" interval="40000" chance="100"/>
+
+	</defenses>
+	<elements>
+	</elements>
+	<immunities>
+
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="KINGDRA!" />
+	</voices>
+	<loot>
+		<item name="water stone" countmax="1" chance="163"/>
+		<item name="gold coin" countmax="65" chance="40000"/>
+		<item name="water gem" countmax="2" chance="40000"/>
+		<item name="water pendant" countmax="1" chance="5000"/>
+		<item name="seahorse tail" countmax="1" chance="15000"/>
+
+	</loot>
+</monster>
