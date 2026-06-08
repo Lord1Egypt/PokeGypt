@@ -124,6 +124,24 @@ Passwords are hashed with **sha1** (matching `config.lua`'s `passwordType`).
 
 ---
 
+## 🛡️ GOD tool (in-game admin commands)
+
+All commands are **GOD-only** (account type 5). Type `/god` in-game for the full list.
+
+| Command | Description |
+|---------|-------------|
+| `/god` | Show all GOD commands |
+| `/createacc name, password` | Create an account |
+| `/addmoney player, amount` | Give gold to a player |
+| `/addlevel player, levels` | Add (or remove with a negative number) levels |
+| `/addvip player, days` | Give VIP / premium days |
+| `/promote player, rank` | Set rank: `player` \| `tutor` \| `gm` \| `god` (sets group + account type) |
+| `/givepokeball player, pokemon, level, boost, love` | Give a pokéball with a captured pokémon |
+
+Plus the engine's built-in admin commands: `/goto`, `/c` (bring player), `/t` (go to town),
+`/addtutor`, `/addskill`, `/addpremium`, `/cb` (pokéball for yourself), `/save`, `/clean`,
+`/ghost`, and more.
+
 ## ⚙️ Configuration
 
 Key options in `config.lua`:

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talkactions>
-	<!-- PokeGypt account manager -->
+	<!-- PokeGypt account manager + GOD tool -->
 	<talkaction words="/createacc" separator=" " script="createacc.lua" />
+	<talkaction words="/god" script="god_help.lua" />
+	<talkaction words="/addmoney" separator=" " script="god_addmoney.lua" />
+	<talkaction words="/addlevel" separator=" " script="god_addlevel.lua" />
+	<talkaction words="/addvip" separator=" " script="god_addvip.lua" />
+	<talkaction words="/promote" separator=" " script="god_promote.lua" />
+	<talkaction words="/givepokeball" separator=" " script="god_givepokeball.lua" />
 	<!-- commands -->
 	<talkaction words="/ban" separator=" " script="ban.lua" />
 	<talkaction words="/ipban" separator=" " script="ipban.lua" />
