@@ -91,7 +91,7 @@ bool Database::executeQuery(const std::string& query)
 	char* errmsg = nullptr;
 	bool success = true;
 	if (sqlite3_exec(handle, query.c_str(), nullptr, nullptr, &errmsg) != SQLITE_OK) {
-		std::cout << "[Error - sqlite3_exec] Query: " << query.substr(0, 256) << std::endl
+		std::cout << "[Error - sqlite3_exec] Query: " << query << std::endl
 				  << "Message: " << (errmsg ? errmsg : sqlite3_errmsg(handle)) << std::endl;
 		success = false;
 	}
