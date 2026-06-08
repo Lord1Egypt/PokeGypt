@@ -34,3 +34,6 @@ src/tfs_CXX_cotire.cmake
 .idea/
 *.swp
 .DS_Store
+
+# original MySQL dump (redundant; SQLite schema is schema_sqlite.sql)
+schema.sql
