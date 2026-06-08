@@ -114,7 +114,7 @@ Just log in and play. **Change the password after your first login.**
 ### Or bootstrap your own GOD account
 ```bash
 python3 tools/account.py create-account god 123456 --god
-python3 tools/account.py create-character god TheGod --god --town 1
+python3 tools/account.py create-character god TheGod --god --town 42
 ```
 
 ### In-game (GOD only)
@@ -125,14 +125,15 @@ python3 tools/account.py create-character god TheGod --god --town 1
 ### More tool commands
 ```bash
 python3 tools/account.py create-account ash pikachu          # normal account
-python3 tools/account.py create-character ash Ash --town 1   # add a character
+python3 tools/account.py create-character ash Ash --town 42  # add a character
 python3 tools/account.py set-type ash 5                      # promote to GOD
 python3 tools/account.py list                                # list everything
 ```
 Passwords are hashed with **sha1** (matching `config.lua`'s `passwordType`).
 
-> New characters spawn at the **town temple** (`town_id`, default `1`). If login fails with
-> an invalid-town error, pick a town id that exists on your map with `--town <id>`.
+> New characters spawn at the **town temple** (`town_id`, default **42 = Pallet Town**). The
+> `global_dash` map has 30 towns (ids 15–19, 34–59); pick another with `--town <id>` —
+> e.g. 34 Saffron, 54 Goldenrod, 48 Trade Center.
 
 ---
 

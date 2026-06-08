@@ -135,9 +135,9 @@ def main():
     out.append("INSERT INTO `accounts` (`id`,`name`,`password`,`type`,`creation`) "
                "VALUES (1,'LordEgypt','7c4a8d09ca3762af61e59520943dc26494f8941b',5,0);")
     out.append("INSERT INTO `players` (`name`,`group_id`,`account_id`,`town_id`,`looktype`,`cap`,`sex`,`conditions`) "
-               "VALUES ('LordEgypt',3,1,1,136,400,1,X'');")
+               "VALUES ('LordEgypt',3,1,42,136,400,1,X'');")
     out.append("INSERT INTO `players` (`name`,`group_id`,`account_id`,`town_id`,`looktype`,`cap`,`sex`,`conditions`) "
-               "VALUES ('Trainer',1,1,1,136,400,1,X'');")
+               "VALUES ('Trainer',1,1,42,136,400,1,X'');")
     out.append("")
     out.append("COMMIT;")
     out.append("PRAGMA foreign_keys = ON;")

@@ -127,7 +127,7 @@ def main():
     c.add_argument("account")
     c.add_argument("name")
     c.add_argument("--vocation", type=int, default=0)
-    c.add_argument("--town", type=int, default=1)
+    c.add_argument("--town", type=int, default=42)  # 42 = Pallet Town on global_dash.otbm
     c.add_argument("--sex", type=int, default=1, help="0 female, 1 male")
     c.add_argument("--level", type=int, default=1)
     c.add_argument("--health", type=int, default=150)
